@@ -8,7 +8,7 @@ digraph worked_traceability_chains {
     splines=polyline,
     newrank=true,
     fontname="Helvetica",
-    label="Prototype C — worked traceability chains",
+    label="Worked traceability chains",
     labelloc=t,
     fontsize=18
   ];

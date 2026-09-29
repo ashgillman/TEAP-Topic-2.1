@@ -7,7 +7,7 @@ digraph authority_ladder {
     ranksep=0.42,
     splines=polyline,
     fontname="Helvetica",
-    label="Prototype A — authority ladder",
+    label="Authority ladder",
     labelloc=t,
     fontsize=18
   ];

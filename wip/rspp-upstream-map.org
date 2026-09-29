@@ -34,12 +34,12 @@ Terms such as /must/, /limit/ and /required/ below are source-scoped.  A guide o
 | International safety requirement or guide        | IAEA requirement or guidance for national implementation; not direct Queensland law.                        |
 | Technical evidence or professional consensus     | Scientific evidence, recommendations or professional practice supporting the control.                       |
 
-* Visual prototypes
+* Figures
 The diagrams deliberately use different visual language for different authority classes.  Blue international nodes are influential but not direct Queensland regulation; teal Australian nodes require an identified adoption mechanism; orange Queensland nodes are binding instruments; purple is the approved local RSPP; green is retained evidence.
 
-All three prototypes have editable Graphviz source and rendered SVG output in [[file:../figures/][figures/]].  The source blocks run from the project root to reproduce the checked SVGs using Graphviz through Nix.
+All three figures have editable Graphviz source and rendered SVG output in [[file:../figures/][figures/]].  The source blocks run from the project root to reproduce the checked SVGs using Graphviz through Nix.
 
-** Prototype A: authority ladder
+** Authority ladder
 This is the clearest one-page explanation of how evidence and recommendations become local practice without pretending there is a single direct legislative chain.
 
 - Editable source: [[file:../figures/authority-ladder.dot][authority-ladder.dot]]
@@ -51,7 +51,7 @@ nix shell nixpkgs#graphviz --command dot \
   -o figures/authority-ladder.svg
 #+end_src
 
-#+caption: Prototype A. Authority ladder from evidence to implementation record. The move from Australian framework to Queensland law is explicitly conditional on adoption or prescription.
+#+caption: Authority ladder from evidence to implementation record. The move from Australian framework to Queensland law is explicitly conditional on adoption or prescription.
 #+attr_html: :width 500
 [[file:../figures/authority-ladder.svg]]
 
@@ -73,7 +73,7 @@ nix shell nixpkgs#graphviz --command dot \
 #+attr_html: :width 1200
 [[file:../figures/document-relationship-network.svg]]
 
-** Prototype C: worked traceability chains
+** Worked traceability chains
 The three lanes show how the same hierarchy is applied to a patient control, a worker/public protection control and an incident-learning control.  Each ends in a retained record rather than stopping at policy.
 
 - Editable source: [[file:../figures/worked-traceability-chains.dot][worked-traceability-chains.dot]]
@@ -85,12 +85,12 @@ nix shell nixpkgs#graphviz --command dot \
   -o figures/worked-traceability-chains.svg
 #+end_src
 
-#+caption: Prototype C. Worked chains for treatment justification, personal monitoring and incident response. The personal-monitoring lane says “informs; selected concepts referenced” rather than claiming wholesale Queensland adoption of RPS C-1.
+#+caption: Worked chains for treatment justification, personal monitoring and incident response. The personal-monitoring lane says “informs; selected concepts referenced” rather than claiming wholesale Queensland adoption of RPS C-1.
 #+attr_html: :width 1400
 [[file:../figures/worked-traceability-chains.svg]]
 
 ** Recommendation
-Use *Prototype A, the authority ladder,* as the project’s main overview figure.  It communicates the most important interpretive rule at a glance: influence is not the same as legal authority, and local compliance must end in evidence.  Use Prototype C immediately after it as the practical worked example.  Keep the document relationship network as a detailed reference figure because it contains more document-level information than is comfortable for an opening overview.
+Use *the authority ladder* as the project’s main overview figure.  It communicates the most important interpretive rule at a glance: influence is not the same as legal authority, and local compliance must end in evidence.  Use the worked traceability chains immediately after it as the practical worked example.  Keep the document relationship network as a detailed reference figure because it contains more document-level information than is comfortable for an opening overview.
 
 * Document register
 Most entries were checked against official publisher or legislation pages on 2026-09-16; the Queensland premises standard was checked again on 2026-09-29. “Current” means current on that official page, not that every clause has been independently compared with the THHS licence.
