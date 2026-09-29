@@ -7,3 +7,9 @@
 /sources/**/*.pdf
 /sources/**/*.docx
 /sources/extracted/**/document.txt
+
+# HTML pages generated from the Org sources during the Pages build.
+/study.html
+/resources.html
+/summaries/*.html
+/wip/*.html
