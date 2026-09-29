@@ -63,27 +63,26 @@
       }
     }
     const documents = await Promise.all(documentRows.map(async (row) => {
-      const orgUrl = new URL(row.summary, root);
       const summaryUrl = new URL(row.summary.replace(/\.org$/i, ".html"), root);
-      const [orgResponse, htmlResponse] = await Promise.all([
-        fetch(orgUrl, { cache: "no-store" }),
-        fetch(summaryUrl, { cache: "no-store" }),
-      ]);
-      if (!orgResponse.ok || !htmlResponse.ok) throw new Error(`Could not load summary ${row.summary}`);
-      const title = (await orgResponse.text()).match(/^#\+title:\s*(.+)$/im)?.[1]?.trim() || row.document_id;
+      const htmlResponse = await fetch(summaryUrl, { cache: "no-store" });
+      if (!htmlResponse.ok) throw new Error(`Could not load summary ${summaryUrl.pathname} (${htmlResponse.status})`);
       const html = new DOMParser().parseFromString(await htmlResponse.text(), "text/html");
+      const title = html.querySelector("#content h1.title")?.textContent.trim() || html.title || row.document_id;
       const headings = [...html.querySelectorAll("#content h2[id], #content h3[id], #content h4[id]")]
         .map((heading) => {
           const copy = heading.cloneNode(true);
           copy.querySelector('[class^="section-number-"]')?.remove();
           return { id: heading.id, title: copy.textContent.trim() };
         });
+      const sourceUrl = new URL(row.source, root);
+      const sourceAvailable = sourceUrl.origin !== location.origin
+        || await fetch(sourceUrl, { method: "HEAD", cache: "no-store" }).then((response) => response.ok, () => false);
       return {
         ...row,
         title,
         headings,
         summaryUrl: summaryUrl.href,
-        sourceUrl: new URL(row.source, root).href,
+        sourceUrl: sourceAvailable ? sourceUrl.href : null,
       };
     }));
     return { concepts, localIds, localDoc, documents, claims, crosswalk };
@@ -92,6 +91,7 @@
   function addLinks(card, source) {
     const links = element("div", "source-links");
     for (const [label, url] of [["Summary", source.summaryUrl], ["Source", source.sourceUrl]]) {
+      if (!url) continue;
       const link = element("a", "", label);
       link.href = url;
       link.target = "_blank";
