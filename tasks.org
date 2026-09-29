@@ -63,9 +63,9 @@ Label each document or relationship by its actual authority:
 
 Do not call a recommendation or guideline “law” unless it has acquired legal force through adoption, incorporation, a licence condition or another identified mechanism.
 
-## Deliverable 1: upstream map
+## Deliverable 1: resources overview
 
-Create `rspp-upstream-map.org`.
+Create `resources.org` and its `resources.html` export.
 
 Start with a short explanation of the hierarchy and a document register containing:
 

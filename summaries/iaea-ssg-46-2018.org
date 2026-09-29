@@ -47,6 +47,7 @@
 *** Individuals undergoing medical exposure (paras 5.189–5.281)
 - Covers justification, prescription, patient identification, optimisation, calibration and dosimetry, treatment planning/delivery, QA, pregnancy and patient records.
 - Acceptance and commissioning verify interfaces and data transfer before clinical use (paras 5.235–5.236); treatment decisions in pregnancy involve consultation with the patient (para 5.254).
+- Paragraph 5.238 calls for necessary QC after major repair, modification or source replacement and medical-physicist confirmation of safe use before treatment resumes. It supports a local release control without prescribing the RSPP's named workflow.
 *** Public protection, accidents and transport (paras 5.282–5.326)
 - Covers public access/exposure, prevention and mitigation of unintended or accidental exposure, reporting and learning, and transport of radioactive material.
 - Paragraphs 5.274–5.276 distinguish reporting significant events to the regulator from broader voluntary incident learning; paras 5.303–5.304 recommend defence in depth.

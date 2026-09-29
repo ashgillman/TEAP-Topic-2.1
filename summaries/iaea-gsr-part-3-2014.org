@@ -33,6 +33,7 @@
 - Requires justification, optimisation, dose limitation where applicable, graded control, management systems, safety assessment, prevention and emergency preparedness.
 
 ** 3 — Planned exposure situations
+- Requirement 9 and paras 3.13–3.15 assign primary protection and safety responsibility to registrants and licensees, including organisational measures and documented delegation. This is an international role framework, not a Queensland possession licence.
 *** Government and regulatory framework
 - Requires authorisation, review, inspection, enforcement and supporting infrastructure proportionate to radiation risk.
 *** Occupational exposure

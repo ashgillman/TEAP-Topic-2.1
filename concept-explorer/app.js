@@ -161,6 +161,7 @@
       heading = /Schedule/.test(locator) ? find("Schedules") : find("Part B");
     } else if (id === "rps-14-3-2008") {
       if (/§13\./.test(locator)) heading = find("11–14");
+      else if (/§12\./.test(locator)) heading = find("11–14");
       else if (/§1[–-]3/.test(locator)) heading = find("1–3");
       else if (/§3\.6/.test(locator)) heading = find("1–3");
       else if (/Annex B/.test(locator)) heading = find("Annexes");

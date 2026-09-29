@@ -217,9 +217,12 @@ iaea-nss-11-g-rev-1-2019	source_security	requires	source_inventory	§4	Source ac
 iaea-nss-46-t-2024	transport	requires	source_security	§§2–6	Transport security guidance covers categorisation, security planning and graded measures; distinct from transport safety requirements.
 iaea-nss-46-t-2024	transport	requires	transport_handover	§§5–7	Security responsibilities continue through preparation, carriage and transfer of custody as applicable.
 rps-14-3-2008	management_system	designates	rso	§3.6; Annex B	The guide describes a trained RSO advising the Responsible Person; delegation does not remove management responsibility. Queensland appointment requirements come from Queensland law.
+rps-14-3-2008	responsible_person	delegates	rso	§3.6; Annex B	The guide permits delegation of defined radiation-safety tasks to an RSO while the Responsible Person retains responsibility; Queensland law defines its own licensee and RSO duties.
 rps-14-3-2008	rso	oversees	personal_monitoring	Annex B	Illustrative RSO duties include provision of monitors and occupational exposure records.
+rps-14-3-2008	rso	investigates	abnormal_dose_review	Annex B	Illustrative RSO duties include measurements and investigation after an incident or safety concern; the guide does not set the local abnormal-dose trigger.
 rps-14-3-2008	rso	supports	staff_competence	Annex B	Illustrative RSO duties include staff radiation-safety training.
 rps-14-3-2008	management_system	requires	defence_in_depth	§4.2	Multiple safeguards in critical radiotherapy equipment aim to prevent maladministration.
+rps-14-3-2008	premises_design	uses	shielding_control	§12.1	National radiotherapy guide discusses shielding specifications and assessment; Queensland's notified premises standard remains the statutory test.
 rps-c-1-rev-1-2020	management_system	requires	radiation_management_plan	§3.1.4	Responsible Person develops, documents, resources, implements and reviews a risk-graded Radiation Management Plan; not the Queensland RSPP approval mechanism.
 rps-c-1-rev-1-2020	radiation_management_plan	includes	local_procedure	§3.1.4; §3.2	Work procedures and administrative controls implement planned-exposure protection.
 rps-c-1-rev-1-2020	management_system	requires	staff_competence	§3.2 Information, instruction and training	Induction, refresher training, appropriate qualifications and participation records are specified.
@@ -228,16 +231,19 @@ rps-c-5-2019	management_system	requires	radiation_management_plan	§3.5.5–3.5.
 rps-c-5-2019	management_system	requires	staff_competence	§3.5.2	Personnel with patient-protection duties need appropriate training and competence.
 rps-c-5-2019	research_exposure	requires	hrec_review	§3.2.6	Medical research exposure requires ethics review and the applicable research code; scope differs from therapeutic treatment dose.
 iaea-gsr-part-3-2014	occupational_exposure	requires	radiation_management_plan	Requirement 24; §3.87–3.97	Radiation protection programme contains area designation, local rules and workplace monitoring; international requirement for national implementation.
+iaea-gsr-part-3-2014	registrant_licensee	requires	management_system	Requirement 9; §3.13–3.15	Registrants and licensees retain primary responsibility and establish technical and organisational protection measures; the Queensland possession licence is a distinct legal instrument.
 iaea-gsr-part-3-2014	occupational_exposure	designates	radiation_protection_officer	§3.94(e)	Designate an RPO as appropriate under regulatory criteria; the role is not automatically identical to a Queensland-certified RSO.
 iaea-gsr-part-3-2014	radiation_protection_officer	oversees	workplace_survey	§3.96	Workplace monitoring is supervised by an RPO or qualified expert.
 iaea-gsr-part-3-2014	radiation_management_plan	includes	local_procedure	§3.94(a)–(d)	Written local rules and procedures, including investigation levels and supervision, support occupational protection.
 iaea-gsr-part-3-2014	management_system	requires	staff_competence	§3.110	Workers receive information, instruction, training and periodic retraining, with records.
+iaea-gsr-part-3-2014	staff_competence	verified_by	implementation_record	§3.110(c)	Individual training records are one concrete instance of implementation evidence; this paragraph does not prescribe every local RSPP record.
 iaea-gsr-part-3-2014	management_system	requires	defence_in_depth	§3.40	Sequential independent provisions prevent accidents, mitigate consequences and restore safe conditions.
 iaea-gsr-part-3-2014	research_exposure	requires	hrec_review	§3.152; §3.161	Biomedical research medical exposure requires ethics approval and practitioner responsibility.
 iaea-gsr-part-3-2014	incident_response	requires	regulatory_notification	§3.181	Significant unintended or accidental medical exposures are reported under the standard; local reporting duties depend on Queensland rules.
 iaea-ssg-46-2018	management_system	designates	radiation_protection_officer	§2.96; §2.134	Medical-facility RPO oversees occupational and public protection; it has no direct patient-protection role unless separately qualified.
 iaea-ssg-46-2018	oims	requires	data_integrity	§5.69–5.70	Record-and-verify interfaces, treatment data and network transfer require systematic verification.
 iaea-ssg-46-2018	commissioning	verifies	data_integrity	§5.235–5.236	Acceptance and commissioning check software interfaces and transferred data before clinical use.
+iaea-ssg-46-2018	quality_assurance	supports	formal_release	§5.238	After a major repair, modification or source replacement affecting patient safety, treatment waits for necessary QC and medical-physicist confirmation of safe use; the named formal-release workflow is local.
 iaea-ssg-46-2018	management_system	requires	defence_in_depth	§5.303–5.304	Equipment, facility and procedural barriers are combined against potential exposure.
 iaea-ssg-46-2018	pregnant_patient	requires	patient_counselling	§5.254	Treatment decisions for a pregnant patient require consultation with the practitioner.
 iaea-ssg-46-2018	hrec_review	requires	physicist_risk_review	§2.99–2.100	Research ethics review uses medical-physicist dose and risk estimates; research dose constraints are separately considered.

@@ -51,9 +51,11 @@
 
 ** 11–14 — Occupational protection, sites, training and security
 - Addresses staff protection, facility requirements, competence, source security, storage and transport.
+- Section 12.1 discusses shielding specifications and survey of a completed room; it provides technical context for, rather than proof of, Queensland premises compliance.
 
 ** Annexes
 - Provide example content for a radiation management plan; RSO functions; equipment and commissioning records; calibration, servicing and QA; error/incident handling; source care; wipe tests; signs; and monitoring instruments.
+- Annex B includes measurements and investigations following radiation-safety concerns among illustrative RSO duties; local action thresholds still need their own source.
 - Annex L was removed in January 2015; use current instruments for dose limits.
 
 * Important definitions, roles, limits and records

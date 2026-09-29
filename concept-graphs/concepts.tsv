@@ -57,6 +57,8 @@ use_licence	Use licence	Queensland permission for an individual to use a source 
 approved_rspp	Approved RSPP	Regulator-approved local radiation safety and protection plan.
 plan_content	RSPP required content	Mandatory classes of measures the plan must address.
 possession_licensee	Possession licensee	Organisation holding the Queensland possession licence.
+responsible_person	Responsible Person (ARPANSA)	Person or organisation bearing primary radiation-safety responsibility in the ARPANSA radiotherapy guide; a role analogue, not the Queensland licence definition.
+registrant_licensee	Registrant or licensee (IAEA)	Authorised party retaining primary responsibility for protection and safety under IAEA GSR Part 3; a role analogue, not a Queensland possession licence.
 rso	Radiation Safety Officer	Qualified person appointed for statutory radiation safety functions.
 radiation_protection_officer	Radiation protection officer (IAEA)	IAEA role overseeing occupational and public radiation protection; analogous to, but not identical with, the Queensland statutory RSO.
 radiation_management_plan	Radiation management / protection programme	Documented national or international protection programme; analogous in purpose to parts of the approved RSPP, without sharing its Queensland approval status.
