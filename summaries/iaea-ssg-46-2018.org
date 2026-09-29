@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       iaea-ssg-46-2018
+:ROAM_ALIASES: "IAEA SSG-46" "Radiation Protection and Safety in Medical Uses of Ionizing Radiation"
+:END:
+#+title: IAEA SSG-46 — Radiation Protection and Safety in Medical Uses of Ionizing Radiation (2018)
+#+FILETAGS: :resource:international:guidance:medical-exposure:
+#+ROAM_REFS: https://www.iaea.org/publications/11102/radiation-protection-and-safety-in-medical-uses-of-ionizing-radiation
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/international/iaea-ssg-46-2018.pdf][Official PDF retained locally]] — IAEA and joint sponsoring organisations, 2018; retrieved 16 September 2026.
+- [[file:../sources/extracted/iaea-ssg-46-2018/document.txt][Extracted text]]
+- [[file:../sources/extracted/iaea-ssg-46-2018/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- IAEA Specific Safety Guide explaining how to meet GSR Part 3 requirements in medical uses of ionising radiation.
+- Non-binding international guidance; it does not directly regulate THHS or replace Queensland legislation, licences, standards or the approved RSPP.
+
+* Key takeaways :AI:
+- SSG means /Specific Safety Guide/: SSG-46 gives practical guidance for applying IAEA radiation-protection requirements as part of good medical practice across radiology, nuclear medicine and radiation therapy.
+- The general framework covers graded regulation, role allocation, competence, management systems and safety assessment.
+- Radiation-therapy guidance spans facility/equipment safety, occupational protection, patient medical exposure, public protection, accident prevention and radioactive-material transport.
+- For patients, robust prescription, identification, calibration, dosimetry, planning, independent checking, QA and recording form a connected safety system.
+- Appendix I turns international incident experience into prevention lessons; exact local tolerances and workflows still require controlled local approval.
+
+* Summary :AI:
+** 1 — Introduction
+- Explains background, objective, scope and structure and positions the guide as implementation guidance for GSR Part 3.
+
+** 2 — Framework for medical uses
+- Covers governmental and regulatory responsibilities, a graded approach, roles and responsibilities, education/training/competence, management systems and safety assessment.
+
+** 3 — Diagnostic radiology and image-guided procedures
+- Gives modality-specific guidance for facility/equipment safety, occupational protection, patient exposure, public protection and accident prevention.
+
+** 4 — Nuclear medicine
+- Addresses facility/equipment, occupational and patient protection, public exposure, accidents and transport for radioactive materials used in nuclear medicine.
+
+** 5 — Radiation therapy
+*** General and facility/equipment safety (paras 5.1–5.92)
+- Addresses multidisciplinary responsibilities, facility design, shielding, equipment safety features, acceptance, commissioning and control after changes or servicing.
+*** Occupational protection (paras 5.93–5.188)
+- Covers controlled/supervised areas, local rules, engineered controls, monitoring, staff competence and source-specific precautions.
+*** Individuals undergoing medical exposure (paras 5.189–5.281)
+- Covers justification, prescription, patient identification, optimisation, calibration and dosimetry, treatment planning/delivery, QA, pregnancy and patient records.
+*** Public protection, accidents and transport (paras 5.282–5.326)
+- Covers public access/exposure, prevention and mitigation of unintended or accidental exposure, reporting and learning, and transport of radioactive material.
+
+** Appendices
+- /Appendix I/ :: Typical causes and contributing factors in accidental medical exposures.
+- /Appendices II–III/ :: Pregnancy avoidance after radiopharmaceutical therapy and cessation of breast-feeding; principally relevant to nuclear medicine.
+
+* Important definitions, roles, limits and records
+- /Medical exposure/ :: Patient, carer/comforter and research-volunteer exposure within the GSR Part 3 definitions.
+- /Dose constraint/ :: Optimisation tool for occupational/public exposure and specified non-patient medical exposures; not a patient treatment-dose limit.
+- /Radiological medical practitioner, medical radiation technologist and medical physicist/ :: Complementary clinical, delivery and physics responsibilities that require defined competence and communication.
+- /Records/ :: Prescription, identification, plan, calibration, dosimetry, QA, occupational monitoring, maintenance/change, treatment delivery and accidental-exposure investigation records.
+
+* Practical relationship to the THHS RSPP
+- Strong international implementation basis for the RSPP's facility, equipment, training, patient-pathway, independent-check, QA, incident and HDR controls.
+- Particularly useful for explaining defence in depth and how errors arise across software, data transfer, human action and hardware—not only from the radiation source.
+- Its recommendations should be translated through current Australian and Queensland requirements and locally approved procedures.
+
+* See Also
+- [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]
+- [[file:rps-c-5-2019.org][RPS C-5]]
+- [[file:rps-14-3-2008.org][RPS 14.3]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021)]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]

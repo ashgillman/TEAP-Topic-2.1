@@ -1,0 +1,267 @@
+#+title: Tasks
+
+* Handover from previous
+- See below
+- Actually the RSPP is under resources, along with AI summary
+- See also ~/projects/20260807 Dosimetry QA Recommendations Review/ for managing sources from human-readable to AI-readable in-project
+
+#+begin_src md
+# Project: Radiation Therapy RSPP Upstream Traceability Map
+
+Develop a standalone, source-backed study project tracing the principal requirements in the THHS Radiation Therapy RSPP upstream through Queensland law, Australian codes and standards, international recommendations, and scientific evidence.
+
+## Authoritative local source
+
+Use this RSPP only:
+
+- `/Users/gil/Downloads/do not edit_Townsville Radiation Therapy RSPP v6.01.docx`
+- Internal title: *THHS Radiation Safety and Protection Plan for Radiation Therapy Practices, Version 6.0 – Revision 1*
+
+Do not edit the source DOCX.
+
+Ignore all earlier RSPP versions completely. Do not include version comparisons or links to superseded versions.
+
+Existing Org summary, which should be used as the formatting model:
+
+- `/Users/gil/.codex/.chatgpt-projects/g-p-6a8c23d9c6d481918f4235a03aacd750/thhs-rspp-radiation-therapy-practices-v6.0-r1.org`
+
+Supporting lecture:
+
+- `/Users/gil/.codex/attachments/88269c7d-aafd-4c79-8217-25c8eef5d421/pasted-text.txt`
+
+The lecture uses NSW examples. Use it for the conceptual hierarchy—evidence → international recommendations → Australian framework → state law → local governance → clinical practice—but do not use NSW legislation as authority for this Queensland RSPP.
+
+Additional study context:
+
+- `/Users/gil/Downloads/KA2_Overview.pdf`
+- `/Users/gil/Downloads/Topic 2.1 Principles, Application and risk of radiation.pdf`
+
+## Core distinction
+
+Do not portray this as a single strict legislative chain. Clearly distinguish:
+
+1. Scientific evidence
+2. International recommendations
+3. International safety requirements and guidance
+4. Australian fundamentals, codes, standards and guidance
+5. Queensland Acts, Regulations and statutory standards
+6. Licence and approval conditions
+7. The approved local RSPP
+8. Departmental procedures and work instructions
+9. Records demonstrating implementation
+
+Label each document or relationship by its actual authority:
+
+- legally binding legislation
+- subordinate legislation
+- statutory radiation-safety standard
+- enforceable licence or approval condition
+- approved local plan
+- national code capable of jurisdictional adoption
+- non-mandatory guidance or recommendation
+- technical evidence or professional consensus
+
+Do not call a recommendation or guideline “law” unless it has acquired legal force through adoption, incorporation, a licence condition or another identified mechanism.
+
+## Deliverable 1: upstream map
+
+Create `rspp-upstream-map.org`.
+
+Start with a short explanation of the hierarchy and a document register containing:
+
+- full title
+- issuing body
+- jurisdiction
+- document type
+- authority or legal power
+- main ideas relevant to radiation therapy
+- relationship to the RSPP
+- official source link
+- currency/version checked
+
+Trace approximately 15 high-value RSPP practices upstream:
+
+1. Possession licences, use licences and individual authorisation
+2. Requirement for an approved RSPP and compliance with it
+3. Radiation governance: possession licensee, RSO, RSC and RSWG
+4. Justification and an approved treatment prescription
+5. Optimisation and ALARA
+6. Occupational, public and pregnancy dose limits
+7. Premises shielding, compliance certification and access controls
+8. Safety systems, interlocks, warning systems and defence in depth
+9. Acceptance testing, commissioning and independent output verification
+10. Quality management, QA, QC and controlled records
+11. Independent plan/MU checks and patient-specific verification
+12. OIMS access, data-transfer integrity, upgrades and change control
+13. Training, supervision, competence and credentialing
+14. Personal monitoring, investigation and exposure records
+15. Maintenance, fault response and formal ROMP release
+16. Incident reporting, dose assessment, learning and regulatory notification
+17. HDR source inventory, security, transport and emergency arrangements
+18. Acquisition, supply, relocation and disposal
+19. Research exposure assessment and ethics approval
+
+A table is appropriate. Keep each mapping brief, but identify:
+
+- the immediate Queensland basis
+- the main Australian basis
+- the principal international influence
+- the scientific or professional basis where identifiable
+- the local implementation and record that demonstrate compliance
+
+Where a practice is primarily a local risk control rather than a verbatim statutory requirement, say so.
+
+## Deliverable 2: visual prototypes
+
+Create two or three concise visual prototypes and include editable source.
+
+### Prototype A: authority ladder
+
+Show:
+
+Scientific evidence  
+→ international recommendations and standards  
+→ Australian framework  
+→ Queensland legislation and standards  
+→ approved RSPP  
+→ departmental procedure/work instruction  
+→ implementation record
+
+This should make differences in jurisdiction and authority visually obvious.
+
+### Prototype B: document relationship network
+
+Use Graphviz or an equivalent directed graph.
+
+Each node should show, compactly:
+
+- abbreviated document name
+- full title or recognisable short title
+- jurisdiction/issuer
+- authority class
+- one short statement of purpose
+
+Use labelled edges such as:
+
+- informs
+- based on
+- implements
+- adopts
+- made under
+- required by
+- approved under
+- operationalised by
+- evidenced by
+
+Avoid implying that ICRP, IAEA or ARPANSA directly regulates a Queensland hospital unless a specific Queensland adoption mechanism is identified.
+
+### Prototype C: worked traceability chains
+
+Show three representative practices from end to end, preferably:
+
+- justification and treatment authorisation
+- personal monitoring and dose limits
+- incident response and learning
+
+For each:
+
+evidence/principle → international requirement → Australian code → Queensland legal requirement → RSPP control → departmental action → retained record
+
+Provide Graphviz `.dot` source and rendered `.svg` files where practical. Also embed the preferred diagrams in the Org document using reproducible Org source blocks.
+
+Recommend which prototype should become the project’s main overview figure and explain the choice briefly.
+
+## Deliverable 3: source corpus
+
+Create a simple, durable structure such as:
+
+- `sources/queensland/`
+- `sources/australia/`
+- `sources/international/`
+- `sources/extracted/`
+- `summaries/`
+- `figures/`
+
+Use official primary sources wherever available. Retain downloaded source documents plus AI-readable extracted text and basic provenance:
+
+- source URL
+- title
+- issuing body
+- publication/current date
+- retrieval date
+- file hash where practical
+
+Do not rely on the lecture as evidence for Queensland legal claims.
+
+Initial primary anchors include:
+
+- [Queensland Radiation Safety Act 1999](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1999-020)
+- [Queensland Radiation Safety Regulation 2021](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0125)
+- [Radiation Safety (Radiation Safety Standards) Notice 2021](https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0133)
+- Queensland *Standard for premises—ionising radiation sources*
+- Queensland *Standard for ionising radiation apparatus—medical imaging*
+- [ARPANSA National Directory for Radiation Protection, second edition](https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/national-directory-for-radiation-protection)
+- [ARPANSA Radiation Protection Series](https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series)
+- RPS F-1
+- RPS C-1
+- RPS C-2
+- RPS C-5
+- RPS 8
+- RPS 11
+- RPS 14.3
+- ICRP Publication 103
+- IAEA SF-1
+- [IAEA GSR Part 3](https://nucleus-apps.iaea.org/nss-oui/Content/Index?CollectionId=m_3761d926-c16f-4477-a63b-741a9db1c16c&type=PublishedCollection)
+- IAEA SSG-46
+- IAEA Safety Report Series No. 47
+- relevant UNSCEAR evidence reports
+
+Check current versions and adoption status rather than assuming the RSPP bibliography is fully current.
+
+## Deliverable 4: begin the Org summaries
+
+After completing the map, create concise, source-faithful Org summaries in `summaries/`, following the supplied RSPP note’s general form:
+
+- Org properties and aliases
+- title
+- source documents
+- key takeaways tagged `:AI:`
+- concise chapter/part-by-part summary tagged `:AI:`
+- practical relationship to the RSPP
+- authority and jurisdiction
+- important definitions, roles, limits and records
+- “See Also” links
+
+Begin with the two documents having the most direct legal authority:
+
+1. `radiation-safety-act-1999.org`
+2. `radiation-safety-regulation-2021.org`
+
+Then provide a prioritised summary queue, likely including:
+
+1. Queensland statutory premises standard
+2. RPS C-1
+3. RPS C-5
+4. RPS F-1
+5. NDRP2
+6. RPS 14.3
+7. IAEA GSR Part 3
+8. IAEA SSG-46
+9. RPS C-2 and RPS 11
+10. IAEA Safety Report Series No. 47
+
+Keep the summaries brief but structurally complete. Preserve the source’s terminology and hierarchy. Distinguish mandatory requirements, recommendations, explanatory guidance and local policy.
+
+## Quality and safety requirements
+
+- Use current official primary sources for legal and regulatory claims.
+- Cite Act, Regulation and code sections wherever practical.
+- Do not infer a Queensland adoption mechanism without evidence.
+- Distinguish medical, occupational, public and environmental exposure.
+- Do not reproduce personal contact details, source serial numbers, security-sensitive locations or detailed emergency-recovery instructions.
+- Do not convert guideline examples into universal tolerances or local policy.
+- Treat values as source-scoped and label whether they are limits, constraints, minimum requirements, recommendations or examples.
+- Validate local file links, Org structure, Graphviz rendering and trailing whitespace.
+- Finish with a short account of what was created, the main authority relationships found, and any genuinely unresolved adoption or currency questions.
+```
+#+end_src

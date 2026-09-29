@@ -1,0 +1,61 @@
+:PROPERTIES:
+:ID:       arpansa-ndrp2-2021
+:ROAM_ALIASES: "NDRP2" "National Directory for Radiation Protection 2nd Edition"
+:END:
+#+title: National Directory for Radiation Protection, 2nd Edition (2021)
+#+FILETAGS: :resource:australia:framework:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/national-directory-for-radiation-protection
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/ndrp2-2021.pdf][Official PDF retained locally]] — ARPANSA, 2021; retrieved 16 September 2026.
+- [[file:../sources/extracted/ndrp2-2021/document.txt][Extracted text]]
+- [[file:../sources/extracted/ndrp2-2021/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- National framework endorsed through Australian governmental arrangements to promote nationally uniform radiation protection.
+- Contains regulatory elements intended for adoption by Commonwealth, state and territory jurisdictions; it is not, by itself, Queensland legislation.
+- A provision has legal force for THHS only through an identified Queensland enactment, regulatory instrument, licence/approval condition or other valid adoption mechanism.
+
+* Key takeaways :AI:
+- NDRP2 is the coordination layer between national radiation-protection policy and jurisdictional legislation.
+- It promotes consistent scope, authorisation, inspection, enforcement, incident reporting, emergency response and adoption of national codes and standards.
+- Schedule 1 consolidates dose limits and reference levels; these remain source-scoped national regulatory elements until adopted in the relevant jurisdiction.
+- Schedule 3 identifies national codes and standards for regulatory use, while Schedule 4 supports nationally consistent incident reporting.
+- For this project, NDRP2 explains convergence between Queensland controls and ARPANSA codes but must not be presented as a direct regulator of THHS.
+
+* Summary :AI:
+** Introduction
+- Sets out citation, background, vision, scope, interpretation, structure and governance for a nationally consistent system.
+
+** Part A — Legislative framework
+- Describes the activities and sources that a jurisdiction's radiation-protection legislation should cover.
+- Establishes categories and core considerations for authorisations and for granting, conditioning, varying, suspending or cancelling them.
+
+** Part B — Agreed arrangements
+- Addresses mutual recognition, regulatory competence and resources, emergency response, transport and incident reporting.
+- Provides common approaches to exclusions, exemptions, clearance, prohibitions, authorisation, inspection and enforcement.
+- Supports adoption and implementation of national codes and standards while recognising jurisdictional responsibility and rural or remote considerations.
+
+** Schedules
+- /Schedule 1/ :: Dose limits, reference levels and dose coefficients.
+- /Schedule 2/ :: Exempt apparatus and sources.
+- /Schedule 3/ :: Codes and standards intended to support national consistency.
+- /Schedule 4/ :: National incident-reporting arrangements.
+- A glossary defines nationally harmonised terms.
+
+* Important definitions, roles, limits and records
+- /Authorisation/ :: A generic national concept encompassing regulatory permission such as registration or licensing; Queensland uses its own statutory licence and approval terminology.
+- /Regulatory body/ :: The jurisdictional authority with legal responsibility; for THHS legal claims, the applicable Queensland mechanism must be identified.
+- /Dose limits and reference levels/ :: National regulatory elements collected in Schedule 1; confirm the binding Queensland values against the current Regulation.
+- /Records/ :: Supports consistent authorisation, inspection, exposure, source-register, incident and national-reporting records.
+
+* Practical relationship to the THHS RSPP
+- Provides the national policy architecture behind many Queensland provisions and the RSPP's licensing, dose-control, monitoring, emergency and incident-reporting themes.
+- Helps classify ARPANSA codes as national materials capable of adoption rather than automatically binding local law.
+- The immediate enforceable basis for the THHS RSPP remains Queensland law, applicable standards, approvals and licence conditions.
+
+* See Also
+- [[file:radiation-safety-act-1999.org][Radiation Safety Act 1999]]
+- [[file:rps-f-1-2014.org][RPS F-1]]
+- [[file:rps-c-1-rev-1-2020.org][RPS C-1 Rev. 1]]

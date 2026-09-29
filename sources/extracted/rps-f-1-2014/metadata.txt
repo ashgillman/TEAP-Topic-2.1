@@ -1,0 +1,34 @@
+Title: Fundamentals for Protection Against Ionising Radiation
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2014
+Retrieval date: 2026-09-16
+Authority class: Non-mandatory national fundamentals
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/legacy/pubs/rps/rpsF-1.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/fundamentals/rpsf-1
+Source file: australia/rps-f-1-2014.pdf
+SHA-256: d3a444e340ca8890b385d24e152b2477641a044ef5bd9ad4f919dbce0c389c64
+
+Title:           Fundamentals for Protection Against Ionising Radiation
+Subject:         Radiation Protection Series RPS F-1
+Keywords:
+Author:          ARPANSA
+Creator:         Acrobat PDFMaker 10.1 for Word
+Producer:        Adobe PDF Library 10.0
+CreationDate:    Mon Mar  3 14:00:55 2014 AEST
+ModDate:         Mon Dec  8 09:45:31 2014 AEST
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           36
+Encrypted:       no
+Page size:       623.622 x 870.236 pts
+Page rot:        0
+File size:       569467 bytes
+Optimized:       no
+PDF version:     1.6

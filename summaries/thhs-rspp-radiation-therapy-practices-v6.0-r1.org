@@ -1,0 +1,265 @@
+:PROPERTIES:
+:ID:       20260916T165603.600442
+:ROAM_ALIASES: "THHS RSPP" "THHS RSPP v6.01" "THHS Radiation Therapy RSPP" "Radiation Therapy Practices RSPP" "Radiation Therapy Practices v6.01"
+:END:
+#+title: THHS Radiation Safety and Protection Plan: Radiation Therapy Practices (Version 6.0 - Revision 1)
+#+FILETAGS: :resource:local:rspp:radiation-therapy:
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx][Controlled source copy retained locally]] — Townsville Hospital and Health Service, Version 6.0 - Revision 1 (v6.01); supplied project source.
+- [[file:../sources/extracted/thhs-rspp-radiation-therapy-practices-v6.0-r1/document.txt][Extracted text]]
+- [[file:../sources/extracted/thhs-rspp-radiation-therapy-practices-v6.0-r1/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- Approved local radiation safety and protection plan for Townsville Hospital and Health Service radiation therapy practices.
+- Operates within the QLD Radiation Safety Act, QLD Radiation Safety Regulation, applicable statutory standards, possession-licence conditions and approvals.
+- Converts those upstream requirements into local roles, controls, procedures and records; it does not replace the current legislation, licence conditions or controlled departmental procedures.
+- The retained DOCX is the controlled source supplied to this project. Check the live document-control system before relying on names, contacts, equipment identifiers, source locations or emergency details.
+
+* Key takeaways :AI:
+- The RSPP is the local operational framework for radiation therapy under the THHS possession licence. All people carrying out or involved in the practice must know it and work in accordance with it.
+- Its primary outcomes are justified, optimised and correctly prescribed patient exposure; occupational and public exposure below legislated limits and ALARA; and fewer people exposed or unexpectedly exposed.
+- Radiation therapy risk spans the whole pathway, not only the radiation source: imaging, prescription, contouring, planning, data transfer, OIMS/record-and-verify, patient positioning, treatment delivery, maintenance and software change can all create systematic or random error.
+- Governance is layered: the possession licensee provides authority and resources; the RSO advises, monitors and reports; the Radiation Safety Committee (RSC) oversees policy and performance; the multidisciplinary Radiation Safety Working Group (RSWG) supports incident learning and training; each user remains responsible for safe practice.
+- Clinical use requires compliant premises and sources, authorised and credentialed staff, acceptance and commissioning, independent checks, defence in depth, controlled QA/QC and formal ROMP release after relevant faults, maintenance or modification.
+- Safety culture is an explicit control. Near misses, software or hardware malfunctions, incidents and unintended or unnecessary exposure are recorded, reviewed and used to improve policy and procedure.
+- Incident response follows a stable sequence: stop or control the exposure, make the area and source safe, notify the ROMP/RSO and clinical chain, assess dose and consequence, document and investigate, implement corrective action, and formally authorise return to service.
+
+* Summary :AI:
+** Document status and scope
+- Townsville Hospital and Health Service (THHS), /Radiation Safety and Protection Plan for Radiation Therapy Practices/, Version 6.0 - Revision 1 (v6.01).
+- Applies to all radiation therapy sources possessed by THHS and the premises where the practices are carried out.
+- Covers the obligations of the possession licensee and delegates, users, and others involved in radiation therapy and associated ionising-radiation procedures.
+- The source document remains the authority for exact names, contacts, equipment identifiers, source locations and emergency details.
+
+** 1. Introduction
+*** 1.1 Purpose
+- Gives effect to the /Radiation Safety Act 1999/, /Radiation Safety Regulation 2021/ and the guiding principles of radiation protection for the local practice.
+- Seeks to ensure patient doses are justified, optimised and delivered according to an approved prescription.
+- Seeks to keep staff and public doses below legislated limits and ALARA, minimise the number of people exposed, and minimise unexpected exposure.
+*** 1.2 Who shall read the document
+- Everyone carrying out or involved in THHS radiation therapy practices and associated procedures must be familiar with and follow the plan.
+*** 1.3 Reference documents
+- The plan cites the Queensland Act and 2021 Regulation; “PR100:2021” for the premises standard; the 2021 medical-imaging apparatus standard; ARPANSA's National Directory; RPS F-1, C-1, C-2 and C-5; and supporting security, research and radiotherapy publications. The current official premises-standard title is /Standard for premises—ionising radiation sources (2021)/; the PR100 label is a stale citation in the controlled RSPP.
+*** 1.4 Departmental radiation-safety governance
+- The departmental RSC considers training, education, incidents and near misses and liaises with the possession licensee.
+- The THHS RSC provides a communication mechanism between management, the departmental committee and the RSO.
+- The RSO reports to the possession licensee.
+- The multidisciplinary RSWG assists and reports to the RSC on training, incidents and near-miss review.
+
+** 2. Hazard assessment
+- The pathway includes imaging and prescription, target definition, planning and delivery using linacs, superficial X-ray units and sealed-source HDR brachytherapy.
+- Hazards extend to TPS and image-fusion/manipulation software, OIMS and record-and-verify, plan-QA systems, and patient-positioning, monitoring and immobilisation equipment.
+- Risk depends on source type, workload and prescription; compliance with work practices; equipment and technique characterisation/commissioning; source and premises compliance; staff competence; MDT involvement; and the strength of safety, reporting and learning culture.
+- The plan states annual dose limits of 20 mSv for people carrying out a radiation practice and 1 mSv for other staff and the public. For a declared pregnancy it states 1 mSv pro rata per annum; the RSO evaluates duties with the worker and line manager so dose remains ALARA and within that limit.
+- Unplanned exposure can arise from faulty equipment or premises, non-optimal planning or delivery, poor or unsafe work practices, access breaches and human error.
+- Consequences include patient misadministration, excessive occupational/public exposure, increased stochastic risk and, at sufficiently high dose, tissue reactions.
+- Controls include restricted access; compliant sources and premises; monitoring and survey equipment; PPE and safety devices; QA; incident reporting and learning; defence in depth; and an annual compliance audit.
+
+** 3. Responsibilities of the possession licensee
+- Hold the appropriate possession licence and comply with its conditions, legislation and the approved RSPP.
+- Take reasonable steps to protect patients, staff and the public and keep exposure within limits and ALARA.
+- Ensure users are appropriately licensed, authorised, trained and working within their licence conditions.
+- Appoint a qualified RSO and provide adequate staffing, training, monitoring, protective equipment and other resources.
+- Maintain required records, current source certificates and premises certificates, including reassessment after relevant changes in source, workload, location or surrounding occupancy.
+- Provide monitoring where required, communicate results and maintain individual exposure records.
+- Obtain required approvals for acquisition or relocation, control supply/transfer/disposal, and make statutory incident notifications.
+- Notify Level 3/reportable incidents as required and ensure patient-exposure records identify the patient, procedure, date and user.
+
+** 4. Functions of the Radiation Safety Officer
+*** 4.1 Functions
+- Advise the possession licensee, identify ways to minimise patient/staff/public dose and provide or arrange radiation-safety training.
+- Assess hazards in controlled, supervised and public areas and recommend local rules, access designations, engineering controls, work practices and contingency arrangements.
+- Oversee area, equipment, operational, personal and environmental monitoring; ensure monitoring instruments and PPE are suitable, inspected and calibrated; review results and investigate abnormal dose.
+- Advise on pregnancy arrangements and assess radiation safety for new or modified sources, premises, techniques, operations and transport.
+- Monitor licences, authorisations, warning signs, source security, maintenance arrangements, source registers and compliance certificates.
+- Inspect the practice, investigate incidents, advise on corrective actions and review the RSPP at least annually with the RSC/RSWG.
+*** 4.2 Reporting to the possession licensee
+- Report incidents, contraventions, unsafe practices, corrective actions and opportunities to minimise dose.
+- Provide an annual report on compliance and RSPP effectiveness, including monitoring, certificates, signage, safety devices/PPE and recommended amendments.
+
+** 5. Functions of the Radiation Safety Committee
+*** 5.1 Membership and working group
+- The RSC is a multidisciplinary advisory and consultative body with management, radiation-safety, clinical, nursing, occupational-health and safety representation.
+- The RSO may convene the RSWG, with core ROMP, RT and RO representation, to strengthen safety culture and incident/near-miss reporting, learning and escalation.
+*** 5.2 Functions
+- Recommend local radiation-safety policy and safe-working rules and promote ALARA.
+- Review radiation-safety assessments and pre-operational testing for new or changed practices.
+- Review compliance, training, monitoring results, emergency instructions and incident investigations.
+- Receive RSO reports, immediately escalate unsafe practice and oversee safe discharge/disposal of sources.
+*** 5.3 Administration
+- Meet regularly, with quarterly meetings described; use nominated deputies where required and maintain the stated quorum, including the chair and RSO or delegates.
+- Maintain accessible minutes, receive a radiation-safety status report at each meeting and report through the governance structure to senior management.
+
+** 6. Responsibilities of users
+- Hold the required current use licence and possession-licensee authorisation and work within all conditions.
+- Follow the RSPP, controlled procedures, training and credentialing; use monitors, PPE and safety devices correctly.
+- Promote a radiation-safety culture and take reasonable steps not to adversely affect another person's health or safety.
+- Record and report RSPP breaches, near misses, unsafe practices, software/hardware malfunction, accidents and unintended or unnecessary exposure in the incident-learning system.
+- Perform assigned QC under controlled ROMP documentation and ensure required patient exposure and identification records are complete.
+
+** 7. Access control
+- Only appropriately trained, licensed, credentialed and authorised people may operate radiation sources.
+- Access to controlled areas is restricted to people who need to be present; unlicensed persons require appropriate supervision.
+- Visitors require direct supervision by a suitably senior, credentialed/licensed ROMP, RT or RO.
+- Keys, electronic access and passwords provide additional source and system control.
+
+** 8. Training and credentialing
+- Training must match each person's duties and exposure to radiation hazards. Staff must read the current RSPP and acknowledge their obligations.
+- Annual radiation-safety training is compulsory for staff working with sources or routinely entering controlled areas; practice- and equipment-specific instruction is added for use licensees.
+- The attachment programme uses tiered induction, advanced training for new radiation workers/use licensees, and annual or ongoing refresher/professional-development records for radiation workers and RSOs.
+- The departmental QA Committee administers credentialing for clinical equipment, ancillary systems, specific QA, brachytherapy, intracranial SRT, SABR, MR-Linac and other relevant specialist practice.
+- Credentialing uses MDT-endorsed procedures, defined assessment criteria and retained records. Procedures are reviewed at least annually.
+- A person who is not currently credentialed may not perform the practice independently; any exceptional override requires the stated departmental authority.
+
+** 9. Safe work practices
+*** 9.1 Principles
+- /Justification/ :: A radiation procedure must have sufficient anticipated benefit relative to detriment and be authorised and documented.
+- /Optimisation/ :: Exposure is kept as low as reasonably achievable while still achieving adequate image quality or therapeutic efficacy.
+- /Dose limitation/ :: Occupational and public exposure remains within prescribed limits; limits do not apply to justified medical exposure of the patient.
+*** 9.2 General controls
+- Use compliant sources in compliant premises for their approved purpose and in accordance with controlled instructions.
+- ROMPs supervise acceptance and commissioning; output is independently checked by a second ROMP and supported by external dosimetry audit.
+- New or modified systems, techniques and software that can affect dose or fluence require appropriate testing and formal clinical authorisation.
+- Perform required daily QC before clinical use and stop after an out-of-tolerance result until a ROMP authorises use.
+- Equipment faults are recorded promptly. Vendor representatives do not have authority to return equipment to clinical service or determine radiation-safety acceptability.
+*** 9.3 Defence in depth
+- Use multiple independent administrative and engineering barriers so a single failure does not directly cause harm.
+- Examples include independent plan checks by RTs and ROMPs plus measurement, and independent machine dose-monitoring channels and backup termination.
+- The RSC determines and reviews defence-in-depth arrangements across the patient pathway.
+*** 9.4 Clinical reporting line
+- Radiation-apparatus errors or breakdowns follow the departmental clinical reporting line, with ROMPs coordinating with clinical staff and vendors as required.
+*** 9.5 Oncology information management system
+- The OIMS is a safety-critical clinical record and delivery-control system. Prescriptions require approval and integrity of transfer to treatment requires independent ROMP verification.
+- Access and override rights are role- and experience-dependent. A treatment override follows a formal risk assessment and is recorded as an incident when used at treatment.
+- Upgrades require acceptance testing; an updated version is not used clinically until formally authorised by a ROMP.
+*** 9.6 Imaging practices
+- Optimise exposure and preserve patient, procedure, exposure and user identification.
+- Limit scan extent, fluoroscopy, image number and repeat imaging to what is clinically needed.
+- Record unplanned repeated scans in the incident-learning system.
+*** 9.7 Treatment planning and associated practices
+- TPS commissioning, upgrades and ongoing QC are supervised by ROMPs; only approved data, algorithms, software and calculation methods may be used clinically.
+- Plans require appropriate contour, prior-treatment, prescription, dose-distribution and clinical review.
+- An independent MU/dose check is documented. IMRT, VMAT, SABR, SRT, TBI and other modulated/specialist plans receive independent ROMP review and patient-specific dosimetry before treatment, with authorisation recorded.
+- Approved OIMS treatment data must agree with the prescription and plan before first treatment.
+*** 9.8 Radiation therapy apparatus
+- Treat only with an authorised prescription and plan; observe the patient and interrupt treatment when movement or another condition threatens accuracy or safety.
+- No person other than the patient remains in the room during irradiation. Use last-person-out, door/interlock and warning systems; do not bypass them for treatment.
+- Suspected accidental presence/exposure, malfunction or power failure is reported to the ROMP and, where applicable, the RSO. Use continues only after appropriate assessment and formal release.
+*** 9.9 High-dose-rate brachytherapy
+- Requires the stated RO, ROMP and RT attendance, room-clearance and interlock controls, and post-treatment survey confirmation.
+- Staff must know the current operational and emergency controls and use the approved survey and recovery equipment.
+*** 9.10 Patient-specific procedures
+- Use appropriate patient identification, preparation, immobilisation and motion control.
+- Assess possible pregnancy, provide specialist counselling/consent where relevant, estimate and document fetal dose when indicated, and follow written RO instructions before continuing treatment after pregnancy is identified.
+*** 9.11 Cardiac implanted electronic devices
+- Requires RO approval, pre-treatment ROMP dose assessment, avoidance of direct unshielded irradiation where possible and close patient observation.
+- A cumulative CIED dose above 2 Gy triggers cardiology involvement under the departmental protocol.
+*** 9.12 Research
+- Additional ionising-radiation exposure for research requires an approved ROMP radiation-risk assessment within the research-approval process.
+
+** 10. Personal radiation monitoring
+- Provide approved personal monitoring where a worker could exceed the public dose limit or as determined by the RSO.
+- Wear, store and return monitors as directed; do not remove them from the site when not in use, expose them as a patient, tamper with them or substitute them between people.
+- Advise monitored workers of results. The RSO reviews results against limits and ALARA and investigates unusual readings and work practices.
+- Maintain individual records for the worker's working life, at least 30 years after the last exposure assessment and at least until age 75, as specified by the plan.
+
+** 11. Personal alarm monitoring devices
+- Designated staff involved in HDR emergency source recovery use personal alarm monitors.
+- Inspect before use, wear as instructed and test annually for accuracy and sensitivity, with retesting after repair or suspected damage and retention of results.
+
+** 12. Safety devices and personal protective equipment
+- HDR recovery controls include an emergency source container, handling/cutting tools and a calibrated handheld survey meter; appropriate protective aprons are available where required.
+- Inspect and test safety devices/PPE annually and whenever integrity is in doubt; remove or replace defective items and document results.
+
+** 13. Premises
+- The RSPP says premises must comply with “PR100:2021” and applicable national codes and standards. The relevant current Queensland statutory document is /Standard for premises—ionising radiation sources (2021)/; apply its Sections 2.1 and 3.3 or 3.4, as applicable, alongside the approved local controls.
+- A medical physicist assesses shielding and compliance for new or modified sources/premises, material workload or occupancy changes, and at appropriate regular intervals.
+- Emergency-off, interlock, last-person-out, radiation-warning and access controls must function as designed.
+- Keep relevant internal doors locked when not required for access, or visually confirm the area is clear before irradiation as specified.
+
+** 14. Repairs and maintenance
+- Qualified and appropriately authorised providers perform preventive and corrective maintenance under ROMP oversight.
+- Formally remove equipment from clinical service before maintenance; define and communicate the scope and status of work between service personnel and the ROMP.
+- Following maintenance, a ROMP performs or reviews required QC and formally releases equipment before clinical use. Vendor staff cannot provide that release.
+- Record the fault, cause, work/parts, tests, results, personnel, time and formal release in the equipment history.
+- Modifications require prior approval and compliance certification where applicable.
+
+** 15. Quality management
+- Quality management is the overarching system within which QA and QC control the whole pathway from imaging and target definition to planning, verification and dose delivery.
+- The ROMP quality-management team includes the Director, Deputy and Lead ROMP-QM and supervises the controlled programme regardless of who performs individual tests.
+- The programme defines responsibilities, controlled procedures/forms, test type and frequency, schedules, records, non-conformance response and equipment adjustment.
+- Test schedules are reviewed at least every two years against current guidance and evidence; new equipment receives acceptance testing and treatment-related systems receive preventive maintenance.
+
+** 16. Records
+- Defines responsibility and storage for licences, the approved RSPP, RSO/RSC reports, approvals, monitoring and investigations, compliance certificates, equipment and maintenance logs, QC, patient exposure/treatment, incidents, training, credentialing and authorised-user records.
+- Retain records for their specified periods, maintain controlled access and do not dispose of them without required authority.
+
+** 17. Acquisition, supply, disposal, relocation, transport and security
+- Obtain required approval before acquiring or relocating a radiation source.
+- Before supply or transfer, verify that the recipient holds the required licence and acquisition authority.
+- Dispose of apparatus through an appropriate specialist, retain evidence and notify the regulator as required.
+- HDR iridium-192 is managed as a Category 3 security-enhanced source under confidential transport and source-security plans, with designated people authorised to deliver, accept and store it.
+
+** 18. Radiation incidents and remediation
+- An incident includes equipment/facility design or operational flaws, software errors, human/process failures and any event causing or potentially causing unintended exposure to a person or the environment.
+- All incidents are reported directly to a ROMP, who advises the RSO and other required parties; events are entered in the incident-learning system for review by the RSC.
+*** 18.1 Patient incidents
+- /Level 3/ :: At least 10% change in total course dose, a geometric error likely to have serious clinical consequences, or a dangerous event.
+- /Level 2/ :: More than 5% but less than 10% change in total course dose, or a geometric error likely to have minor clinical consequences.
+- /Level 1/ :: Up to 5% change in total course dose, or a geometric error unlikely to have clinical consequences.
+- /Level 0/ :: Any unintended radiation exposure with no clinical gain, such as a failed CBCT acquisition.
+- Escalation and notification increase with severity and include the treating RO, departmental leadership, RSO, possession licensee and regulator as applicable.
+*** 18.2 Non-patient incidents
+- Classify unintended staff/public exposure by expected dose consequence and dangerous-event criteria, then restrict access, obtain medical/dosimetric assessment and notify through the required chain.
+*** 18.3 Equipment malfunction
+- Use the nearest appropriate emergency-off control, secure the equipment/area and notify the ROMP and RSO.
+- Reconstruct the event, assess exposure and patient dose, obtain urgent monitor assessment or medical advice where needed, and record/investigate in the incident-learning system.
+- Do not return the system to service until the cause is addressed, verification is complete and a ROMP formally authorises clinical use.
+*** 18.4 Incident without equipment malfunction
+- Notify the ROMP and RSO, stop the implicated process/software where necessary, assess dose and clinical consequence, investigate the cause and verify corrective action before resumption.
+*** 18.5 HDR emergency
+- Follow the current control-room emergency roll cards and role assignments.
+- Stop/retract the source if possible, use the approved survey method to establish source status, restrict access and have the designated ROMP/RO team perform recovery or applicator management with emergency equipment.
+- Record actions and times and confirm the source and room are safe before normal access or use resumes.
+*** 18.6 Incident notification
+- Notify the RSO, who coordinates further internal and external notification; all incidents enter the local system for RSC review.
+- The plan requires immediate regulator notification for Level 3/reportable events and a written report within seven days.
+- Reports address the source and circumstances, immediate care, dose estimates, patient dose/clinical effect, severity, operational status, corrective action and recurrence prevention.
+
+** Attachments
+*** Attachment 1: Radiation source details
+- Lists the current controlled inventory and premises, including treatment, imaging, MR-Linac, superficial and brachytherapy equipment. Use the attachment rather than this summary for identifiers and locations.
+*** Attachment 2: Contact details
+- Lists the current possession-licence nominee, RSO and regulator contacts. Check the controlled attachment at the time of use.
+*** Attachments 3 and 4: Staff training programme and checklist
+- Define tiered induction, advanced and ongoing training; detailed topics include legislation, licence obligations, local hazards and controls, optimisation, PPE, incidents, the RSPP and relevant codes.
+- Signed completion and refresher/professional-development records are retained in the nominated learning-record system.
+*** Attachment 5: Approved maintenance providers
+- Lists approved providers for the installed treatment, imaging and brachytherapy systems.
+*** Attachment 6: Medical Physics quality programme
+- Lists guidance supporting QA for linacs, imaging/simulation, TPS, superficial therapy, dosimetry and HDR brachytherapy.
+*** Attachment 7: Radiation monitoring equipment
+- Lists the controlled inventory of survey and personal-alarm instruments and their intended uses.
+*** Attachment 8: THHS committee chart
+- Places Radiation Safety within the broader THHS committee hierarchy and shows escalation through executive clinical-governance structures.
+
+* Study focus for oral examination :AI:
+- Be able to explain the governance chain: possession licensee -> RSO/RSC -> RSWG and departmental leads -> individual user.
+- For any scenario, identify the exposed group, hazard and failed barrier; make the situation safe; preserve evidence; notify ROMP/RSO and clinical leadership; assess dose and consequence; classify/report; correct; and verify before return to service.
+- Distinguish /justification/ (should the exposure occur?), /optimisation/ (how is exposure kept as low as reasonably achievable while meeting the clinical aim?) and /dose limitation/ (occupational/public limits, not patient therapeutic limits).
+- Use pathway examples: prescription and transfer integrity, independent plan/MU checks, patient-specific measurement, machine interlocks, two dose-monitoring channels, maintenance release and incident learning.
+- Know the incident levels and the distinction between an actual exposure, a near miss and a Level 0 unnecessary exposure.
+- In an oral answer, state the principle and responsible role first, then the local control and escalation pathway; use exact contacts, source details and emergency steps only from the current controlled RSPP.
+
+* See Also
+- [[file:radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]
+- [[file:radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]
+- [[file:rps-c-5-2019.org][RPS C-5 summary]]
+- [[file:rps-14-3-2008.org][RPS 14.3 summary]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021) summary]]
+- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
+- [[file:../study.org][KA2 Topic 2.1 study guide]]
+- [[file:/Users/gil/Downloads/KA2_Overview.pdf][KA2 Overview]]
+- [[file:/Users/gil/Downloads/Topic 2.1 Principles, Application and risk of radiation.pdf][KA2 Topic 2.1: Principles, application and risk of radiation]]

@@ -1,0 +1,77 @@
+:PROPERTIES:
+:ID:       qld-radiation-safety-act-1999
+:ROAM_ALIASES: "Queensland Radiation Safety Act 1999" "RSA 1999 (Qld)"
+:END:
+#+title: Radiation Safety Act 1999 (Queensland)
+#+FILETAGS: :resource:queensland:legislation:
+#+ROAM_REFS: https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1999-020
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/queensland/radiation-safety-act-1999.pdf][Official PDF retained locally]] — current as at 23 September 2025; retrieved 16 September 2026.
+- [[file:../sources/extracted/radiation-safety-act-1999/document.txt][Extracted text]]
+- [[file:../sources/extracted/radiation-safety-act-1999/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- Queensland Act; legally binding primary legislation in Queensland.
+- Establishes the legal framework under which licences, radiation safety standards, compliance certificates, approved radiation safety and protection plans (RSPPs), radiation safety officers (RSOs), monitoring, enforcement and reporting operate.
+- Exact obligations depend on the Act together with the /Radiation Safety Regulation 2021/, applicable standards, licence conditions and approvals.
+
+* Key takeaways :AI:
+- The Act's object is to protect people and the environment from the harmful effects of particular sources of ionising and non-ionising radiation (s 4).
+- Its radiation-protection principles are justification, limitation and optimisation (s 5). Patient therapeutic exposure is governed through justification and optimisation rather than occupational or public dose limits.
+- Possession and use are licensed activities (pt 2). Sources and premises may also need current certificates of compliance against statutory radiation safety standards (pt 3).
+- A possession licensee must have an approved RSPP for the radiation practice, take reasonable steps to ensure compliance with it and make it available as required (ss 28–34).
+- The possession licensee appoints an appropriately qualified RSO; the RSO performs the statutory functions prescribed under the Act and Regulation (ss 35–37).
+- The Act controls the whole source lifecycle: acquisition, supply, relocation, disposal and abandonment, as well as exposure monitoring and mandatory reporting.
+- The approved THHS RSPP is therefore a legally significant local control, but it does not replace the Act, Regulation, standards, licence conditions or individual duties.
+
+* Summary :AI:
+** Part 1 — Preliminary
+- States the object, the three radiation-protection principles and the interpretive framework (ss 3–7).
+
+** Part 2 — Licences
+- Establishes possession, use and transport licences; application, assessment, conditions, terms, amendment, suspension and cancellation provisions.
+- A licence authorises only the activities and sources within its scope and conditions.
+
+** Part 3 — Radiation safety standards and certificates of compliance
+- Allows radiation safety standards to be made (s 16) and requires prescribed sources and premises to comply and hold certificates where applicable (ss 17–18).
+- This is the legal bridge to the Queensland premises and apparatus standards listed in the 2021 Standards Notice.
+
+** Parts 4 and 5 — Source acquisition, supply, relocation and disposal
+- Controls dealings across the source lifecycle, including approvals and notifications for acquisition or relocation and requirements for supply, disposal and abandonment.
+
+** Part 6 — Other radiation safety, protection and security provisions
+*** Division 1 — Radiation safety and protection plans
+- Requires the possession licensee to prepare, submit and maintain an RSPP appropriate to each radiation practice (ss 28–34).
+- The approved plan operationalises local measures for hazards, access, training, safe work, monitoring, equipment, premises, records and incidents. Compliance with it is a statutory obligation, not merely departmental preference.
+*** Divisions 1A and 1B — Security plans
+- Provide for security plans and transport security plans where prescribed sources or activities trigger them.
+*** Division 2 — Radiation safety officers
+- Requires appointment of a qualified RSO and establishes the RSO's statutory place in the governance system (ss 35–37).
+*** Divisions 3–8 — Monitoring, procedures, exposure control and reporting
+- Provide for monitoring (ss 38–40), diagnostic and therapeutic procedures (s 41), exposure limitation (ss 42–42A), additional obligations of licensees and others (ss 43–44B), dangerous-event reporting (s 45), and prohibited sources or practices (ss 47–47A).
+
+** Parts 7–13 — Instruments, enforcement and administration
+- Govern applications and decisions, inspectors and enforcement powers, the Radiation Advisory Council, review rights, proceedings, registers and information, and miscellaneous administration.
+
+** Part 14 and schedules
+- Contains repeal and transitional provisions. Schedule 1 identifies reviewable decisions; Schedule 2 defines key terms.
+
+* Important definitions, roles, limits and records
+- /Possession licensee/ :: The licensed entity with overarching control and resource obligations for the practice.
+- /Use licensee/ :: An individual authorised by licence to use a source within the licence scope and conditions.
+- /Approved RSPP/ :: The regulator-approved local plan required under pt 6; THHS must implement and comply with it.
+- /RSO/ :: The qualified person appointed to perform statutory radiation-safety functions and advise/report to the possession licensee.
+- /Dose limits/ :: The Act creates the duty to prevent prescribed limits being exceeded; numerical limits are prescribed in sch 5 of the Regulation.
+- /Records/ :: The framework requires records supporting licences, approvals, monitoring, exposure, source control, compliance and reportable events; details are distributed across the Act, Regulation, instruments and approved plan.
+
+* Practical relationship to the THHS RSPP
+- Direct legal parent of the RSPP: ss 28–34 require and give regulatory significance to the approved plan.
+- Supports the RSPP's licensing, governance, RSO, personal-monitoring, source-lifecycle, incident-reporting and compliance-certificate controls.
+- Departmental procedures and records demonstrate implementation, but cannot weaken an Act, Regulation, standard, approval or licence condition.
+
+* See Also
+- [[file:radiation-safety-regulation-2021.org][Radiation Safety Regulation 2021]]
+- [[file:radiation-safety-standards-notice-2021.org][Radiation Safety (Radiation Safety Standards) Notice 2021]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]

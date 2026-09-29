@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       iaea-gsr-part-3-2014
+:ROAM_ALIASES: "IAEA GSR Part 3" "International Basic Safety Standards"
+:END:
+#+title: IAEA GSR Part 3 — Radiation Protection and Safety of Radiation Sources: International Basic Safety Standards (2014)
+#+FILETAGS: :resource:international:requirements:
+#+ROAM_REFS: https://www.iaea.org/publications/8930/radiation-protection-and-safety-of-radiation-sources-international-basic-safety-standards
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/international/iaea-gsr-part-3-2014.pdf][Official PDF retained locally]] — IAEA and joint sponsoring organisations, 2014; retrieved 16 September 2026.
+- [[file:../sources/extracted/iaea-gsr-part-3-2014/document.txt][Extracted text]]
+- [[file:../sources/extracted/iaea-gsr-part-3-2014/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- IAEA General Safety Requirements jointly sponsored by relevant international organisations.
+- Establishes requirements for states and organisations within its international standards framework; it is not directly binding Queensland legislation.
+- Influences Australian codes including RPS C-1 and RPS C-5. Local legal force requires national or jurisdictional implementation.
+
+* Key takeaways :AI:
+- GSR means /General Safety Requirements/: GSR Part 3 sets international requirements for radiation protection and source safety across planned, emergency and existing exposure situations, with governmental, regulatory and responsible-person duties.
+- Planned exposure requirements distinguish occupational, public and medical exposure and apply the protection principles differently to each.
+- Patient medical exposure is controlled by justification and optimisation, with defined professional responsibilities, calibration, dosimetry, QA and investigation—not by applying occupational/public dose limits to the prescribed treatment.
+- Requires a graded approach, management for protection and safety, competence, safety assessment, prevention and mitigation, and records.
+- Provides the international requirements layer underneath ARPANSA codes and IAEA SSG-46, not a direct approval or licence for THHS.
+
+* Summary :AI:
+** 1 — Introduction
+- Defines background, objective, scope, structure and the relationship to the IAEA safety principles.
+
+** 2 — General requirements for protection and safety
+- Sets responsibilities of government, regulatory bodies and principal parties.
+- Requires justification, optimisation, dose limitation where applicable, graded control, management systems, safety assessment, prevention and emergency preparedness.
+
+** 3 — Planned exposure situations
+*** Government and regulatory framework
+- Requires authorisation, review, inspection, enforcement and supporting infrastructure proportionate to radiation risk.
+*** Occupational exposure
+- Covers area classification, engineered and administrative controls, local rules, worker monitoring, dose assessment, health surveillance and records.
+*** Public and environmental exposure
+- Covers source-related public exposure, discharges, monitoring, assessment and environmental protection.
+*** Medical exposure
+- Allocates responsibilities among the radiological medical practitioner, medical radiation technologist and medical physicist.
+- Requires justification, optimisation, appropriate equipment, calibration, patient dosimetry, QA, special consideration of pregnancy and breast-feeding, and investigation of unintended or accidental medical exposure.
+
+** 4 — Emergency exposure situations
+- Establishes preparedness, response, worker and public protection, reference levels, transition and review requirements.
+
+** 5 — Existing exposure situations
+- Addresses identified existing exposures, remediation and radon or other source-specific control using reference levels and optimisation.
+
+** Schedules
+- /Schedule I/ :: Exemption and clearance.
+- /Schedule II/ :: Categorisation of sealed sources.
+- /Schedule III/ :: Dose limits for planned exposure situations.
+- /Schedule IV/ :: Criteria for emergency preparedness and response.
+
+* Important definitions, roles, limits and records
+- /Requirement/ :: A statement necessary to meet the IAEA safety standards framework; domestic enforceability still depends on implementation.
+- /Dose constraint/ and /reference level/ :: Prospective optimisation tools; neither is simply interchangeable with a dose limit.
+- /Medical physicist/ :: Health professional with specialist education and training in the concepts and techniques of applying physics in medicine, competent to practise independently in relevant subfields.
+- /Limits/ :: Schedule III addresses worker and public exposure; patient medical exposure is excluded from dose limitation and instead controlled by justification and optimisation.
+- /Records/ :: Authorisations, occupational dose, calibration, dosimetry, QA, patient exposure, incidents and emergency arrangements as applicable.
+
+* Practical relationship to the THHS RSPP
+- International requirements source for the RSPP's differentiated treatment of patient, worker and public exposure.
+- Supports role clarity, safety assessment, training, calibration/dosimetry, QA, pregnancy management and unintended-exposure investigation.
+- Use RPS C-1/C-5 and Queensland instruments to state the Australian and binding local implementation.
+
+* See Also
+- [[file:icrp-publication-103-2007.org][ICRP Publication 103]]
+- [[file:iaea-sf-1-2006.org][IAEA SF-1]]
+- [[file:iaea-ssg-46-2018.org][IAEA SSG-46]]
+- [[file:rps-c-1-rev-1-2020.org][RPS C-1 Rev. 1]]
+- [[file:rps-c-5-2019.org][RPS C-5]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021)]]

@@ -1,0 +1,65 @@
+:PROPERTIES:
+:ID:       arpansa-rps-c-2-rev-1-2019
+:ROAM_ALIASES: "RPS C-2 Rev. 1" "Code for the Safe Transport of Radioactive Material"
+:END:
+#+title: RPS C-2 Rev. 1 — Code for the Safe Transport of Radioactive Material (2019)
+#+FILETAGS: :resource:australia:code:transport:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-2
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-c-2-rev-1-2019.pdf][Official PDF retained locally]] — ARPANSA, 2019; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-c-2-rev-1-2019/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-c-2-rev-1-2019/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- National transport code intended for adoption by Australian jurisdictions.
+- Incorporates the IAEA transport regulations identified in the code, with Australian modifications, clarifications and additional requirements.
+- In Queensland the transport code is a standard transport-licence condition (Act s 75(4); Regulation s 70(2)(a)); the actual activity must also comply with its licence and other applicable source/security conditions.
+
+* Key takeaways :AI:
+- Applies to transport of radioactive material, including preparation, consigning, carriage, in-transit storage and receipt within the code's defined scope.
+- Uses graded package, activity, labelling, documentation, radiation-level, contamination and approval controls proportionate to the material and consignment.
+- Responsibilities are distributed among consignors, carriers, consignees and competent authorities; safe handover and traceable documentation are essential.
+- For radiation therapy, the most obvious relevance is movement of sealed brachytherapy sources and any other regulated radioactive consignments.
+- It should not be used to infer requirements for ordinary on-site clinical operation outside transport scope.
+
+* Summary :AI:
+** 1 — Introduction
+- States purpose, scope, application and the relationship to the incorporated IAEA transport regulations.
+
+** 2 — Australian modifications and clarifications
+- Identifies national interpretations or modifications needed to apply the incorporated international requirements in Australia.
+
+** 3 — Additional requirements
+- Adds Australian administrative or operational requirements beyond the incorporated text.
+
+** Schedule A — Incorporated IAEA transport regulations
+- /Section I/ :: Introduction.
+- /Section II/ :: Definitions.
+- /Section III/ :: General provisions.
+- /Section IV/ :: Activity limits and material classification.
+- /Section V/ :: Requirements and controls for transport.
+- /Section VI/ :: Requirements for radioactive material and packages.
+- /Section VII/ :: Test procedures.
+- /Section VIII/ :: Approvals and administrative requirements.
+- Annexes provide supporting values and methods.
+
+** Schedule B — Competent authorities
+- Identifies Australian competent-authority arrangements relevant to transport approvals and oversight.
+
+* Important definitions, roles, limits and records
+- /Consignor/ :: Prepares and offers the consignment and carries major classification, packaging, marking, documentation and declaration duties.
+- /Carrier/ and /consignee/ :: Hold transport- and receipt-stage responsibilities within the defined chain.
+- /Package and consignment limits/ :: Depend on radionuclide, activity, material and package type; use the source tables and approvals rather than a generic summary value.
+- /Records/ :: Classification, package approval, checks, labels, transport documents, handover, receipt and incident records as applicable.
+
+* Practical relationship to the THHS RSPP
+- Supports source-lifecycle and transport controls for HDR or other sealed radioactive sources, including defined responsibility, approved packaging and documented handover.
+- Works alongside security requirements in RPS 11 and Queensland source-acquisition, supply, relocation and transport requirements.
+- Detailed transport or security procedures should remain in controlled operational documents, not this study summary.
+
+* See Also
+- [[file:rps-11-2019.org][RPS 11]]
+- [[file:radiation-safety-act-1999.org][Queensland Radiation Safety Act 1999]]
+- [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]

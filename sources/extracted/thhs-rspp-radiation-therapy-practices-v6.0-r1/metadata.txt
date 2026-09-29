@@ -1,0 +1,13 @@
+Title: Radiation Safety and Protection Plan for Radiation Therapy Practices
+Issuing body: Townsville Hospital and Health Service
+Region: local
+Publication/current date: Version 6.0 - Revision 1 (v6.01)
+Retrieval date: 2026-09-16
+Authority class: Approved local RSPP; operational within Queensland legislation, licence and approval conditions
+Acquisition status: retained_local
+Source URL: not-publicly-available
+Landing page: not-publicly-available
+Source file: local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx
+SHA-256: e665065ee61d8e5aa522f4f6748ba30b251f5b19e12d9d10930f982cc94d8aee
+
+File format: Microsoft Word 2007+

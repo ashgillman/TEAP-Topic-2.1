@@ -1,0 +1,30 @@
+Title: Code for Radiation Protection in Planned Exposure Situations, Rev. 1
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2020
+Retrieval date: 2026-09-16
+Authority class: National code capable of jurisdictional adoption
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/20220404-rps_c-1_rev_1.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-1
+Source file: australia/rps-c-1-rev-1-2020.pdf
+SHA-256: 2728835e96d65a8d3af7ecfc918448ef0c97b9077f5bdae78a6924fb87292d2b
+
+Creator:         Microsoft® Word for Microsoft 365
+Producer:        Microsoft® Word for Microsoft 365
+CreationDate:    Wed Jul 23 10:31:45 2025 AEST
+ModDate:         Wed Jul 23 10:31:45 2025 AEST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           40
+Encrypted:       no
+Page size:       595.32 x 841.92 pts (A4)
+Page rot:        0
+File size:       933216 bytes
+Optimized:       no
+PDF version:     1.7

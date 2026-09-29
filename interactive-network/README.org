@@ -1,0 +1,55 @@
+#+title: Interactive RSPP upstream document explorer
+
+* Purpose
+This static page makes the upstream document relationship network interactive.  Selecting a document node displays the =Key takeaways= extracted from that document's project summary and provides a link to the full summary note when one exists.
+
+No takeaways are invented for nodes without a dedicated summary. The current Queensland premises standard has its own summary and retained source PDF. Procedures, Work Instructions and Records are identified as implementation layers rather than source documents.
+
+* Rebuild after changing summaries or the diagram
+From the project root:
+
+#+begin_src sh
+node interactive-network/build.mjs
+emacs --batch -Q -l interactive-network/export-summaries.el
+#+end_src
+
+The Node build checks that every Graphviz node has page metadata, extracts the =Key takeaways= section from each mapped Org summary, writes =summary-data.js= and =network-svg.js=, and copies the current network SVG.  The Emacs export creates matching =summaries/*.html= pages from the Org summaries.  The generated JavaScript places the SVG in the page DOM so its nodes respond reliably to pointer input.
+
+* Preview locally
+Serve the project root so the page and linked summary notes share one origin:
+
+#+begin_src sh
+python3 -m http.server 8000
+#+end_src
+
+Then visit [[http://localhost:8000/interactive-network/]].
+Open that HTTP address for the local preview.  In-app browser security can block navigation to =file:///= summary pages, even when the HTML files exist.
+
+* Jekyll and GitHub Pages
+The explorer is plain HTML, CSS, JavaScript and SVG, so GitHub Pages can serve it without a runtime or database.  Keep =interactive-network/= and =summaries/= as sibling directories, publishing the explorer at a stable path such as =/interactive-network/=.  Each =Read the full … summary= link resolves to =../summaries/<summary-file>.html=.  The HTML files generated here are a local preview of the pages you intend to build from Org in GitHub Pages.  Preserve these output paths in that build.
+
+The exported summaries link to other summaries and to retained source files.  Before publishing, decide which source files belong on the public site and review the local THHS material for suitability.
+
+For a blog post or page, an iframe is the most robust embedding method because it isolates the explorer from the Jekyll theme's CSS and JavaScript:
+
+#+begin_src html
+<iframe
+  src="{{ '/interactive-network/' | relative_url }}"
+  title="Documents informing the THHS Radiation Safety and Protection Plan"
+  loading="lazy"
+  style="width: 100%; min-height: 900px; border: 0;"
+></iframe>
+#+end_src
+
+The generated =summary-data.js= already contains the takeaway text.  Re-run the two build commands after editing Org summaries; re-run the Node build after changing the Graphviz diagram.
+
+* Source files
+- =index.html= :: Page structure.
+- =styles.css= :: Responsive layout and authority-layer styling.
+- =app.js= :: SVG node selection, detail rendering and zoom.
+- =build.mjs= :: Reproducible summary extraction and SVG copy.
+- =summary-data.js= :: Generated summary data.
+- =network-svg.js= :: Generated inline SVG data used by the page.
+- =network.svg= :: Generated copy of the upstream document relationship network.
+- =export-summaries.el= :: Exports Org summaries to the linked HTML pages.
+- =summary.css= :: Reader styles for the exported summaries.

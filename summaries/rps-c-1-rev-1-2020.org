@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       arpansa-rps-c-1-rev-1-2020
+:ROAM_ALIASES: "RPS C-1 Rev. 1" "Code for Radiation Protection in Planned Exposure Situations"
+:END:
+#+title: RPS C-1 Rev. 1 — Code for Radiation Protection in Planned Exposure Situations (2020)
+#+FILETAGS: :resource:australia:code:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-1
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-c-1-rev-1-2020.pdf][Official PDF retained locally]] — ARPANSA, 2020; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-c-1-rev-1-2020/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-c-1-rev-1-2020/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- National code issued by ARPANSA for planned exposure situations.
+- Capable of being adopted by a jurisdiction or applied through a licence condition, but is not automatically Queensland law.
+- ARPANSA notes that jurisdictional adoption may lag the 2020 revision; the applicable Queensland mechanism must be verified rather than assumed.
+
+* Key takeaways :AI:
+- Establishes national requirements for occupational, public and environmental protection in planned exposure situations.
+- Uses justification, optimisation and dose limitation within a graded approach proportionate to risk.
+- Places primary obligations on the Responsible Person while requiring suitable leadership, management, competence, protection arrangements and records.
+- Occupational and public dose limits are not limits for a patient’s intended medical exposure; medical exposure is addressed by RPS C-5.
+- The 2020 revision aligns the Australian system more closely with IAEA GSR Part 3, but local legal force remains adoption-dependent.
+
+* Summary :AI:
+** 1 — Introduction
+- Defines purpose, scope, application and the code's place within the Australian Radiation Protection Series.
+
+** 2 — Objectives and approach
+- Applies justification, optimisation and limitation to planned exposure situations.
+- Integrates safety and security, uses a graded approach and identifies the Responsible Person as central to implementation.
+
+** 3 — Safety requirements
+*** General requirements
+- Addresses responsibility, management systems, safety assessment, prevention and mitigation, competence, source control and regulatory interfaces.
+*** Occupational exposure
+- Requires engineered and administrative controls, area classification, local rules, monitoring, dose assessment, worker information and records.
+*** Public and environmental exposure
+- Requires control of discharges and public exposure, monitoring and assessment, and protection of the environment appropriate to the risk.
+
+** Schedules and appendices
+- /Schedule A/ :: Occupational dose limits.
+- /Schedule B/ :: Public dose limits.
+- /Appendix 1/ :: Derivation and relationship to IAEA GSR Part 3.
+- /Appendix 2/ :: The ten RPS F-1 fundamental principles.
+- Includes glossary and references.
+
+* Important definitions, roles, limits and records
+- /Responsible Person/ :: Person or organisation with overall responsibility for protection and safety; delegation of tasks does not remove primary responsibility.
+- /Dose constraint/ :: A prospective tool for optimisation, not a dose limit.
+- /Investigation level/ :: A level that prompts review; it is distinct from a statutory limit and may be locally set below one.
+- /Occupational and public limits/ :: Source-scoped national code limits are in Schedules A and B; for binding THHS values, use Schedule 5 of the current Queensland Regulation.
+- /Records/ :: Include authorisations, safety assessments, training, monitoring, dose assessment, source control, QA and incidents as applicable.
+
+* Practical relationship to the THHS RSPP
+- Provides the main national basis for staff/public exposure control, area classification, personal monitoring, training, safety assessment and ALARA arrangements.
+- For premises design, its planned-exposure framework supports engineered controls, facility layout, area classification and safety assessment. The [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard]] supplies the directly applicable statutory room tests.
+- Complements RPS C-5: C-1 addresses planned occupational/public/environmental exposure; C-5 addresses medical exposure.
+- Treat its provisions as a national code unless a specific Queensland adoption or licence-condition pathway is identified.
+
+* See Also
+- [[file:icrp-publication-103-2007.org][ICRP Publication 103]]
+- [[file:rps-f-1-2014.org][RPS F-1]]
+- [[file:rps-c-5-2019.org][RPS C-5]]
+- [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]
+- [[file:radiation-safety-regulation-2021.org][Queensland Radiation Safety Regulation 2021]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021)]]

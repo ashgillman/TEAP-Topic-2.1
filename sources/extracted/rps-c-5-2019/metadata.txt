@@ -1,0 +1,30 @@
+Title: Code for Radiation Protection in Medical Exposure
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2019
+Retrieval date: 2026-09-16
+Authority class: National code capable of jurisdictional adoption
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/medical-exposure-code-rps-c-5.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-5
+Source file: australia/rps-c-5-2019.pdf
+SHA-256: 9ce9d4695ead95ab371b702b519040256252dddedfa27ce184a35e5380575e40
+
+Creator:         Microsoft® Word 2016
+Producer:        Microsoft® Word 2016
+CreationDate:    Wed May 20 16:03:39 2020 AEST
+ModDate:         Wed May 20 16:03:39 2020 AEST
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           39
+Encrypted:       no
+Page size:       595.32 x 841.92 pts (A4)
+Page rot:        0
+File size:       1516802 bytes
+Optimized:       no
+PDF version:     1.5

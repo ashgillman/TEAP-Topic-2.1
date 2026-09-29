@@ -1,0 +1,29 @@
+Title: Fundamental Safety Principles, IAEA Safety Standards Series No. SF-1
+Issuing body: International Atomic Energy Agency
+Region: international
+Publication/current date: 2006
+Retrieval date: 2026-09-16
+Authority class: International safety fundamentals; not directly binding on a Queensland hospital
+Acquisition status: downloaded
+Source URL: https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1273_web.pdf
+Landing page: https://www.iaea.org/publications/7592/fundamental-safety-principles
+Source file: international/iaea-sf-1-2006.pdf
+SHA-256: 26e4c2c64933b8e42ac276c9f053c6130a2498765c2fa872b999daf056342459
+
+Producer:        iLovePDF
+CreationDate:    Fri Oct 24 19:15:28 2025 AEST
+ModDate:         Fri Oct 24 19:15:28 2025 AEST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           37
+Encrypted:       no
+Page size:       454 x 680 pts
+Page rot:        0
+File size:       253631 bytes
+Optimized:       yes
+PDF version:     1.6

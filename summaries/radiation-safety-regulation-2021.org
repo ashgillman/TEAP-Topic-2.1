@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       qld-radiation-safety-regulation-2021
+:ROAM_ALIASES: "Queensland Radiation Safety Regulation 2021" "RSR 2021 (Qld)"
+:END:
+#+title: Radiation Safety Regulation 2021 (Queensland)
+#+FILETAGS: :resource:queensland:legislation:
+#+ROAM_REFS: https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0125
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/queensland/radiation-safety-regulation-2021.pdf][Official PDF retained locally]] — current as at 1 October 2025; retrieved 16 September 2026.
+- [[file:../sources/extracted/radiation-safety-regulation-2021/document.txt][Extracted text]]
+- [[file:../sources/extracted/radiation-safety-regulation-2021/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- Queensland subordinate legislation made under the /Radiation Safety Act 1999/; legally binding in Queensland.
+- Prescribes operational detail for the Act, including RSPP measures, RSO qualifications and functions, monitoring, numerical dose limits, source categories, disposal, records and exemptions.
+
+* Key takeaways :AI:
+- Part 4 specifies measures an approved RSPP must address: safe procedures, quality control, remediation after accidents, access and use controls, monitoring devices, safety devices and PPE, and specified records (ss 14–18).
+- Practice-specific provisions add requirements for alarms, radiation monitors, unsealed sources, medical procedures and image identification (ss 19–24).
+- Part 6 prescribes RSO qualifications and functions; this is the immediate legal basis for many RSO activities in the THHS plan.
+- Schedule 5 contains legal occupational and public dose limits. These limits are not treatment-dose limits for a patient undergoing justified medical exposure.
+- The Regulation also prescribes source security categories, monitoring details, authorised persons, registers, exemptions and fees.
+
+* Summary :AI:
+** Part 1 — Preliminary
+- Provides commencement, definitions and the Regulation's relationship to the Act.
+
+** Part 2 — Sources, apparatus, security categories and certificates
+- Prescribes radiation sources, apparatus and security-enhanced categories and supports the certificate-of-compliance system.
+
+** Part 3 — Disposal
+- Prescribes conditions and concentration or activity criteria relevant to disposal of radioactive material.
+
+** Part 4 — Radiation safety and protection plans
+*** Sections 14–18 — Core measures
+- Requires the plan to address safe work procedures and quality control, remediation of accidents, access to and use of sources, monitoring equipment, safety devices and PPE, and registers/procedure records.
+*** Sections 19–24 — Practice-specific measures
+- Adds controls for warning or alarm systems, radiation monitoring, unsealed radioactive substances, medical procedures and identification associated with medical images or records.
+- The required content is a minimum framework; the approved RSPP may contain more detailed local controls proportionate to the practice.
+
+** Part 5 — Security-enhanced sources
+- Prescribes matters for source security and security plans. Applicability depends on the categorisation of the source; sensitive operational security detail should remain controlled.
+
+** Part 6 — Radiation safety officers
+- Specifies qualifications and functions, including advice, training, hazard assessment, monitoring, inspections, incident investigation, records and reporting to the possession licensee.
+
+** Part 7 — Monitoring
+- Prescribes when individual or workplace monitoring is required and how monitoring obligations are administered.
+
+** Part 8 and Schedule 5 — Dose limits
+- Prescribes exposure limits for occupationally exposed adults, occupationally exposed persons aged 16–17, and other persons including the public.
+- Limits are source- and population-scoped legal maxima; optimisation requires exposure to be kept below a limit where reasonably achievable.
+
+** Parts 9–16 and schedules
+- Address authorised persons, banned sources, Act instruments, registers, confidentiality, exemptions, fees and transitional matters.
+- Schedules cover radionuclides, security categories, disposal, RSO qualifications, dose limits, authorised persons, fees and the dictionary.
+
+* Important definitions, roles, limits and records
+- /Occupational adult limits/ :: Effective dose: 20 mSv per year averaged over 5 years, with no more than 50 mSv in any 12 months. Lens of the eye: the same 20 mSv average and 50 mSv maximum structure. Hands, feet and skin: 500 mSv in any 12 months (sch 5).
+- /Occupational ages 16–17/ :: 6 mSv effective dose, 20 mSv to the lens, and 150 mSv to hands, feet or skin in any 12 months (sch 5).
+- /Other persons/public/ :: 1 mSv effective dose, 15 mSv to the lens and 50 mSv to skin in any 12 months (sch 5).
+- /Medical exposure/ :: The patient’s prescribed therapeutic exposure is not controlled by occupational/public dose limits; it is controlled through justification, optimisation, authorisation, prescription, dosimetry and QA.
+- /RSO/ :: Must meet the prescribed qualification pathway and perform the prescribed functions; appointment does not transfer every duty away from the possession licensee or individual users.
+- /Records/ :: Part 4 requires source/register and procedure-related records; monitoring, compliance, incident and source-control records are also prescribed or enabled elsewhere.
+
+* Practical relationship to the THHS RSPP
+- Provides the detailed mandatory content against which the THHS RSPP should be read and audited.
+- Directly supports local controls for access, safe work, QC, monitors, PPE, RSO activity, personal monitoring, dose investigation, registers and incident response.
+- Local investigation levels and ALARA targets may be more restrictive than legal limits; they should be labelled as local controls, not restated as statutory dose limits.
+
+* See Also
+- [[file:radiation-safety-act-1999.org][Radiation Safety Act 1999]]
+- [[file:radiation-safety-standards-notice-2021.org][Radiation Safety (Radiation Safety Standards) Notice 2021]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]

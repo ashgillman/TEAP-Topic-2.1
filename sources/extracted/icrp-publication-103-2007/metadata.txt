@@ -1,0 +1,32 @@
+Title: The 2007 Recommendations of the International Commission on Radiological Protection, ICRP Publication 103
+Issuing body: International Commission on Radiological Protection
+Region: international
+Publication/current date: 2007
+Retrieval date: 2026-09-17
+Authority class: International recommendation and professional consensus; not directly binding on a Queensland hospital
+Acquisition status: downloaded
+Source URL: https://journals.sagepub.com/doi/pdf/10.1177/ANIB_37_2-4
+Landing page: https://www.icrp.org/publication.asp?id=ICRP+Publication+103
+Source file: international/icrp-publication-103-2007.pdf
+SHA-256: a2ea4707c320814ac958ba8499e2f1863b31845cc77ddf12fab374537f0879da
+
+Title:           P103 The 2007 Recommendations of the International Commission on Radiological Protection
+Author:          ICRP
+Creator:         Adobe Acrobat Standard DC 18.11.20035
+Producer:        Adobe Acrobat Standard DC 18.11.20035; modified using iText 4.2.0 by 1T3XT
+CreationDate:    Fri Feb 16 21:51:25 2018 AEST
+ModDate:         Thu Sep 17 21:40:00 2026 AEST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           339
+Encrypted:       no
+Page size:       340.8 x 496.8 pts
+Page rot:        0
+File size:       8154621 bytes
+Optimized:       no
+PDF version:     1.6

@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       arpansa-rps-14-3-2008
+:ROAM_ALIASES: "RPS 14.3" "Safety Guide for Radiation Protection in Radiotherapy"
+:END:
+#+title: RPS 14.3 — Safety Guide for Radiation Protection in Radiotherapy (2008)
+#+FILETAGS: :resource:australia:guidance:radiotherapy:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-3
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-14-3-2008.pdf][Official PDF retained locally]] — ARPANSA, 2008 electronic edition with Annex L removed January 2015; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-14-3-2008/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-14-3-2008/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- Non-mandatory Australian safety guide supporting radiotherapy protection and implementation of the medical-exposure code.
+- It is not Queensland legislation. A recommendation gains legal force only through a demonstrated adoption, licence/approval condition or other binding mechanism.
+- Its former parent code, RPS 14, is withdrawn and superseded by RPS C-1 plus RPS C-5. ARPANSA continues to identify RPS 14.3 as interim best-practice support for RPS C-5 while the guide is revised; later binding instruments prevail.
+
+* Key takeaways :AI:
+- Treats radiation therapy as a safety-critical multidisciplinary system spanning prescription, equipment, calibration, planning, delivery, QA, incident response and records.
+- RPS 14.1, 14.2 and 14.3 remain supporting guides for diagnostic/interventional radiology, nuclear medicine and radiotherapy respectively; only 14.3 is directly centred on this practice.
+- Distinguishes the responsibilities of the Responsible Person, radiation oncologist, radiation therapist, radiation oncology medical physicist, RSO, supplier and service personnel.
+- Requires justification and optimisation for patient exposure, with accurate prescription, calibration, clinical dosimetry and independent checking.
+- Emphasises acceptance/commissioning, ongoing QA, formal control after servicing or modification, and learning from actual or potential misadministration.
+- Its sample tests, frequencies and tolerances are guidance; they must not be silently converted into universal or THHS-specific requirements.
+
+* Summary :AI:
+** 1–3 — Introduction, justification and responsibilities
+- Defines scope and justification, then allocates complementary responsibilities across management, clinicians, therapists, physicists, the RSO, suppliers and service personnel.
+
+** 4 — Optimisation of protection
+- Addresses facility and equipment design and operation, source/equipment calibration, clinical dosimetry and QA as an integrated system.
+
+** 5 — Pregnancy
+- Recommends processes to identify and manage possible pregnancy and to assess fetal exposure where clinically relevant.
+
+** 6 — Quality assurance
+- Covers clinical and technical QA, documented responsibilities, checks, review and corrective action.
+
+** 7 — Accidents and incidents
+- Addresses prevention, immediate control, assessment, investigation, reporting and learning from actual or potential unintended exposure.
+
+** 8 — Treatment planning and delivery
+- Covers prescription, patient identification, planning, verification, independent checks, data integrity and accurate delivery.
+
+** 9–10 — Brachytherapy source care and death with a source in situ
+- Provides source-control principles for brachytherapy and special arrangements when radioactive material remains in a deceased patient.
+
+** 11–14 — Occupational protection, sites, training and security
+- Addresses staff protection, facility requirements, competence, source security, storage and transport.
+
+** Annexes
+- Provide example content for a radiation management plan; RSO functions; equipment and commissioning records; calibration, servicing and QA; error/incident handling; source care; wipe tests; signs; and monitoring instruments.
+- Annex L was removed in January 2015; use current instruments for dose limits.
+
+* Important definitions, roles, limits and records
+- /ROMP/ :: The radiation oncology medical physicist responsible for specialist calibration, dosimetry, commissioning, QA and technical safety functions within competence.
+- /Radiation oncologist/ :: Holds clinical responsibility for justification, prescription and clinical oversight.
+- /Radiation therapist/ :: Performs planning and/or delivery functions within authorisation and competence.
+- /Tolerance or action level/ :: A programme-specific technical control; guide examples require local validation and approval.
+- /Records/ :: Prescription, patient identification, commissioning, calibration, independent checks, QA, service/change release, training, source inventory and incidents.
+
+* Practical relationship to the THHS RSPP
+- Closely supports the RSPP's local controls for commissioning, independent output verification, plan/MU checks, OIMS/data integrity, QA, maintenance release, brachytherapy and incident learning.
+- For room design, use its shielding and site advice as national guidance. Assess the actual premises against the [[file:standard-for-premises-ionising-radiation-sources-2021.org][current Queensland statutory premises standard]] and the site's design and certificate records.
+- Useful for explaining why multiple barriers and multidisciplinary checks are needed across the treatment pathway.
+- Local controlled procedures and current professional standards should determine exact test methods, frequencies and tolerances.
+
+* See Also
+- [[file:rps-c-5-2019.org][RPS C-5]]
+- [[file:iaea-ssg-46-2018.org][IAEA SSG-46]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021)]]

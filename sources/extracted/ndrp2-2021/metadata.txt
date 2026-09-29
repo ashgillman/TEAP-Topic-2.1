@@ -1,0 +1,32 @@
+Title: National Directory for Radiation Protection, 2nd Edition
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2021
+Retrieval date: 2026-09-16
+Authority class: National framework containing regulatory elements for jurisdictional adoption
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/national_directory_for_radiation_protection_-_2nd_edition_ndrp2.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/national-directory-for-radiation-protection
+Source file: australia/ndrp2-2021.pdf
+SHA-256: 073b4c3478c1d0baf8c4bd2a2d8a210d1d637e4079781a3fbf28f41ab2f556ba
+
+Title:           National Directory for Radiation Protection
+Author:
+Creator:         Acrobat PDFMaker 21 for Word
+Producer:        Adobe PDF Library 21.7.131
+CreationDate:    Tue Nov  9 10:03:13 2021 AEST
+ModDate:         Tue Nov  9 10:03:26 2021 AEST
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           22
+Encrypted:       no
+Page size:       595.32 x 841.92 pts (A4)
+Page rot:        0
+File size:       1377240 bytes
+Optimized:       yes
+PDF version:     1.6

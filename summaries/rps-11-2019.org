@@ -1,0 +1,70 @@
+:PROPERTIES:
+:ID:       arpansa-rps-11-2019
+:ROAM_ALIASES: "RPS 11" "Code of Practice for the Security of Radioactive Sources"
+:END:
+#+title: RPS 11 — Code of Practice for the Security of Radioactive Sources (2019)
+#+FILETAGS: :resource:australia:code:security:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rps11
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-11-2019.pdf][Official PDF retained locally]] — ARPANSA, corrected edition 2019; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-11-2019/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-11-2019/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- National security code for radioactive sources. In Queensland it is a standard possession/use licence condition where the practice involves a security-enhanced source and a transport condition where such a source is transported (Act s 75; Regulation s 70).
+- Applies to sealed radioactive sources within its scope, using a graded categorisation and threat-informed approach.
+- This summary intentionally omits sensitive site-specific security and emergency-recovery details.
+
+* Key takeaways :AI:
+- Security protects radioactive sources against unauthorised access, removal, sabotage or malicious use and complements radiation safety.
+- Controls are graded by source category, aggregation and threat assessment rather than applied identically to every source.
+- Effective security combines physical barriers, access control, detection, response, information protection, trustworthiness measures and source accountancy.
+- Security responsibilities continue through use, storage and transport and require prompt management of breaches or discrepancies.
+- In radiation therapy, the principal relevance is sealed sources such as HDR brachytherapy sources; the code does not apply to unsealed radioactive material.
+
+* Summary :AI:
+** 1 — Introduction
+- Defines purpose, scope, application and the code's relationship to radiation safety and national security arrangements.
+
+** 2 — Responsibilities and duties
+- Allocates responsibilities to the Responsible Person and others who possess, use, store or transport in-scope sources.
+
+** 3 — Physical security during use
+- Requires graded access, control, detection and response arrangements while a source is in use.
+
+** 4 — Physical security during storage
+- Requires secure storage and controls proportionate to source category and credible threats.
+
+** 5 — Physical security during transport
+- Adds security measures to the safety controls applying to radioactive-material transport.
+
+** 6 — Procedural security
+- Addresses authorised access, information control, trustworthiness, training, communication and response procedures.
+
+** 7 — Security management
+- Covers security breaches, source accountancy, review, records and improvement of arrangements.
+
+** Schedules
+- /Schedule A/ :: Security-plan content.
+- /Schedule B/ :: Source categorisation.
+- /Schedule C/ :: Threat levels.
+- /Schedule D/ :: Procedural and administrative measures.
+- /Schedule E/ :: Identity and background checking.
+
+* Important definitions, roles, limits and records
+- /Security-enhanced source/ or categorised source :: A source for which graded security requirements apply under the relevant framework.
+- /Responsible Person/ :: Ensures appropriate security management and resources; individual users still follow access and reporting duties.
+- /Source accountancy/ :: Maintains timely knowledge of source identity, status and authorised location without exposing sensitive details.
+- /Records/ :: Authorisations, access, inventory/accountancy, checks, training, transport handover, breaches, investigations and reviews.
+
+* Practical relationship to the THHS RSPP
+- Supports the RSPP's HDR source inventory, restricted access, storage, transport, discrepancy reporting and emergency preparedness controls.
+- Security information should be available on a need-to-know basis and separated from public study material where disclosure would reduce protection.
+- Exact THHS obligations must be traced to Queensland law, licence conditions, source categorisation and the approved security arrangements.
+
+* See Also
+- [[file:rps-c-2-rev-1-2019.org][RPS C-2 Rev. 1]]
+- [[file:radiation-safety-regulation-2021.org][Queensland Radiation Safety Regulation 2021]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]

@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       arpansa-rps-f-1-2014
+:ROAM_ALIASES: "RPS F-1" "Fundamentals for Protection Against Ionising Radiation"
+:END:
+#+title: RPS F-1 — Fundamentals for Protection Against Ionising Radiation (2014)
+#+FILETAGS: :resource:australia:fundamentals:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/fundamentals/rpsf-1
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-f-1-2014.pdf][Official PDF retained locally]] — ARPANSA, 2014; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-f-1-2014/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-f-1-2014/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- Australian radiation-protection fundamentals issued by ARPANSA.
+- A high-level, non-mandatory statement of objectives and principles; it does not itself create Queensland legal duties.
+- Informs national codes and standards and closely reflects the IAEA fundamental safety objective and principles.
+
+* Key takeaways :AI:
+- The fundamental safety objective is protection of people and the environment from harmful effects of ionising radiation without unduly limiting beneficial uses.
+- Justification, optimisation and limitation form the conceptual basis of the THHS RSPP, but their application differs for planned occupational/public exposure and patient medical exposure.
+- Primary responsibility rests with the person or organisation responsible for facilities and activities that give rise to radiation risks.
+- Effective protection also needs government and regulatory infrastructure, leadership, management for safety, prevention, preparedness and learning.
+- Safety and source security are interdependent and should be managed coherently without disclosing sensitive controls.
+
+* Summary :AI:
+** 1 — Introduction
+- Explains the place of the Fundamentals at the top of the Australian Radiation Protection Series and their intended users and scope.
+
+** 2 — Effects of ionising radiation
+- Summarises radiation interactions, dose concepts, tissue reactions, cancer and heritable risk, and protection of the environment.
+- Provides the scientific rationale for controlling both high-dose deterministic injury and probabilistic late effects.
+
+** 3 — Objectives and basic concepts
+- States the fundamental safety objective and outlines radiation protection, safety and source security as connected elements of an overall system.
+
+** 4 — Fundamental principles
+1. Responsibility for protection and safety.
+2. Role of government.
+3. Leadership and management for safety.
+4. Justification of facilities and activities.
+5. Optimisation of protection.
+6. Limitation of risks to individuals.
+7. Protection of present and future generations.
+8. Prevention of accidents and malicious acts.
+9. Emergency preparedness and response.
+10. Protective actions to reduce existing or unregulated radiation risks.
+
+** Annexes and supporting material
+- Describe Australian regulatory bodies and provide a glossary and references.
+
+* Important definitions, roles, limits and records
+- /Justification/ :: A facility or activity should produce sufficient benefit to outweigh the radiation detriment it causes.
+- /Optimisation/ :: Protection should provide the highest level reasonably achievable, taking economic and societal factors into account.
+- /Limitation/ :: Measures should ensure no individual bears an unacceptable radiation risk; detailed numerical limits are set in lower-tier instruments.
+- /Responsible person or organisation/ :: Retains primary responsibility even where functions are delegated.
+- The Fundamentals do not prescribe local record-retention periods or clinical tolerances.
+
+* Practical relationship to the THHS RSPP
+- Supplies the conceptual basis for the RSPP's stated outcomes, safety culture, defence in depth, ALARA approach and allocation of responsibility.
+- Supports reading the RSPP as a management system spanning normal operation, prevention, emergency readiness and continuous improvement.
+- It should be cited as a principle source, not as the immediate legal authority for a specific THHS action.
+
+* See Also
+- [[file:icrp-publication-103-2007.org][ICRP Publication 103]]
+- [[file:ndrp2-2021.org][NDRP2]]
+- [[file:rps-c-1-rev-1-2020.org][RPS C-1 Rev. 1]]
+- [[file:iaea-sf-1-2006.org][IAEA SF-1]]

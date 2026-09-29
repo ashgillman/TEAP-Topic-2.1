@@ -1,0 +1,110 @@
+digraph worked_traceability_chains {
+  graph [
+    rankdir=TB,
+    bgcolor="transparent",
+    pad=0.20,
+    nodesep=0.18,
+    ranksep=0.34,
+    splines=polyline,
+    newrank=true,
+    fontname="Helvetica",
+    label="Prototype C — worked traceability chains",
+    labelloc=t,
+    fontsize=18
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    fontname="Helvetica",
+    fontsize=9.5,
+    margin="0.12,0.08",
+    width=1.82,
+    height=0.82,
+    penwidth=1.25
+  ];
+
+  edge [
+    color="#64748B",
+    fontcolor="#475569",
+    fontname="Helvetica",
+    fontsize=7.5,
+    arrowsize=0.60,
+    penwidth=1.0
+  ];
+
+  subgraph cluster_justification {
+    label="1  JUSTIFICATION + TREATMENT AUTHORISATION";
+    color="#CBD5E1";
+    style="rounded";
+    fontname="Helvetica-Bold";
+    fontsize=11;
+    rank=same;
+
+    j1 [label="EVIDENCE / PRINCIPLE\nBenefit must outweigh harm\nICRP 103: justification", fillcolor="#F1F5F9", color="#64748B"];
+    j2 [label="INTERNATIONAL\nIAEA GSR Part 3\nRequirement 37", fillcolor="#E8F1FB", color="#2563EB"];
+    j3 [label="AUSTRALIA\nRPS C-5\n2.2.1; 3.2.1–3.2.6", fillcolor="#E6F7F5", color="#0F766E"];
+    j4 [label="QUEENSLAND\nAct ss 5, 41\nReg s 65 + sch 6", fillcolor="#FFF1D6", color="#C2410C", penwidth=2.0];
+    j5 [label="APPROVED RSPP\nss 9.1, 9.5,\n9.7–9.8", fillcolor="#F3E8FF", color="#7E22CE"];
+    j6 [label="DEPARTMENTAL ACTION\nAuthorised prescription\nplan + transfer checks", fillcolor="#FFF7ED", color="#B45309"];
+    j7 [label="RETAINED RECORD\nPrescription, approvals\nand treatment record", fillcolor="#ECFDF5", color="#15803D"];
+
+    j1 -> j2 [label="informs"];
+    j2 -> j3 [label="implemented in"];
+    j3 -> j4 [label="prescribed by\nReg s 70"];
+    j4 -> j5 [label="requires"];
+    j5 -> j6 [label="operationalised by"];
+    j6 -> j7 [label="evidenced by"];
+  }
+
+  subgraph cluster_monitoring {
+    label="2  PERSONAL MONITORING + DOSE LIMITS";
+    color="#CBD5E1";
+    style="rounded";
+    fontname="Helvetica-Bold";
+    fontsize=11;
+    rank=same;
+
+    m1 [label="EVIDENCE / PRINCIPLE\nDose–risk evidence\noptimisation + limitation", fillcolor="#F1F5F9", color="#64748B"];
+    m2 [label="INTERNATIONAL\nIAEA GSR Part 3\nReqs 21–27 + sch III", fillcolor="#E8F1FB", color="#2563EB"];
+    m3 [label="AUSTRALIA\nRPS F-1 + RPS C-1\nworker/public framework", fillcolor="#E6F7F5", color="#0F766E"];
+    m4 [label="QUEENSLAND\nAct ss 28, 38–42\nReg ss 50, 52–59 + sch 5", fillcolor="#FFF1D6", color="#C2410C", penwidth=2.0];
+    m5 [label="APPROVED RSPP\nss 2, 4, 10–11\nmonitor + investigate", fillcolor="#F3E8FF", color="#7E22CE"];
+    m6 [label="DEPARTMENTAL ACTION\nIssue dosimeter; review result\nadjust work if required", fillcolor="#FFF7ED", color="#B45309"];
+    m7 [label="RETAINED RECORD\nDose report, notification\ninvestigation + retention", fillcolor="#ECFDF5", color="#15803D"];
+
+    m1 -> m2 [label="informs"];
+    m2 -> m3 [label="implemented in"];
+    m3 -> m4 [label="informs; selected\nconcepts referenced"];
+    m4 -> m5 [label="requires"];
+    m5 -> m6 [label="operationalised by"];
+    m6 -> m7 [label="evidenced by"];
+  }
+
+  subgraph cluster_incident {
+    label="3  INCIDENT RESPONSE + LEARNING";
+    color="#CBD5E1";
+    style="rounded";
+    fontname="Helvetica-Bold";
+    fontsize=11;
+    rank=same;
+
+    i1 [label="EVIDENCE / PRINCIPLE\nDefence in depth\nlearning prevents recurrence", fillcolor="#F1F5F9", color="#64748B"];
+    i2 [label="INTERNATIONAL\nIAEA SF-1 Principle 8\nGSR Part 3 Reqs 15, 41", fillcolor="#E8F1FB", color="#2563EB"];
+    i3 [label="AUSTRALIA\nRPS C-5 cls 3.4.1–3.4.3\nRPS 14.3 guidance", fillcolor="#E6F7F5", color="#0F766E"];
+    i4 [label="QUEENSLAND\nAct s 45 dangerous events\nReg s 70 prescribes C-5", fillcolor="#FFF1D6", color="#C2410C", penwidth=2.0];
+    i5 [label="APPROVED RSPP\ns 18\nlocal levels + escalation", fillcolor="#F3E8FF", color="#7E22CE"];
+    i6 [label="DEPARTMENTAL ACTION\nControl, notify, assess,\ninvestigate, correct, release", fillcolor="#FFF7ED", color="#B45309"];
+    i7 [label="RETAINED RECORD\nIncident entry, dose assessment,\nreport + release evidence", fillcolor="#ECFDF5", color="#15803D"];
+
+    i1 -> i2 [label="informs"];
+    i2 -> i3 [label="implemented in"];
+    i3 -> i4 [label="prescribed by\nReg s 70"];
+    i4 -> i5 [label="requires"];
+    i5 -> i6 [label="operationalised by"];
+    i6 -> i7 [label="evidenced by"];
+  }
+
+  j1 -> m1 [style=invis, weight=100, minlen=2];
+  m1 -> i1 [style=invis, weight=100, minlen=2];
+}

@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       iaea-sf-1-2006
+:ROAM_ALIASES: "IAEA SF-1" "Fundamental Safety Principles"
+:END:
+#+title: IAEA SF-1 — Fundamental Safety Principles (2006)
+#+FILETAGS: :resource:international:fundamentals:
+#+ROAM_REFS: https://www.iaea.org/publications/7592/fundamental-safety-principles
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/international/iaea-sf-1-2006.pdf][Official PDF retained locally]] — IAEA, 2006; retrieved 16 September 2026.
+- [[file:../sources/extracted/iaea-sf-1-2006/document.txt][Extracted text]]
+- [[file:../sources/extracted/iaea-sf-1-2006/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- IAEA Safety Fundamentals publication stating the international fundamental safety objective and ten principles.
+- International consensus-level fundamentals, not legislation and not direct regulation of a Queensland hospital.
+- Provides the conceptual basis for IAEA requirements and guidance and strongly influences corresponding Australian fundamentals.
+
+* Key takeaways :AI:
+- The fundamental safety objective is to protect people and the environment from harmful effects of ionising radiation.
+- Primary responsibility for safety rests with the person or organisation responsible for facilities and activities that create radiation risks.
+- Government must establish an effective legal and regulatory framework; international publications do not displace the jurisdictional regulator.
+- Justification and optimisation are central, while risks to individuals must be limited through the applicable protection system.
+- Leadership, accident prevention, emergency preparedness and protective action are necessary parts of safety, not additions after routine controls fail.
+
+* Summary :AI:
+** 1 — Introduction
+- Explains scope, status, application and the relationship between Safety Fundamentals, Safety Requirements and Safety Guides.
+
+** 2 — Safety objective
+- States the objective of protecting people and the environment while allowing beneficial activities involving radiation to proceed under proper control.
+
+** 3 — Fundamental safety principles
+1. Responsibility for safety.
+2. Role of government.
+3. Leadership and management for safety.
+4. Justification of facilities and activities.
+5. Optimisation of protection.
+6. Limitation of risks to individuals.
+7. Protection of present and future generations.
+8. Prevention of accidents.
+9. Emergency preparedness and response.
+10. Protective actions to reduce existing or unregulated radiation risks.
+
+* Important definitions, roles, limits and records
+- /Safety/ :: Protection of people and the environment against radiation risks and safety of facilities and activities that give rise to those risks.
+- /Primary responsibility/ :: Remains with the responsible person or organisation and cannot be transferred to the regulator.
+- SF-1 gives principles rather than numerical clinical tolerances, detailed dose limits or record-retention rules.
+- Records are implied as part of effective management, demonstration and learning; detailed requirements occur in lower-tier standards and law.
+
+* Practical relationship to the THHS RSPP
+- Provides the top-level international rationale for the RSPP's responsibility, governance, justification, optimisation, defence in depth, emergency readiness and learning systems.
+- The operational chain runs through IAEA requirements/guidance, Australian frameworks, Queensland law and the approved local plan; SF-1 does not directly require a THHS procedure.
+
+* See Also
+- [[file:icrp-publication-103-2007.org][ICRP Publication 103]]
+- [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]
+- [[file:rps-f-1-2014.org][RPS F-1]]
+- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]

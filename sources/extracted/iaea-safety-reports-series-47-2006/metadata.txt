@@ -1,0 +1,32 @@
+Title: Radiation Protection in the Design of Radiotherapy Facilities, Safety Reports Series No. 47
+Issuing body: International Atomic Energy Agency
+Region: international
+Publication/current date: 2006
+Retrieval date: 2026-09-16
+Authority class: International technical guidance; non-binding safety report
+Acquisition status: downloaded
+Source URL: https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1223_web.pdf
+Landing page: https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1223_web.pdf
+Source file: international/iaea-safety-reports-series-47-2006.pdf
+SHA-256: 029074d26d6f6f7958b6f9afe2c181de846ebc4e8712a5ff18b7c61527f19fa5
+
+Title:           STI/PUB/1223
+Author:          IAEA
+Creator:         FrameMaker 7.1
+Producer:        Acrobat Distiller 7.0.5 (Windows)
+CreationDate:    Fri Sep 22 20:38:18 2006 AEST
+ModDate:         Fri Oct  6 01:13:18 2006 AEST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           145
+Encrypted:       yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)
+Page size:       454 x 680 pts
+Page rot:        0
+File size:       1314885 bytes
+Optimized:       yes
+PDF version:     1.6

@@ -1,0 +1,34 @@
+Title: Radiation Safety Act 1999
+Issuing body: Office of the Queensland Parliamentary Counsel
+Region: queensland
+Publication/current date: Current as at 23 September 2025
+Retrieval date: 2026-09-16
+Authority class: Queensland Act; legally binding primary legislation
+Acquisition status: downloaded
+Source URL: https://www.legislation.qld.gov.au/view/whole/pdf/inforce/current/act-1999-020
+Landing page: https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1999-020
+Source file: queensland/radiation-safety-act-1999.pdf
+SHA-256: faab4b2d76241b720a7de0fd0f2ecad0a67cbfc21e68f853a529497a3735e24b
+
+Title:           Radiation Safety Act 1999
+Subject:         Queensland Reprint Series
+Keywords:        Copyright State of Queensland 2025
+Author:          Office of the Queensland Parliamentary Counsel
+Creator:         FrameMaker 2019.0.6
+Producer:        Acrobat Distiller 17.0 (Windows)
+CreationDate:    Tue Sep 23 22:14:44 2025 AEST
+ModDate:         Tue Sep 23 12:15:50 2025 AEST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      yes
+Pages:           194
+Encrypted:       yes (print:yes copy:yes change:no addNotes:yes algorithm:RC4)
+Page size:       491.02 x 679.99 pts
+Page rot:        0
+File size:       1486999 bytes
+Optimized:       no
+PDF version:     1.4

@@ -1,0 +1,34 @@
+Title: Safety Guide for Radiation Protection in Radiotherapy
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2008; electronic edition has Annex L removed January 2015
+Retrieval date: 2026-09-16
+Authority class: Non-mandatory guidance supporting RPS C-5
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/legacy/pubs/rps/rps14_3.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-3
+Source file: australia/rps-14-3-2008.pdf
+SHA-256: 7563435273938aed529d829407de695b709bcc4c03ef4883630e69c977783194
+
+Title:           Safety Guide for Radiation Protection in Radiotherapy
+Subject:         Radiation Protection Series No. 14.3 (RPS 14.3)
+Keywords:
+Author:          ARPANSA
+Creator:         Acrobat PDFMaker 11 for Word
+Producer:        Adobe PDF Library 11.0
+CreationDate:    Mon Jan 12 14:11:46 2015 AEST
+ModDate:         Mon Jan 12 14:33:02 2015 AEST
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           116
+Encrypted:       no
+Page size:       595.32 x 842.04 pts (A4)
+Page rot:        0
+File size:       998163 bytes
+Optimized:       no
+PDF version:     1.5

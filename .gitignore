@@ -1,0 +1,9 @@
+.DS_Store
+*~
+.#*
+~$*
+
+# Retained source documents and reproducible full-text extractions stay local.
+/sources/**/*.pdf
+/sources/**/*.docx
+/sources/extracted/**/document.txt

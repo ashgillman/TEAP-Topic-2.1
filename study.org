@@ -1,0 +1,688 @@
+:PROPERTIES:
+:ID:       teap-ka2-topic-2-1-study
+:ROAM_ALIASES: "KA2 Topic 2.1 Study Guide" "Radiation Protection Principles Application and Risk"
+:END:
+#+title: KA2 Topic 2.1 Study Guide — Radiation Protection Principles, Application and Risk
+#+FILETAGS: :TEAP:KA2:radiation-safety:study:
+#+STARTUP: hideblocks content
+#+options: toc:1
+
+* Scope and how to use this note
+- This note covers Topic 2.1 and LO 2.1.1–2.1.4. The supervisor's broader KA2 overview also lists shielding and incident outcomes under Topics 2.2 and 2.3; those are outside this note except where they illuminate a Topic 2.1 concept.
+- The supervisor documents define the expected curriculum and assessment style. They are not legal or clinical authorities.
+- The substantive summaries below are traced to the retained Queensland, ARPANSA, IAEA and approved local primary sources. Authority is stated explicitly.
+- For each practice question, answer aloud or in writing before opening the comment block. Each comment starts with a light hint, links to the relevant core concept and source summary, then gives a short suggested answer for checking your response.
+- A reliable assessment answer follows: /authority → requirement or principle → local implementation → record or evidence → limitations/uncertainty/next action/.
+
+* Source basis
+** Citation shorthand used in this note :noexport:
+- /QLD Radiation Safety Act/ :: /Radiation Safety Act 1999/ (Queensland).
+- /QLD Radiation Safety Regulation/ :: /Radiation Safety Regulation 2021/ (Queensland).
+- /s/ and /ss/ :: section and sections. These identify numbered legal provisions, not page numbers; for example, “s 70” means section 70 and “ss 75–77” means sections 75 through 77.
+- /pt/ and /sch/ :: part and schedule.
+- Therefore, “QLD Radiation Safety Regulation s 70” means section 70 of the /Radiation Safety Regulation 2021/ (Queensland). Section 70 prescribes particular ARPANSA documents as standard conditions of specified Queensland possession, use or transport licences. The enabling rule is QLD Radiation Safety Act s 75.
+
+** Supervisor curriculum documents :noexport:
+- [[file:/Users/gil/Downloads/KA2_Overview.pdf][KA2 – Radiation Safety and Protection – LO Overview]] — curriculum expectations for LO 2.1.1–2.3 and the expected oral, practical, written or MCQ evidence.
+- [[file:/Users/gil/Downloads/Topic 2.1 Principles, Application and risk of radiation.pdf][Topic 2.1 — The principles, application and risks of radiation protection]] — teaching context for LO 2.1.1–2.1.3, including local examples.
+- Personal names, appointments, storage locations, example badge results and departmental details in the slides must be checked against current controlled THHS records before use.
+
+** Binding Queensland and local sources
+- [[file:summaries/radiation-safety-act-1999.org][Radiation Safety Act 1999 summary]] and [[file:sources/queensland/radiation-safety-act-1999.pdf][retained Act PDF]].
+- [[file:summaries/radiation-safety-regulation-2021.org][Radiation Safety Regulation 2021 summary]] and [[file:sources/queensland/radiation-safety-regulation-2021.pdf][retained Regulation PDF]].
+- [[file:summaries/radiation-safety-standards-notice-2021.org][Radiation Safety Standards Notice 2021 summary]].
+- [[file:summaries/standard-for-premises-ionising-radiation-sources-2021.org][Standard for premises—ionising radiation sources (2021) summary]] and [[https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1104661/premises-ionising-radiation-sources.pdf][official Queensland Health PDF]]. This is the current title; “PR100” is the older designation still used in the supplied RSPP.
+- [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][Approved THHS Radiation Therapy RSPP summary]] and [[file:sources/local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx][controlled source copy]].
+- [[file:rspp-upstream-map.org][RSPP upstream traceability map]] — use for authority links and section-level traceability.
+
+** Prescribed national codes and supporting sources
+- [[file:summaries/rps-c-5-2019.org][RPS C-5 — Medical Exposure]] — prescribed Queensland possession/use licence condition for relevant human diagnostic and therapeutic practices (QLD Radiation Safety Act s 75(3); QLD Radiation Safety Regulation s 70(1), item 2).
+- [[file:summaries/rps-8-2005.org][RPS 8 — Human Research Exposure]] — prescribed for health-related research on persons (QLD Radiation Safety Regulation s 70(1), item 5).
+- [[file:summaries/rps-11-2019.org][RPS 11 — Security of Radioactive Sources]] — prescribed where the practice involves a security-enhanced source (QLD Radiation Safety Regulation s 70(1), item 7).
+- [[file:summaries/rps-c-2-rev-1-2019.org][RPS C-2 — Safe Transport]] — prescribed for transport licences by QLD Radiation Safety Act s 75(4) and QLD Radiation Safety Regulation s 70(2).
+- [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1 — Planned Exposure Situations]], [[file:summaries/rps-f-1-2014.org][RPS F-1 — Fundamentals]] and [[file:summaries/rps-14-3-2008.org][RPS 14.3 — Radiotherapy guide]] — important national sources, but not labelled directly binding here without a specific mechanism.
+- [[file:summaries/icrp-publication-103-2007.org][ICRP Publication 103]], [[file:summaries/iaea-gsr-part-3-2014.org][IAEA GSR Part 3]], [[file:summaries/iaea-ssg-46-2018.org][IAEA SSG-46]] and [[file:summaries/iaea-sf-1-2006.org][IAEA SF-1]] — international recommendations, requirements, guidance and fundamentals that influence Australian sources but do not directly regulate THHS.
+
+** Currency and evidence gaps
+- Legal currency was rechecked against the official in-force Queensland pages on 17 September 2026: the QLD Radiation Safety Act page was consolidated as at 10 February 2026 and the QLD Radiation Safety Regulation page as at 14 December 2025. The locally retained PDFs are slightly earlier consolidations, so the official current text prevails.
+- The official /Standard for premises—ionising radiation sources (2021)/ was checked against the retained PDF on 29 September 2026 and summarised. Use the PDF, including its complete test tables and exceptions, for an operational assessment.
+- ICRP 84, AAPM TG-36 and AAPM TG-203 are curriculum references but are not retained in this corpus. Detailed numerical claims from them are therefore study gaps rather than assertions in this note.
+
+** RPS 14 family — current status and Topic 2.1 relevance
+| Document | Topic | Current status | Relevance to this radiation-therapy project |
+|-
+| RPS 14 | /Code of Practice for Radiation Protection in the Medical Applications of Ionizing Radiation/ (2008) | Withdrawn; superseded by RPS C-1 plus RPS C-5 | Historical parent code only. It should not remain listed as a current governing reference. |
+| RPS 14.1 | /Safety Guide for Radiation Protection in Diagnostic and Interventional Radiology/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Its stated scope excludes radiotherapy, including treatment planning with dedicated equipment. It is relevant only if the service separately undertakes genuine diagnostic/interventional radiology, not merely because radiotherapy uses CT simulation or IGRT. |
+| RPS 14.2 | /Safety Guide for Radiation Protection in Nuclear Medicine/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Its scope excludes external-beam and sealed-source radiotherapy. It is nevertheless useful at the interface when a patient administered a radiopharmaceutical attends radiotherapy and may expose RT staff. |
+| RPS 14.3 | /Safety Guide for Radiation Protection in Radiotherapy/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Directly relevant and correctly included in the corpus and RSPP. It provides practical guidance; RPS C-5 supplies the prescribed code requirements. |
+
+- ARPANSA describes all three 14.x documents as guides that now support implementation of RPS C-5. Their original parent was RPS 14, but that parent relationship is historical rather than current.
+- Official pages: [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-1][RPS 14.1]], [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-2][RPS 14.2]], [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-3][RPS 14.3]] and [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-5][RPS C-5]].
+
+** RSPP reference-list review finding
+- The controlled THHS RSPP currently cites RPS 14 and RPS 14.3; it does not cite RPS 14.1 or RPS 14.2.
+- The RPS 14 entry is stale because the code has been withdrawn and superseded. A future controlled RSPP amendment should remove RPS 14 as a current reference and retain RPS C-1, RPS C-5 and RPS 14.3 with their correct titles, years and roles.
+- RPS 14.1 should be considered only if the plan covers a separate diagnostic/interventional radiology practice; its own scope excludes radiotherapy and dedicated treatment-planning equipment. RPS 14.2 should be added only if the plan defines a real nuclear-medicine interface, such as management of a radiopharmaceutical patient attending RT; the supervisor's curriculum mention alone is not enough.
+- The same bibliography pass should correct /APRANSA/ to /ARPANSA/, give RPS C-5 its correct title and year, and update the RPS 11 citation from the superseded 2007 edition to the 2019 edition already prescribed by the current QLD Radiation Safety Regulation.
+- Do not silently edit the controlled RSPP. A reference update should follow the RSPP's document-control, governance and regulatory approval pathway, including QLD Radiation Safety Act ss 30–32 where a change to the approved plan requires recording or approval.
+
+* Important corrections and distinctions
+| Supervisor/lecture shorthand | Primary-source reading for assessment |
+|-
+| The RSPP is the “parent document” | The RSPP is the approved local plan. Queensland law, statutory standards and licence/approval conditions sit above it; procedures and records sit below it. |
+| ARPANSA is the regulator | ARPANSA publishes national codes and regulates within its Commonwealth remit. THHS is governed immediately through the Queensland framework. A national code binds THHS only through an identified Queensland or licence mechanism. |
+| All ARPANSA codes are guidance | RPS C-5, RPS 8, RPS 11 and RPS C-2 have specific licence-condition mechanisms for the relevant practices in QLD Radiation Safety Regulation s 70. Other national documents must be classified separately. |
+| RPS 14 is still the parent medical code | RPS 14 is withdrawn and superseded by RPS C-1 plus RPS C-5. RPS 14.1–14.3 remain interim supporting guides for C-5 while they are revised. |
+| IAEA BSS 1996 is the current international basis | IAEA GSR Part 3 (2014) supersedes Safety Series No. 115. Use GSR Part 3 and SSG-46 for the current retained international framework. |
+| A limit is an ALARA target | A dose limit is a legal upper bound for its defined exposure category. A constraint or investigation level is a prospective/operational tool. Optimisation is required below the limit. |
+| Patient treatment dose should be below an occupational/public limit | Dose limits do not apply to the intended medical exposure of the treated patient. Patient protection depends on justification, optimisation, prescription, calibration/dosimetry, QA and correct delivery. |
+| Public exposure may be averaged to permit 5 mSv in one year | The current Queensland Schedule 5 limit is 1 mSv effective dose in any 12-month period, with separate lens and skin limits. Do not use the slide's older shorthand as the current Queensland rule. |
+| Named local office holders in the slides can be memorised | Learn the statutory and local roles. Verify the current appointee, nominee, licence scope and contact pathway from controlled records. |
+
+* Curriculum coverage matrix
+| LO | Expected capability | Assessment evidence | What competent performance looks like | Core primary sources |
+|-
+| 2.1.1 | Identify and discuss local radiation-protection legislation | Oral | Explain the authority hierarchy; connect international/national ideas to Queensland law and the RSPP; explain risk communication and RSO/RSC governance | QLD Radiation Safety Act, QLD Radiation Safety Regulation, Standards Notice, RPS F-1, RPS C-5, GSR Part 3, RSPP |
+| 2.1.2 | Understand and practise radiation-protection methods | Oral or practical | Analyse radiation harm; distinguish medical/occupational/public/environmental protection; choose and interpret monitoring; communicate and advocate safely | RPS C-1, RPS C-5, RPS 14.3, SSG-46, RSPP |
+| 2.1.3 | Explain legal compliance | Oral | Explain licences, supervision, approvals, certificates and audits; state current monitoring and dose-limit requirements; identify evidence of compliance | QLD Radiation Safety Act ss 12–18, 28–45, 75–77; QLD Radiation Safety Regulation pts 4, 6–8, s 70, sch 5; RSPP |
+| 2.1.4 | Practise and advise on radiation protection | Written task | Apply principles to patients, research participants, workers and public; evaluate a compliance process; assess and communicate risk; give proportionate recommendations | QLD Radiation Safety Act, QLD Radiation Safety Regulation, RPS C-5, RPS 8, RSPP; scenario-specific primary sources |
+
+* Expected learning goals
+** LO 2.1.1 — Local legislation, implementation and governance
+*** E 2.1.1a — Relate local implementation to national and international sources
+- Name the principal international, Australian, Queensland and local documents.
+- Classify each source by authority rather than presenting one undifferentiated chain.
+- Trace at least one practice from principle through law/licence condition to RSPP control and retained record.
+- Explain the key recommendations or requirements of each source at the level relevant to radiation therapy.
+
+*** E 2.1.1b — Explain where and how risk is communicated
+- Describe communication through the RSPP, controlled procedures, training, RSO reports, RSC/RSWG minutes, incident systems, monitor reports and patient consent/counselling.
+- Tailor content to the audience and distinguish legal notification, internal escalation, clinical disclosure and education.
+- Communicate dose, consequence, uncertainty and proposed action without equating a detectable dose with harm.
+
+*** E 2.1.1c — Explain protection concepts and organisational roles
+- Explain risk–benefit analysis, justification, optimisation/ALARA, limitation, authorisation and source/control systems.
+- State the statutory role of the RSO and the local governance roles of the RSC and RSWG.
+- Explain why assigning tasks does not remove the possession licensee's or individual user's duties.
+
+** LO 2.1.2 — Protection methods
+*** E 2.1.2a — Evaluate risk of radiation-induced damage during treatment
+- Identify who or what is exposed, the radiation pathway, dose quantity, spatial/temporal pattern, biological endpoint and uncertainty.
+- Distinguish expected therapeutic tissue effects from unintended normal-tissue exposure and stochastic risk.
+- Recognise scenarios needing specialist assessment, including pregnancy, prior irradiation, implanted electronic devices and non-target dose.
+
+*** E 2.1.2b — Protect patients, workers, public and environment
+- Select controls according to exposure category and hazard: elimination/substitution where possible, design/engineering, administrative controls, monitoring and PPE.
+- Apply time, distance and shielding within a broader defence-in-depth system.
+- Explain how patient protection differs from worker/public dose limitation.
+
+*** E 2.1.2c — Use personal monitoring and respond to results
+- Explain why monitoring is used, who needs it, how devices are selected, worn, stored, exchanged and recorded, and who reviews results.
+- Interpret a result using the device, wear period, detection/reporting threshold, work history, expected peer/work-area pattern and possible mishandling.
+- Conduct a complete investigation and communicate conclusions and uncertainty.
+
+*** E 2.1.2d — Advocate, educate and communicate
+- Intervene when a control, authorisation, procedure or result is unsafe or unclear.
+- Explain risk and required action at the recipient's level of understanding.
+- Use training, feedback, incident learning and committee review to strengthen safety culture.
+
+** LO 2.1.3 — Legal compliance
+*** E 2.1.3a — Licences, approvals, certificates and audit
+- Distinguish possession, use and transport licences; individual supervision/authorisation; approvals to acquire, relocate or dispose; and certificates of compliance.
+- For a person or item of equipment, determine the permitted source, practice, location and conditions from the actual instrument.
+- Explain how controlled registers, expiry checks, RSPP audits, certificates, QA records and source-lifecycle records demonstrate compliance.
+
+*** E 2.1.3b — Legal requirements for monitoring
+- State the applicable Queensland limits by exposure category and explain when monitoring is required.
+- Distinguish a legal limit from an investigation level, typical departmental result and device reporting threshold.
+- Explain record ownership, worker access/notification, investigation and long-term retention.
+
+** LO 2.1.4 — Advice and written application
+*** E 2.1.4a — Apply protection management to target groups
+- Compare patients undergoing imaging, radiotherapy patients, research participants, staff and public.
+- Identify controlled/supervised/public areas and the controls appropriate to each.
+- Quantify only with a suitable source, dose quantity, uncertainty and comparator.
+
+*** E 2.1.4b — Evaluate compliance processes
+- Select an auditable requirement and test the full evidence chain: authority, local control, accountable role, performance record, review and corrective action.
+- For premises, use the official Queensland premises standard and current certificate—not lecture shorthand—as the compliance basis.
+
+*** E 2.1.4c — Assess medical, occupational and public risk
+- Characterise hazard, exposure scenario, likely dose, relevant biological endpoint, affected group and uncertainty.
+- Compare against the correct prescription, constraint, investigation level, reference level or legal limit.
+- Recommend proportionate controls and define how effectiveness will be verified.
+
+*** E 2.1.4d — Compare research/ethics and special-exposure information
+- Distinguish normal clinical management from additional research exposure.
+- Explain the complementary roles of the researcher, ROMP/medical physicist, HREC, clinician and Responsible Person.
+- Compare risk information for research participants, carers/comforters and embryo/fetus without transferring one group's constraint to another.
+
+* Core concept summaries :AI:
+** 1. Authority hierarchy and traceability
+The system is a network of authority and influence rather than one strict legislative chain:
+
+scientific evidence → international recommendations/fundamentals → international requirements/guidance → Australian framework/codes/guidance → Queensland legislation/statutory standards → licence and approval conditions → approved RSPP → controlled procedures → implementation records.
+
+- /Binding for THHS/ :: Current QLD Radiation Safety Act and QLD Radiation Safety Regulation, statutory standards, applicable licence/approval conditions and the approved RSPP.
+- /Binding through a mechanism/ :: RPS C-5, RPS 8, RPS 11 and RPS C-2 are prescribed licence conditions for their stated practices through QLD Radiation Safety Act s 75 and QLD Radiation Safety Regulation s 70.
+- /Influential but not directly binding by publication alone/ :: IAEA, ICRP, NDRP2, RPS F-1, RPS C-1 and RPS 14.3 unless a specific legal/licence/local mechanism is identified.
+- /Evidence of implementation/ :: Licences, approvals, certificates, training/credentialing, prescriptions, calibration/QA, monitor reports, audits, minutes, incident investigations and source registers.
+
+** 2. Queensland legal architecture
+- /QLD Radiation Safety Act ss 4–5/ :: Establish the object and guiding principles: justification, limitation and optimisation.
+- /QLD Radiation Safety Act ss 12–15/ :: Establish possession, use and transport licensing requirements and defined exceptions.
+- /QLD Radiation Safety Act ss 16–20/ :: Establish radiation safety standards and certificates of compliance.
+- /QLD Radiation Safety Act ss 23–27A/ :: Control acquisition, supply, relocation, disposal and abandonment.
+- /QLD Radiation Safety Act ss 28–34/ :: Define, approve, amend and require access/training for the RSPP.
+- /QLD Radiation Safety Act ss 35–37/ :: Require an appropriately qualified RSO and state core functions.
+- /QLD Radiation Safety Act ss 38–40/ :: Address monitoring and personal-monitoring records.
+- /QLD Radiation Safety Act s 41/ :: Controls diagnostic and therapeutic procedures, including prescription and delivery.
+- /QLD Radiation Safety Act ss 42–44/ :: Set exposure and reasonable-step duties for licensees and people carrying out practices.
+- /QLD Radiation Safety Act s 45/ :: Requires notification of defined dangerous events; local incident reporting can be broader.
+- /QLD Radiation Safety Act ss 75–77 and QLD Radiation Safety Regulation s 70/ :: These provisions make prescribed codes licence conditions and prohibit contravening licence conditions.
+- /QLD Radiation Safety Regulation pt 4/ :: Prescribes minimum RSPP measures: methods/procedures, access/use, monitors, safety equipment/PPE and registers.
+- /QLD Radiation Safety Regulation pts 6–8 and sch 5/ :: Prescribe RSO qualifications/functions, monitoring and current dose limits.
+
+** 3. The three principles
+*** Justification — should this exposure or practice occur?
+- The expected individual or societal benefit must outweigh the radiation detriment.
+- In treatment, justification is expressed through clinical indication and an authorised prescription, informed by alternatives and the patient's circumstances.
+- RPS C-5 assigns individual medical-exposure justification to the appropriately authorised /radiological medical practitioner/. For Queensland treatment of malignant or benign conditions using radiation sources, the authorised prescriber is a specialist in radiation oncology or a medical practitioner undergoing radiation-oncology training. The ROMP supplies dose, risk and optimisation expertise but does not replace that clinical justification decision.
+- Justification does not mean “radiation is safe”; it means the anticipated benefit warrants the risk.
+
+*** Optimisation — how should it be carried out?
+- Reduce the magnitude and likelihood of exposure and the number exposed as far as reasonably achievable while achieving the intended purpose.
+- For treatment, protect normal tissue while delivering the required target dose; do not optimise by underdosing the target.
+- Engineering controls and good design normally precede reliance on behaviour or PPE.
+
+*** Limitation — which individual exposures have legal upper bounds?
+- Applies to occupational and public exposure and other specified non-patient exposures.
+- Does not apply to the intended medical exposure of a treated patient.
+- Being below a limit does not prove optimisation or good practice.
+
+** 4. Exposure categories and current Queensland limits
+| Category                             | Control system                                              | Current Queensland source-scoped value                                    |
+|--------------------------------------+-------------------------------------------------------------+---------------------------------------------------------------------------|
+| Occupational effective dose          | Limitation plus optimisation                                | Average effective dose 20 mSv/yr over 5 years; <50 mSv in any 12 months   |
+| Occupational lens                    | Limitation plus optimisation                                | Average equivalent dose 20 mSv/yr over 5 years; <50 mSv in any 12 months  |
+| Occupational hands, feet, 1 cm² skin | Limitation plus optimisation                                | 500 mSv in any 12 months                                                  |
+| Pregnant worker, (where known)       | Limitation plus optimisation and work review                | 1 mSv total effective dose during the remainder of pregnancy              |
+| Public/other person effective dose   | Limitation plus optimisation                                | 1 mSv in any 12 months (sch 5 pt 3)                                       |
+| Public/other person lens and skin    | Limitation plus optimisation                                | 15 mSv to each lens and 50 mSv to 1 cm² skin in any 12 months             |
+| Treated patient                      | Justification, optimisation, prescription, dosimetry and QA | Occupational/public dose limits do not apply to intended medical exposure |
+| Research participant                 | Justification, optimisation, ethics review                  | RPS 8 constraints apply to /additional/ research exposure, not treatment    |
+
+** 5. Radiation risk and communication
+- /Tissue reactions/ :: Have severity that increases with dose once a tissue/endpoint-specific threshold region is exceeded; fractionation, volume and tissue matter.
+- /Stochastic effects/ :: Cancer/heritable risk is managed probabilistically. Protection systems use prudent models at low dose even where epidemiology cannot resolve a small excess risk directly.
+- /Therapeutic context/ :: High target dose is intended; risk analysis focuses on benefit, normal-tissue dose, plan/delivery accuracy and unintended exposure rather than comparing the prescription with a public limit.
+- /Communication structure/ :: State what happened or is proposed; who is exposed; the best dose estimate and uncertainty; the appropriate comparator; plausible health meaning; immediate action; follow-up; and who is accountable.
+- Avoid false precision, unexplained relative risk, comparison with the wrong population or limit, and reassurance that is unsupported by dose reconstruction.
+
+** 6. Radiation-protection methods and defence in depth
+- /Design/ :: Shielding, layout, controlled access, source containment, fail-safe design and suitable equipment.
+- /Premises authority and method/ :: The [[file:summaries/standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021)]] sets the statutory tests for covered rooms, including general area-dose criteria (s 2.1) and radiotherapy or HDR controls (ss 3.3–3.4). [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1]] and [[file:summaries/rps-14-3-2008.org][RPS 14.3]] give national protection/design context; [[file:summaries/iaea-gsr-part-3-2014.org][IAEA GSR Part 3]], [[file:summaries/iaea-ssg-46-2018.org][SSG-46]] and [[file:summaries/iaea-safety-reports-series-47-2006.org][SRS 47]] provide international requirements, guidance and shielding methods. Check the actual design inputs and certificate; do not turn worked examples into local limits.
+- /Engineering/ :: Interlocks, beam termination, warning lights/alarms, independent monitoring channels and physical source security.
+- /Administrative/ :: Authorisation, prescription, procedures, independent checks, credentialing, scheduling, source inventory and change control.
+- /Monitoring/ :: Individual, area, equipment, operational and environmental monitoring chosen for the hazard and decision.
+- /PPE/ :: Used where appropriate, but not as a substitute for practicable design or engineering controls.
+- /Defence in depth/ :: Multiple independent barriers prevent one error from producing harm; independence and failure detection matter more than merely counting checks.
+
+** 7. Personal monitoring and investigation
+*** Purpose and selection
+- Demonstrate effectiveness of controls, assess dose, identify unexpected exposure, support optimisation and provide a legal/occupational record.
+- Device choice follows the radiation type, energy, expected dose, body site, time resolution and task: whole-body OSL/TLD, extremity monitor, direct-reading electronic dosimeter, neutron monitor or area monitor as applicable.
+
+*** Correct use
+- Assign to one person; wear in the specified position; store away from radiation when not used; exchange on schedule; do not deliberately expose, share or remove contrary to procedure.
+- Retain issue/return and result records and ensure the worker is informed as required.
+
+*** Investigation sequence
+1. Validate identity, wear period, units, result/status and dosimetry-provider information.
+2. Check loss, damage, storage, transport, swapping, deliberate irradiation and non-occupational exposure.
+3. Reconstruct tasks, sources, locations, time, distance, shielding, incidents and peer/work-area results.
+4. Assess likely personal dose and uncertainty using independent evidence where possible.
+5. Compare with expected background, local investigation levels and applicable legal limits—each is a different comparator.
+6. Escalate to the RSO/possession licensee and regulator if the statutory or licence threshold is met.
+7. Document conclusion, communication, corrective action and follow-up monitoring.
+
+** 8. Licences, approvals and certificates
+- /Possession licence/ :: Authorises the holder to possess specified sources for specified practices; identifies the approved RSPP and may include conditions.
+- /Use licence or prescribed authority/ :: Defines the individual, source and practice permitted. Supervision exceptions must be matched to the QLD Radiation Safety Act, QLD Radiation Safety Regulation and actual circumstances.
+- /Transport licence/ :: Controls transport of radioactive substances; the transport code is a standard condition.
+- /Approval to acquire/ :: Required before acquisition where the QLD Radiation Safety Act applies and identifies the source allowed to be acquired.
+- /Approval to relocate or dispose/ :: Controls relocation/disposal and associated notification.
+- /Certificate of compliance/ :: Demonstrates an accredited assessment against the relevant statutory standard. Under QLD Radiation Safety Regulation s 8, covered diagnostic/therapeutic apparatus generally has a 1-year period and covered premises a 5-year period; the exact apparatus/QA-program category must be checked.
+- /Audit question/ :: Is the source/person/practice/location within scope, is the instrument current, are all conditions met, and is there retained evidence?
+
+** 9. Governance roles
+- /Possession licensee/ :: Holds primary organisational duties, resources the system, ensures authorised use, provides monitoring and maintains compliance.
+- /RSO/ :: Statutory qualified adviser/monitor who assesses hazards, supports training, reviews monitoring, inspects, investigates and reports. The RSO advises and assures; the role does not absorb every duty of management or users.
+- /RSC/ :: Local multidisciplinary governance body reviewing policy, training, monitoring, incidents, new/changed practices and performance. It is a local control, not a body expressly required by the QLD Radiation Safety Act in the same way as the RSO.
+- /RSWG/ :: Local operational forum supporting incident/near-miss learning, education and escalation.
+- /Individual user/ :: Must act within licence/authorisation/competence, follow the approved RSPP and procedures, use controls correctly and report hazards/events.
+
+** 10. Medical exposure and the treatment pathway
+- RPS C-5 is a standard licence condition for relevant Queensland human diagnostic and therapeutic practices.
+- Safety spans referral/justification, prescription, identification, simulation, contouring, planning, calculation, data transfer, OIMS/record-and-verify, setup, imaging, delivery, monitoring and follow-up.
+- For a therapeutic procedure, RPS C-5 requires the authorising radiological medical practitioner to provide the written prescription and approve the treatment plan before first treatment delivery.
+- Core barriers include competent roles; acceptance/commissioning; calibration and clinical dosimetry; independent plan/MU checks; patient-specific verification where indicated; identity/site checks; data-integrity checks; treatment observation; controlled maintenance/change; and incident learning.
+- A correct machine output alone cannot protect against a wrong patient, wrong prescription, wrong plan, transfer error or unapproved change.
+
+** 11. Pregnancy, research and other special scenarios
+*** Pregnant worker
+- Once pregnancy is known or ought reasonably be known, apply the 1 mSv remainder-of-pregnancy effective-dose limit, optimise further, assess duties and communicate without unnecessary exclusion or stigma.
+
+*** Pregnant patient
+- Establish pregnancy status where clinically relevant, preserve urgency and benefit, estimate embryo/fetal dose with suitable methods, involve the radiation oncologist and ROMP, document counselling and avoid a universal decision threshold without the scenario-specific primary source.
+
+*** Research participant
+- Separate normal clinical exposure from additional research exposure. The researcher supplies the protocol; the medical physicist independently assesses/verifies dose and risk; the HREC assesses ethics/justification/consent; the Responsible Person ensures regulatory systems.
+- RPS 8 states that its tabulated constraints apply to diagnostic research exposure, not radiation therapy. Do not use them as radiotherapy prescription limits.
+
+*** Cardiac implanted electronic device
+- Determine device/dependence, anticipated dose and radiation characteristics, then follow the current departmental protocol and current primary professional guidance. Detailed risk categories from TG-203 are not reproduced because that source is not retained here.
+
+*** Radiopharmaceutical patient attending radiotherapy
+- RPS 14.2 does not govern the radiotherapy practice itself, but it addresses exposure from radioactive patients who attend another medical procedure after radiopharmaceutical administration.
+- When practicable, perform the other procedure before administration. If attendance after administration is necessary, confirm the radionuclide, administered activity, administration time, patient-specific factors and intended RT interaction with nuclear medicine staff or the relevant RSO/physicist.
+- Assess external exposure and, where relevant, contamination or bodily-fluid controls; minimise close-contact time while preserving care; communicate precautions; and document the assessment. Prior administration alone does not prove that the RT procedure must be delayed or cancelled.
+
+** 12. Compliance and audit as a closed loop
+1. Identify the binding requirement and source scope.
+2. Identify the local control and accountable role.
+3. Define the required record and acceptable evidence.
+4. Sample performance, including exceptions and changes.
+5. Compare evidence with the requirement; do not treat document existence as implementation.
+6. Assess significance and immediate risk.
+7. Correct, communicate and assign ownership/timeframe.
+8. Verify effectiveness and close the action through governance.
+
+* Practice questions
+** LO 2.1.1 — Oral questions
+*** Q1. Explain the radiation-protection authority hierarchy for THHS radiation therapy.
+#+begin_quote
+Give a two-minute answer that starts internationally and ends with a treatment or QA record. State which layers are binding and which only inform practice.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Build one chain from principles to evidence, and say what makes each step authoritative.
+- /Review/ :: [[*1. Authority hierarchy and traceability][Core concept 1]]; [[file:summaries/iaea-gsr-part-3-2014.org][IAEA GSR Part 3 summary]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: IAEA and ICRP provide international requirements and recommendations; ARPANSA translates these into Australian codes and guidance. For THHS, the immediate legal framework is the QLD Radiation Safety Act and QLD Radiation Safety Regulation. RPS C-5 becomes enforceable through its prescribed licence-condition mechanism, while the approved RSPP implements those obligations locally through procedures, training and records. A defensible chain is GSR Part 3 → RPS C-5 → Queensland licence condition → approved RSPP → prescription, QA and treatment records. Publication by IAEA or ARPANSA alone does not mean that body directly regulates THHS.
+#+end_comment
+
+*** Q2. What do justification, optimisation and limitation each ask?
+#+begin_quote
+Define each principle and apply it separately to a radiotherapy patient and an occupationally exposed worker.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Think: /Should it occur? How should it be done? What upper bounds apply?/
+- /Review/ :: [[*3. The three principles][Core concept 3]]; [[file:summaries/rps-f-1-2014.org][RPS F-1 summary]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]].
+- /Suggested answer/ :: Justification asks whether the expected benefit outweighs the radiation detriment. For an individual radiotherapy exposure, that clinical decision belongs to the appropriately authorised radiological medical practitioner—normally the radiation oncologist—supported by information from the referrer and advice such as ROMP dose/risk assessment. Optimisation asks how to achieve the clinical purpose while reducing unnecessary exposure and error: preserve the prescribed target dose while protecting normal tissue and others. Limitation sets legal upper bounds for occupational and public exposure, but not for the patient's intended medical treatment exposure; worker exposure must still be optimised below the applicable limit.
+#+end_comment
+
+*** Q3. What is the legal and practical status of the THHS RSPP?
+#+begin_quote
+Explain why it matters, what sits above and below it, and how compliance is demonstrated.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Describe the RSPP as the approved local implementation document, then identify one document above it and one record below it.
+- /Review/ :: [[*2. Queensland legal architecture][Core concept 2]]; [[*12. Compliance and audit as a closed loop][Core concept 12]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: The RSPP is the possession licensee's regulator-approved plan for managing radiation safety; it is not the highest source of authority. Queensland legislation, licence conditions and prescribed standards sit above it, while controlled procedures and implementation records sit below it. Relevant workers must have access to and comply with the approved plan. Evidence includes current controlled procedures, training and authorisations, monitoring reports, QA records, incident reviews, audits and closed corrective actions.
+#+end_comment
+
+*** Q4. Compare the RSO, RSC and RSWG.
+#+begin_quote
+Which role is statutory, what are the main functions, and why does committee oversight not remove individual accountability?
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Separate the statutory adviser from the two local governance forums.
+- /Review/ :: [[*9. Governance roles][Core concept 9]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: The RSO is a qualified statutory appointee who advises the possession licensee, monitors radiation-safety performance, supports training and inspection, and reports hazards or non-compliance. The RSC provides multidisciplinary oversight of policy, monitoring, incidents and changes; the RSWG is a more operational forum for local review, learning and escalation. The committees strengthen governance but do not replace the possession licensee's duties or each worker's obligation to act within licence, competence and procedure.
+#+end_comment
+
+*** Q5. How would you communicate a small unexpected staff dose?
+#+begin_quote
+Structure a conversation with the worker before the investigation is complete.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Reassure without dismissing: separate the measured result from the dose actually received and from health effect.
+- /Review/ :: [[*5. Radiation risk and communication][Core concept 5]]; [[*7. Personal monitoring and investigation][Core concept 7]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Explain the reported quantity, monitoring period and why the value differs from the worker's usual pattern. State that the result is being investigated and may represent real exposure, badge handling/storage or processing effects; do not promise that it is harmless before verification. Give any proportionate interim precautions, preserve confidentiality, and outline the checks of badge history, work pattern, incidents, peers and workplace surveys. Commit to a named follow-up pathway and explain the result in relation to background, local investigation levels and legal limits only where those comparisons are valid.
+#+end_comment
+
+** LO 2.1.2 — Oral and practical questions
+*** Q6. Design protection controls for normal linac operation.
+#+begin_quote
+Use the hierarchy of controls and defence in depth. Explain what protects the patient, worker and public.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Start with hazards and people, then layer engineering, clinical and administrative barriers.
+- /Review/ :: [[*6. Radiation-protection methods and defence in depth][Core concept 6]]; [[*10. Medical exposure and the treatment pathway][Core concept 10]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/rps-14-3-2008.org][RPS 14.3 summary]].
+- /Suggested answer/ :: Workers and the public are protected mainly by bunker shielding, controlled access, warning systems, interlocks and fail-safe design, supported by procedures, training, monitoring and fault response. Patients require a different but overlapping chain: justified and authorised treatment, prescription, identification and site checks, commissioned planning/delivery systems, calibration, independent plan or MU checks, correct data transfer and observed delivery. Routine QA, maintenance control, incident learning and retained records test whether those barriers remain effective. Time, distance and shielding alone do not address wrong-patient, wrong-plan or data-integrity errors.
+#+end_comment
+
+*** Q7. Investigate an unexpectedly high OSL result.
+#+begin_quote
+The result is above the worker's previous pattern but below a legal dose limit. Describe your complete investigation and decision points.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Work from /result validity → exposure reconstruction → dose assessment → corrective action/.
+- /Review/ :: [[*7. Personal monitoring and investigation][Core concept 7]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: First verify identity, wear period, provider report, badge issue/return, storage, damage and possible non-occupational irradiation. Reconstruct the worker's locations, tasks, source use, incidents and PPE, and compare co-workers, area monitors, surveys and prior trends. The RSO/ROMP should estimate the most credible personal dose and its uncertainty, decide whether notification or work restrictions are required, and communicate the result confidentially. Document the investigation, cause, dose assignment and corrective actions. A result below a legal limit can still reveal a failed control and therefore does not close the investigation.
+#+end_comment
+
+*** Q8. Choose between an OSL badge, electronic dosimeter, ring monitor, ion chamber survey meter and neutron meter.
+#+begin_quote
+For each device, give one suitable radiation-therapy use and one important limitation.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: First ask whether you need cumulative personal dose, immediate personal feedback, extremity dose or an area measurement.
+- /Review/ :: [[*7. Personal monitoring and investigation][Core concept 7]]; [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1 summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: An OSL badge records cumulative occupational exposure but gives no immediate warning. An electronic personal dosimeter provides real-time dose/dose-rate feedback but may not be the approved dose-of-record and must suit the radiation field. A ring monitor estimates extremity dose for tasks where the hands may be preferentially exposed, but placement and angular response matter. An ion-chamber survey meter measures photon area dose rate or leakage but is not a personal dosimeter. A suitable neutron meter is required where neutron fields are plausible; photon instruments may respond poorly or misleadingly. Choose by radiation type and energy, quantity, range, response, geometry and required time resolution.
+#+end_comment
+
+*** Q9. A worker declares pregnancy.
+#+begin_quote
+What legal limit applies, what assessment is required, and how should the response balance protection, privacy and fair work allocation?
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Apply the pregnancy provision, then perform an individual work assessment rather than automatically excluding the worker.
+- /Review/ :: [[*4. Exposure categories and current Queensland limits][Core concept 4]]; [[*Pregnant worker][Core concept 11 — pregnant worker]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Once pregnancy is known or ought reasonably be known, the Queensland effective-dose limit is 1 mSv for the remainder of the pregnancy. The employer should confidentially assess the worker's actual duties, exposure pathways, existing monitoring and credible dose, then optimise controls and monitoring as needed. Work can continue where the assessment demonstrates adequate protection; restrictions should be proportionate rather than automatic. Record the assessment, agreed controls, review points and communication while protecting privacy and avoiding discriminatory work allocation.
+#+end_comment
+
+*** Q10. Explain why patient protection cannot be reduced to ALARA.
+#+begin_quote
+Use a curative radiotherapy plan as your example.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Ask what would happen if “as low as reasonably achievable” were applied to the tumour dose itself.
+- /Review/ :: [[*3. The three principles][Core concept 3]]; [[*10. Medical exposure and the treatment pathway][Core concept 10]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/rps-14-3-2008.org][RPS 14.3 summary]].
+- /Suggested answer/ :: Patient protection begins with individual justification by the appropriately authorised radiological medical practitioner and an authorised prescription—not simply minimising dose. Optimisation must deliver the intended therapeutic dose to the target while reducing unnecessary normal-tissue exposure and the probability of error. Commissioning, calibration, planning, independent checks, image guidance, data-transfer controls and accurate delivery are therefore radiation-protection measures. Reducing target dose below the clinically required prescription may reduce radiation but can harm the patient through ineffective treatment.
+#+end_comment
+
+*** Q11. A radiopharmaceutical patient attends radiotherapy.
+#+begin_quote
+A patient received a nuclear-medicine radiopharmaceutical earlier that day and now presents for radiotherapy planning or treatment. Explain the information you need, who should advise, the exposure pathways, immediate controls and how you decide whether to proceed.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Treat this as an interface between two practices; determine the actual exposure pathways before deciding whether to delay.
+- /Review/ :: [[*Radiopharmaceutical patient attending radiotherapy][Core concept 11 — radiopharmaceutical patient]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/rps-14-3-2008.org][RPS 14.3 summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Confirm the radionuclide, administered activity, administration time, route, residual contamination precautions and the urgency/type of the RT appointment. Seek advice from nuclear medicine and the relevant RSO/ROMP, then assess external dose to staff and others, close-contact duration, contamination and any effect on imaging or measurement. Use time, distance, scheduling, hygiene or PPE controls only where the assessed pathway supports them. Proceed, modify or defer on a proportionate clinical and radiation-safety basis, and record the information, advice and decision. Prior administration does not automatically prohibit RT.
+#+end_comment
+
+** LO 2.1.3 — Compliance questions
+*** Q12. Distinguish a possession licence, use licence, approval to acquire and certificate of compliance.
+#+begin_quote
+For each, state who or what it controls and name the evidence you would inspect during an audit.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Separate permission to /possess/, permission for a person to /use/, permission to /obtain/, and evidence that a source or premises meets a standard.
+- /Review/ :: [[*8. Licences, approvals and certificates][Core concept 8]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-standards-notice-2021.org][Radiation Safety Standards Notice summary]].
+- /Suggested answer/ :: A possession licence authorises an organisation or person to possess specified sources for stated practices and carries conditions such as an approved RSPP. A use licence authorises an individual to use specified source types for specified practices. An approval to acquire is transaction-specific permission to obtain a radiation source and does not replace either licence. A certificate of compliance records that a source or premises complies with the applicable radiation safety standard at the relevant time. An audit should inspect each actual instrument, its scope, locations, conditions, expiry and linked inventory or certificate rather than infer permission from job title or equipment ownership.
+#+end_comment
+
+*** Q13. When can someone use a source without holding an ordinary use licence?
+#+begin_quote
+Explain how you would determine whether supervised practice or another statutory pathway applies.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: A job title is not an exemption; identify the exact statutory pathway and all its conditions.
+- /Review/ :: [[*8. Licences, approvals and certificates][Core concept 8]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]].
+- /Suggested answer/ :: The default position is that a person using a radiation source requires the appropriate use licence. Use without an ordinary licence is lawful only where the Act or Regulation supplies a specific pathway, such as a defined supervised-training or prescribed-licensee arrangement, and every condition of that pathway is met. Check the source, practice, person's registration or training status, supervisor's authority and availability, and any scope or record requirements. If the exact provision cannot be demonstrated, do not assume profession, employment or supervision makes the use lawful.
+#+end_comment
+
+*** Q14. Why is RPS C-5 enforceable in this setting?
+#+begin_quote
+Give the exact legal bridge and contrast it with RPS F-1 or IAEA SSG-46.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Name both halves of the bridge: the Act creates the licence condition and the Regulation identifies the document.
+- /Review/ :: [[*1. Authority hierarchy and traceability][Core concept 1]]; [[*2. Queensland legal architecture][Core concept 2]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]].
+- /Suggested answer/ :: QLD Radiation Safety Act s 75(3) makes compliance with a prescribed radiation-safety document a standard condition of relevant possession and use licences. QLD Radiation Safety Regulation s 70(1), item 2 prescribes RPS C-5 for practices involving diagnostic or therapeutic irradiation of people. Contravening that requirement can therefore be a contravention of a licence condition. RPS F-1 and IAEA SSG-46 remain influential sources, but this note does not identify an equivalent direct Queensland adoption mechanism for them.
+#+end_comment
+
+*** Q15. Audit one radiation-therapy apparatus and its premises.
+#+begin_quote
+List the documents, dates, tests, conditions and records you would check, and explain how you would respond to a gap.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Trace the apparatus from legal authority and installation through clinical release, current performance and corrective action.
+- /Review/ :: [[*8. Licences, approvals and certificates][Core concept 8]]; [[*12. Compliance and audit as a closed loop][Core concept 12]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-standards-notice-2021.org][Radiation Safety Standards Notice summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Verify that the possession licence, source inventory, acquisition/relocation approvals and premises/source certificates cover the apparatus, practice and location. Apply the retained Queensland premises standard's general tests and the relevant radiation-therapy or HDR section. Confirm acceptance testing, commissioning, calibration and clinical release, then sample scheduled QA, interlocks, surveys, maintenance, software/configuration changes and post-service return-to-use. Check that trained and authorised staff follow the RSPP and that failures produce documented containment, investigation, risk assessment and closed corrective actions. Report any gap against its actual authority and risk.
+#+end_comment
+
+*** Q16. State the current Queensland occupational and public limits without applying them to a patient.
+#+begin_quote
+Include adult effective dose, lens, extremity/skin, public effective dose and declared-pregnancy provisions.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Organise the answer by exposure category and quantity, then state the pregnancy provision separately.
+- /Review/ :: [[*4. Exposure categories and current Queensland limits][Core concept 4]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]].
+- /Suggested answer/ :: For an adult occupationally exposed person, the effective-dose limit is 20 mSv per year averaged over five years, with no more than 50 mSv in any 12 months; the lens limit is 20 mSv per year averaged over five years with no more than 50 mSv in any 12 months, and the skin or extremity limit is 500 mSv in any 12 months. For a member of the public, effective dose is 1 mSv in any 12 months, lens dose is 15 mSv and skin dose is 50 mSv. Once pregnancy is known or ought reasonably be known, the worker's effective-dose limit is 1 mSv for the remainder of pregnancy. Verify exact definitions and averaging in Schedule 5; none of these limits applies to the patient's intended medical treatment exposure, and all occupational/public exposure remains subject to optimisation below the limit.
+#+end_comment
+
+** LO 2.1.4 — Written-task prompts
+*** Q17. Written advice: pregnant radiotherapy patient
+#+begin_quote
+A patient may be pregnant shortly before pelvic radiotherapy. Write a structured radiation-protection assessment and advice plan. Do not assume a fetal dose or a universal decision threshold.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Do not start with a universal fetal-dose threshold; start with clinical urgency, pregnancy facts and the proposed exposure.
+- /Review/ :: [[*3. The three principles][Core concept 3]]; [[*Pregnant patient][Core concept 11 — pregnant patient]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Establish pregnancy and gestational information sensitively, define treatment site/technique and clinical urgency, and consider alternatives or timing that preserve benefit. The ROMP should estimate embryo/fetal dose and uncertainty using an appropriate method; the appropriately authorised radiological medical practitioner—normally the RO—then makes and documents the patient-specific justification, taking that assessment and the patient's circumstances into account. Optimise planning and delivery without compromising necessary treatment, provide multidisciplinary counselling on benefits, risks and uncertainty, obtain/document consent, and record the final decision and follow-up. Do not quote ICRP 84 or TG-36 thresholds until those primary sources are obtained and checked.
+#+end_comment
+
+*** Q18. Written advice: research imaging added to a trial
+#+begin_quote
+A protocol adds imaging that is not part of normal clinical management. Explain the approvals, dose/risk assessment, optimisation, consent information and records required.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: First separate exposures required for the patient's care from exposures performed only for research.
+- /Review/ :: [[*Research participant][Core concept 11 — research participant]]; [[file:summaries/rps-8-2005.org][RPS 8 summary]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Identify which imaging is additional to normal care and specify its frequency, population and cumulative dose. The researcher supplies the protocol; the ROMP independently assesses dose, risk and optimisation; the RMP accepts the medical-exposure responsibility; and the HREC reviews ethics, justification and consent, with any required institutional or regulatory approvals completed before exposure. Consent information should distinguish clinical benefit from research purpose, explain radiation risk and alternatives, and avoid implying a personal benefit where none is expected. Retain approvals, dose assessment, protocol/version, consent and exposure records. A research dose constraint is a planning tool, not a treatment prescription or occupational/public dose limit.
+#+end_comment
+
+*** Q19. Written compliance evaluation: personal monitoring programme
+#+begin_quote
+Evaluate whether the department's personal-monitoring programme demonstrates compliance and effective optimisation.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Evaluate the whole information loop, not merely whether badges are issued.
+- /Review/ :: [[*7. Personal monitoring and investigation][Core concept 7]]; [[*12. Compliance and audit as a closed loop][Core concept 12]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Confirm that inclusion is based on documented exposure risk and that the device, wear position and exchange period suit the radiation fields and tasks. Audit issue, instruction, wear, control/storage, return, provider quality, result receipt and timely RSO review. Check worker notification, local investigation levels, abnormal-result investigation, combined dose across employers, pregnancy arrangements, retention and privacy. Trend results and test whether investigations lead to effective controls and governance review. Compliance requires a closed loop from risk assessment to result, action and record—not merely a badge register.
+#+end_comment
+
+*** Q20. Written risk advice: member of public near a treatment bunker
+#+begin_quote
+A renovation changes the occupancy of a room adjacent to a bunker. Explain the assessment, immediate controls, calculations/measurements, legal comparison, certification implications and communication.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Begin with physical geometry and what changed: who now occupies the room, where, and for how long.
+- /Review/ :: [[*4. Exposure categories and current Queensland limits][Core concept 4]]; [[*6. Radiation-protection methods and defence in depth][Core concept 6]]; [[*12. Compliance and audit as a closed loop][Core concept 12]]; [[file:summaries/standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard summary]]; [[file:summaries/iaea-safety-reports-series-47-2006.org][IAEA SRS 47 shielding-design summary]].
+- /Suggested answer/ :: Define the room's geometry relative to primary, leakage and scatter paths, its new occupancy and whether occupants are members of the public. Preserve or impose proportionate interim access controls while a qualified person reviews shielding design assumptions, workload, use, occupancy, energy and current survey data. Recalculate and, where appropriate, measure dose at representative occupied positions, accounting for uncertainty and future workload. Compare results with the applicable design goal, the Queensland premises standard's area-specific weekly test and the public dose limit as distinct quantities. Determine whether the premises certificate or regulator approval must be updated, document the decision and communicate the actual risk without equating detectability with harm.
+#+end_comment
+
+*** Q21. Written advice: cardiac implanted electronic device
+#+begin_quote
+A patient with a cardiac implanted electronic device is planned for radiotherapy. Outline the information, roles, risk assessment, controls, monitoring and escalation needed.
+
+Answer:
+
+
+#+end_quote
+#+begin_comment
+- /Hint/ :: Characterise the patient, device and radiation field before choosing controls or a risk category.
+- /Review/ :: [[*Cardiac implanted electronic device][Core concept 11 — cardiac implanted electronic device]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]]; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]].
+- /Suggested answer/ :: Confirm device type, location, function, pacing dependence and clinical contacts, then define treatment site, technique, beam energy, neutron potential and estimated device dose with uncertainty. The RO, ROMP and cardiology/device team should agree on planning optimisation, device interrogation, observation and emergency/escalation arrangements appropriate to the assessed risk. Verify setup and delivered course, respond to symptoms or device alerts, and document advice, consent, checks and deviations. Use the current local protocol; obtain and verify AAPM TG-203 before assigning its numerical thresholds or categories because it is not retained in this corpus.
+#+end_comment
+
+** Rapid recall
+1. Which Queensland sections require possession and use licences?
+2. Which sections establish and approve the RSPP?
+3. Which role is expressly statutory: RSO, RSC or RSWG?
+4. Which section of the QLD Radiation Safety Regulation prescribes RPS C-5 as a licence condition?
+5. Does a legal dose limit prove that exposure was optimised?
+6. Do occupational/public limits apply to a patient's intended treatment exposure?
+7. What is the current public effective-dose limit in Queensland?
+8. What is the pregnant-worker effective-dose limit after pregnancy is known or ought reasonably be known?
+9. What is the difference between a monitor result, investigation level and dose limit?
+10. Name four records that demonstrate implementation rather than merely planned compliance.
+
+#+begin_comment
+- /Hint/ :: Try each in one sentence; if you cannot also name its authority or evidence, revisit the linked concept.
+- /Review/ :: [[*2. Queensland legal architecture][Core concept 2]]; [[*4. Exposure categories and current Queensland limits][Core concept 4]]; [[*7. Personal monitoring and investigation][Core concept 7]]; [[*8. Licences, approvals and certificates][Core concept 8]]; [[*12. Compliance and audit as a closed loop][Core concept 12]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]].
+- /Suggested answers/ :: (1) QLD Radiation Safety Act ss 12–13. (2) QLD Radiation Safety Act ss 28–34. (3) The RSO; the RSC and RSWG are local governance bodies. (4) QLD Radiation Safety Regulation s 70(1), item 2. (5) No: a limit is an upper bound, while optimisation is required below it. (6) No: intended patient exposure is managed through justification, optimisation, prescription and safe delivery. (7) 1 mSv effective dose in any 12 months. (8) 1 mSv effective dose during the remainder of pregnancy once pregnancy is known or ought reasonably be known. (9) A monitor result is a measurement; an investigation level is a local trigger; a dose limit is a legal upper bound for its defined category. (10) Examples include a monitor report/investigation, prescription/treatment record, calibration or QA result, training/credential record, certificate, closed audit action, incident review or committee minutes.
+#+end_comment
+
+* Assessment-ready answer frameworks
+** Oral: document or governance question
+1. Name and classify the source/role.
+2. State its scope and core requirement.
+3. Identify the legal or influence link to THHS.
+4. Give one local control.
+5. Give one retained record.
+6. State one limitation or boundary.
+
+** Practical: monitoring or risk investigation
+1. Make the situation safe and preserve evidence.
+2. Define exposed person/source/pathway/time.
+3. Validate instruments and data.
+4. Estimate dose and uncertainty.
+5. Select the correct comparator.
+6. Escalate/notify according to actual thresholds.
+7. Recommend immediate and systemic controls.
+8. Document, communicate and verify effectiveness.
+
+** Written: advice or compliance evaluation
+1. Executive finding and scope.
+2. Authority and applicable requirements.
+3. Facts, assumptions and missing information.
+4. Hazard/exposure/dose/risk assessment.
+5. Current controls and gaps.
+6. Prioritised recommendations with owners/timeframes.
+7. Required communication/notification.
+8. Records and closure criteria.
+
+* Edge-case questions (not in study context)
+** What if you travel between states. Can I deliver radiation in Vic if I have a QLD Use License? :AI:
+/Short answer/ :: Not on the QLD use licence alone.  Radiation-use licensing is state and territory based.  Victoria requires the individual to hold Victorian authority for the relevant source and purpose, or to fall within a valid exemption or mutual-recognition pathway.
+
+- /Automatic mutual recognition (AMR)/ is not presently available for a person whose home jurisdiction is Queensland: the Victorian regulator states that Queensland has not entered the AMR scheme.  A QLD licence therefore cannot simply be used in Victoria after an AMR notification.
+- /Ordinary mutual recognition/ remains available.  A QLD licensee may lodge a Victorian use-licence notification/application under s 19 of the Commonwealth /Mutual Recognition Act 1992/, supported by the current QLD licence, statutory declaration and fee.  A valid notice can confer interim deemed registration while Victoria decides the application, but the Victorian guidance says the applicant only /may/ be able to work during that period.  Confirm that the notice is valid, the occupations are equivalent and interim authority applies before using a source.
+- Authority is limited to the equivalent scope of the QLD licence and remains subject to Victorian law and any Victorian conditions.  AHPRA registration is not a radiation use licence.
+- The host hospital must also hold a Victorian management licence covering the site, source and practice.  Before clinical work, the visitor must complete the host's authorisation, induction, competency/credentialing and Radiation Management Plan requirements.
+
+/Assessment answer/ :: “No—not merely because I hold a QLD use licence.  Queensland is not currently participating in AMR.  I would obtain Victorian authority through ordinary mutual recognition, confirm any interim deemed registration and its scope with the Victorian Radiation Team, then verify the host's management-licence coverage and complete local authorisation and training before delivering radiation.”
+
+/Official source anchors, checked 17 September 2026/ :: [[https://www.health.vic.gov.au/radiation/mutual-recognition-arrangements-radiation-use-licence][Victorian mutual-recognition guidance]]; [[https://www.health.vic.gov.au/radiation/automatic-mutual-recognition][Victorian AMR status]]; Commonwealth /Mutual Recognition Act 1992/ ss 17, 19–25; [[https://www.health.vic.gov.au/radiation/general-information-about-use-licences-in-victoria][Victorian use-licence guidance]]; [[https://www.health.vic.gov.au/radiation/general-information-about-radiation-management-licences][Victorian management-licence guidance]].
+
+** What if you travel between states for work and may be exposed at another hospital. Does my employer or host organisation need to supply a radiation monitor? :AI:
+/Short answer/ :: Do not decide from payroll status alone.  The destination jurisdiction, the host's licence and Radiation Management Plan, and the prospective exposure assessment determine whether monitoring is required.  Where it is required for work at the host's practice, the host licence holder is normally the primary site-specific provider; the home employer and host must still coordinate the worker's total occupational-dose record.
+
+- In Victoria, a commonly imposed management-licence condition requires the management licence holder to ensure that a personal radiation monitoring device is provided to /any person/ likely to receive occupational exposure above 1 mSv effective dose in any 12-month period.  This wording is not restricted to the host's direct employees.  The corresponding use-licence requirement tells the user to wear a monitor where the relevant management licence holder provides one.
+- Therefore a Victorian host hospital should risk-assess the visiting work and supply or formally approve the suitable monitor where its licence/Radiation Management Plan requires monitoring.  Merely crossing a border does not itself create a badge requirement, and a site may impose monitoring below the legal threshold as a local control.
+- The home employer cannot ignore exposure received on deployment.  Before work starts, the home and host organisations should agree who supplies the dosimeter, its type and wear position, who receives and investigates results, and how results enter the worker's cumulative record.  Relevant prior dose information must be shared.  Do not casually wear two interchangeable whole-body badges; if two devices are deliberately required, their distinct purposes and dose-record treatment should be documented.
+- RPS C-1 provides the national coordination model: the Responsible Person arranges monitoring to the extent necessary, keeps occupational-dose records, obtains prior occupational-exposure information as necessary, and coordinates with other Responsible Persons.  Its legal force still depends on the destination jurisdiction's adoption or licence conditions.
+- For comparison, when a person works in a Queensland possession licensee's practice, QLD Radiation Safety Act s 28(3) places required supply and assessment of a monitor in that licensee's approved RSPP; ss 38–39 allocate assessment, record and result-communication obligations.  The THHS RSPP accordingly says a use licensee wears a device provided by the possession licensee, in addition to any device required by a personal licence condition.
+
+/Practical pre-deployment checklist/ :: Confirm destination licence/authority; host source and site coverage; prospective dose and radiation type; host RSO contact; whole-body, extremity, eye, neutron or electronic dosimetry needs; wear and storage rules; exchange dates; result and cumulative-record transfer; investigation levels; pregnancy arrangements; and incident/lost-monitor reporting.
+
+/Official source anchors, checked 17 September 2026/ :: [[https://www.health.vic.gov.au/publications/mandatory-radiation-safety-requirements-management-licence-holders-obligations][Victorian management-licence holder requirements]]; [[https://www.health.vic.gov.au/sites/default/files/migrated/files/collections/policies-and-guidelines/m/mandatory-radiation-safety-requirements-use-licence-holders-obligations.pdf][Victorian use-licence holder requirements]]; [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1 summary]]; [[file:sources/queensland/radiation-safety-act-1999.pdf][QLD Radiation Safety Act]] ss 28 and 38–39; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]] s 10.
+
+* Suggested study sequence
+1. Learn the authority hierarchy and the Queensland legal anchors.
+2. Master justification, optimisation and limitation across each exposure category.
+3. Learn the RSPP/RSO/RSC/RSWG roles and evidence records.
+4. Memorise the current Queensland limits with their scope.
+5. Practise licence/certificate/source-lifecycle classification.
+6. Rehearse the personal-monitoring investigation aloud.
+7. Complete the four written scenarios using the answer framework.
+8. Obtain and add the missing premises standard, ICRP 84, TG-36 and TG-203 before learning their technical values.
+
+* See Also :noexport:
+- [[file:rspp-upstream-map.org][THHS RSPP upstream traceability map]]
+- [[file:summaries/README.org][Primary-source summary index and pending-source queue]]
+- [[file:summaries/icrp-publication-103-2007.org][ICRP Publication 103 summary]]
+- [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]
+- [[file:tasks.org][Project brief and deliverables]]

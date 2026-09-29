@@ -1,0 +1,206 @@
+document_id	subject	predicate	object	locator	qualifier
+icrp-publication-103-2007	radiation_evidence	informs	stochastic_risk	Annex A	Biological and epidemiological evidence plus protection judgements; not a direct derivation of a single numerical limit.
+icrp-publication-103-2007	radiation_evidence	informs	tissue_reaction	§3 and Annex A	Separate high-dose tissue effects from stochastic protection risk.
+icrp-publication-103-2007	stochastic_risk	informs	dose_limitation	§3; §5.10	Risk evidence and value judgements inform recommended limits.
+icrp-publication-103-2007	planned_exposure	uses	justification	§5	First protection principle.
+icrp-publication-103-2007	planned_exposure	uses	optimisation	§5	Second protection principle.
+icrp-publication-103-2007	planned_exposure	uses	dose_limitation	§5.10	Limits apply to occupational and public exposure from regulated sources.
+icrp-publication-103-2007	dose_limitation	applies_to	occupational_exposure	§5.10	Recommendation, not a binding Queensland limit.
+icrp-publication-103-2007	dose_limitation	applies_to	public_exposure	§5.10	Recommendation, not a binding Queensland limit.
+icrp-publication-103-2007	occupational_exposure	uses	worker_limit_20_5_50	§5.10 paras 243–244; Table 6	ICRP recommendation retained from Publication 60; five-year averaging and single-year cap both matter.
+icrp-publication-103-2007	public_exposure	uses	public_limit_1	§5.10 para 245; Table 6	Recommended effective-dose limit in planned situations.
+icrp-publication-103-2007	patient_exposure	uses	patient_no_limit	§5.10 para 243; §7	Intended medical exposure is outside occupational/public dose limitation.
+icrp-publication-103-2007	patient_exposure	uses	justification	§7	Individual patient justification is one of three levels.
+icrp-publication-103-2007	patient_exposure	uses	optimisation	§7	Clinical aim and normal-tissue protection guide optimisation.
+icrp-publication-103-2007	pregnant_patient	special_case_of	patient_exposure	§7	Pregnancy is considered within medical exposure, with distinct clinical risk and benefit.
+icrp-publication-103-2007	optimisation	uses	dose_constraint	§5	Prospective source-related tool in planned exposure.
+icrp-publication-103-2007	emergency_exposure	uses	reference_level	§5–6	Reference levels are not dose limits.
+icrp-publication-103-2007	existing_exposure	uses	reference_level	§5–6	Reference levels guide optimisation.
+icrp-publication-103-2007	pregnant_patient	uses	fetal_dose_assessment	§7	Medical-exposure pregnancy considerations differ from worker controls.
+iaea-sf-1-2006	safety_objective	uses	justification	Principle 4	A beneficial activity must outweigh its radiation detriment.
+iaea-sf-1-2006	safety_objective	uses	optimisation	Principle 5	Protection should be optimised.
+iaea-sf-1-2006	safety_objective	uses	dose_limitation	Principle 6	Individual radiation risks must be limited where applicable.
+iaea-sf-1-2006	safety_objective	requires	management_system	Principles 1–3	Responsible organisation and government have distinct roles.
+iaea-sf-1-2006	management_system	requires	incident_response	Principles 8–9	Prevention and preparedness are fundamental safety elements.
+iaea-sf-1-2006	incident_response	informs	incident_learning	Principles 8–10	Protective action and review improve safety.
+iaea-gsr-part-3-2014	planned_exposure	uses	justification	§2; §3	International safety requirement framework.
+iaea-gsr-part-3-2014	planned_exposure	uses	optimisation	§2; §3	Protection is optimised for the situation and exposure category.
+iaea-gsr-part-3-2014	dose_limitation	applies_to	occupational_exposure	§3; Schedule III	Worker exposure category.
+iaea-gsr-part-3-2014	dose_limitation	applies_to	public_exposure	§3; Schedule III	Public exposure category.
+iaea-gsr-part-3-2014	occupational_exposure	uses	worker_limit_20_5_50	Schedule III.1(a)	20 mSv/year averaged over five consecutive years and 50 mSv in any single year.
+iaea-gsr-part-3-2014	public_exposure	uses	public_limit_1	Schedule III.3(a)	1 mSv in a year, subject to the standard's stated special-circumstance provisions.
+iaea-gsr-part-3-2014	occupational_exposure	requires	area_classification	§3 occupational exposure	Classify workplaces appropriate to exposure risk.
+iaea-gsr-part-3-2014	occupational_exposure	requires	personal_monitoring	§3 occupational exposure	Monitoring and dose assessment support protection and records.
+iaea-gsr-part-3-2014	personal_monitoring	produces	exposure_record	§3 occupational exposure	Retain worker dose assessment records.
+iaea-gsr-part-3-2014	pregnant_worker	requires	worker_duty_review	§3 para 3.114; Schedule III.1	Additional conditions after notification of pregnancy.
+iaea-gsr-part-3-2014	pregnant_worker	special_case_of	occupational_exposure	§3 para 3.114	Pregnancy-related occupational conditions do not describe patient treatment.
+iaea-gsr-part-3-2014	patient_exposure	uses	patient_no_limit	§3 medical exposure; Schedule III	Worker/public limits are not patient treatment limits.
+iaea-gsr-part-3-2014	patient_exposure	uses	justification	§3 medical exposure	Clinical exposures require justification.
+iaea-gsr-part-3-2014	patient_exposure	uses	optimisation	§3 medical exposure	Includes calibration, dosimetry and QA.
+iaea-gsr-part-3-2014	patient_exposure	requires	calibration	§3 medical exposure	Patient dosimetry and calibrated equipment.
+iaea-gsr-part-3-2014	patient_exposure	requires	quality_assurance	§3 medical exposure	Programme and investigation of unintended exposure.
+iaea-gsr-part-3-2014	pregnant_patient	requires	fetal_dose_assessment	§3 medical exposure	Special pregnancy consideration where clinically relevant.
+iaea-gsr-part-3-2014	emergency_exposure	uses	reference_level	§4	Emergency protection differs from planned dose limitation.
+iaea-gsr-part-3-2014	existing_exposure	uses	reference_level	§5	Existing exposure uses reference levels and optimisation.
+iaea-ssg-46-2018	premises_design	uses	time_control	§5.15	Combine with distance and shielding to optimise worker/public exposure.
+iaea-ssg-46-2018	premises_design	uses	distance_control	§5.15	Radiotherapy facility design guidance.
+iaea-ssg-46-2018	premises_design	uses	shielding_control	§5.15	Radiotherapy facility design guidance.
+iaea-ssg-46-2018	occupational_exposure	requires	personal_monitoring	§5.93–5.188	Worker protection guidance.
+iaea-ssg-46-2018	premises_design	requires	access_control	§5.16–5.17	Control entry to treatment and associated areas.
+iaea-ssg-46-2018	patient_exposure	requires	prescription	§5.189–5.281	Document intended treatment.
+iaea-ssg-46-2018	prescription	requires	patient_identification	§5.189–5.281	Verify patient and intended procedure before delivery.
+iaea-ssg-46-2018	patient_exposure	requires	calibration	§5.189–5.281	Calibrated delivery and patient dosimetry.
+iaea-ssg-46-2018	treatment_plan	requires	independent_check	§5.189–5.281	Multiple checks form a connected patient-safety system.
+iaea-ssg-46-2018	patient_exposure	requires	quality_assurance	§5.189–5.281	QA spans the treatment pathway.
+iaea-ssg-46-2018	pregnant_patient	requires	fetal_dose_assessment	§5.189–5.281	Pregnancy is addressed within medical exposure.
+iaea-ssg-46-2018	incident_response	produces	incident_learning	§5.282–5.326; Appendix I	Experience with accidental medical exposure informs prevention.
+iaea-safety-reports-series-47-2006	premises_design	uses	source_term	§5	Define credible source output and radiation components.
+iaea-safety-reports-series-47-2006	source_term	includes	barrier_components	§5	Primary, leakage, scatter and relevant neutron contributions.
+iaea-safety-reports-series-47-2006	premises_design	uses	workload	§5	Use credible local treatment workload.
+iaea-safety-reports-series-47-2006	premises_design	uses	use_factor	§5	Direction of radiation matters for barrier design.
+iaea-safety-reports-series-47-2006	premises_design	uses	occupancy_factor	§5	Adjacent-area use matters for barrier design.
+iaea-safety-reports-series-47-2006	premises_design	uses	distance_control	§5	Geometry is a shielding-design input.
+iaea-safety-reports-series-47-2006	premises_design	uses	shielding_control	§3–5	Barrier materials and construction affect protection.
+iaea-safety-reports-series-47-2006	premises_design	verified_by	workplace_survey	§10	Post-construction or post-change survey checks the as-built facility.
+rps-f-1-2014	radiation_evidence	informs	safety_objective	§2–3	Radiation effects motivate protection without unduly limiting benefits.
+rps-f-1-2014	safety_objective	uses	justification	§4 principle 4	Benefit must outweigh detriment.
+rps-f-1-2014	safety_objective	uses	optimisation	§4 principle 5	Protection optimised for circumstances.
+rps-f-1-2014	safety_objective	uses	dose_limitation	§4 principle 6	Prevent unacceptable individual risk.
+rps-f-1-2014	safety_objective	requires	management_system	§4 principles 1–3	Primary responsibility, governance and leadership.
+rps-f-1-2014	management_system	requires	incident_response	§4 principles 8–10	Prevention and preparedness.
+rps-f-1-2014	management_system	requires	source_security	§3–4	Safety and security should be managed coherently.
+ndrp2-2021	national_harmonisation	uses	jurisdictional_adoption	Part B	Jurisdictions implement national codes through their own mechanisms.
+ndrp2-2021	national_harmonisation	includes	dose_limitation	Schedule 1	Collects nationally agreed dose-limit elements; not itself the binding THHS limit.
+ndrp2-2021	national_harmonisation	includes	possession_licence	Part A	Generic authorisation concept; Queensland uses its own licence terms.
+ndrp2-2021	national_harmonisation	includes	incident_response	Part B; Schedule 4	Common incident-reporting arrangements.
+ndrp2-2021	national_harmonisation	includes	emergency_exposure	Part B	Emergency response coordination.
+ndrp2-2021	jurisdictional_adoption	applies_to	management_system	Part A–B	Regulatory bodies implement, inspect and enforce within jurisdiction.
+rps-c-1-rev-1-2020	planned_exposure	uses	justification	§2	National planned-exposure code.
+rps-c-1-rev-1-2020	planned_exposure	uses	optimisation	§2	Includes ALARA and graded controls.
+rps-c-1-rev-1-2020	optimisation	uses	alara	§2–3	Reasonably achievable protection is below the applicable limit.
+rps-c-1-rev-1-2020	dose_limitation	applies_to	occupational_exposure	§3; Schedule A	National code value; Queensland binding basis must be traced separately.
+rps-c-1-rev-1-2020	dose_limitation	applies_to	public_exposure	§3; Schedule B	National code value; Queensland binding basis must be traced separately.
+rps-c-1-rev-1-2020	occupational_exposure	uses	worker_limit_20_5_50	Schedule A and footnote 2	20 mSv/year over five consecutive years with 50 mSv single-year cap.
+rps-c-1-rev-1-2020	public_exposure	uses	public_limit_1	Schedule B	1 mSv/year effective dose, with stated special-circumstance qualification.
+rps-c-1-rev-1-2020	occupational_exposure	requires	area_classification	§3	Graded control of occupational areas.
+rps-c-1-rev-1-2020	occupational_exposure	requires	personal_monitoring	§3	Assess occupational exposure as appropriate.
+rps-c-1-rev-1-2020	personal_monitoring	produces	exposure_record	§3	Assessment and monitoring records.
+rps-c-1-rev-1-2020	pregnant_worker	requires	worker_duty_review	Schedule A footnote 2	Working conditions after declaration should keep additional embryo/fetus dose about 1 mSv or less for remainder of pregnancy.
+rps-c-1-rev-1-2020	optimisation	uses	dose_constraint	§3	Prospective tool, distinct from limit.
+rps-c-1-rev-1-2020	personal_monitoring	uses	investigation_level	§3	Trigger investigation below a legal limit where appropriate.
+rps-c-5-2019	patient_exposure	uses	justification	§2	Clinical exposure must have sufficient benefit.
+rps-c-5-2019	patient_exposure	uses	optimisation	§2	Protection tailored to clinical aim.
+rps-c-5-2019	patient_exposure	uses	patient_no_limit	§2	Worker/public dose limits are not intended patient-treatment limits.
+rps-c-5-2019	patient_exposure	requires	prescription	§3.1–3.2	Authorised, documented prescription before radiotherapy.
+rps-c-5-2019	prescription	requires	patient_identification	§3.1–3.2	Confirm the person and intended procedure.
+rps-c-5-2019	patient_exposure	requires	calibration	§3.2	Calibration and dosimetry underpin accuracy.
+rps-c-5-2019	patient_exposure	requires	commissioning	§3.2	Equipment accepted and commissioned before use.
+rps-c-5-2019	patient_exposure	requires	quality_assurance	§3.2	Comprehensive QA programme.
+rps-c-5-2019	pregnant_patient	requires	fetal_dose_assessment	§3.3	Special circumstances require individual consideration.
+rps-c-5-2019	pregnant_patient	requires	patient_counselling	§3.3	Explain clinical decision and risks where relevant.
+rps-c-5-2019	incident_response	requires	regulatory_notification	§3.4	Notify where applicable under the relevant framework.
+rps-c-5-2019	incident_response	produces	incident_learning	§3.4	Investigate and correct unintended exposure.
+rps-c-5-2019	management_system	requires	implementation_record	§3.5; Schedule A	Documented management plan and clinical/QA records.
+rps-14-3-2008	patient_exposure	requires	prescription	§1–3; §8	Radiation oncologist clinical responsibility.
+rps-14-3-2008	patient_exposure	requires	calibration	§4	Accurate equipment output and clinical dosimetry.
+rps-14-3-2008	patient_exposure	requires	quality_assurance	§6	Clinical and technical QA.
+rps-14-3-2008	treatment_plan	requires	independent_check	§8	Independent verification before treatment.
+rps-14-3-2008	treatment_plan	requires	data_integrity	§8	Verify transfer through planning and delivery systems.
+rps-14-3-2008	pregnant_patient	requires	fetal_dose_assessment	§5	Assess possible pregnancy and fetal exposure as relevant.
+rps-14-3-2008	optimisation	uses	time_control	§13.2	Training example for staff and carers during radiotherapy delivery.
+rps-14-3-2008	optimisation	uses	distance_control	§13.2	Training example for staff and carers.
+rps-14-3-2008	optimisation	uses	shielding_control	§13.2	Training example for staff and carers.
+rps-14-3-2008	commissioning	requires	formal_release	§4; §6	Changes and servicing require technical assessment before clinical use.
+rps-14-3-2008	incident_response	produces	incident_learning	§7	Actual and potential misadministration are learning inputs.
+rps-11-2019	source_security	applies_to	hdr_source	§1; §3–7	Sealed source relevance depends on category and Queensland conditions.
+rps-11-2019	source_security	uses	source_category	§1; Schedule B	Grade controls by source category and aggregation.
+rps-11-2019	source_security	requires	access_control	§3–6	Prevent unauthorised source access.
+rps-11-2019	source_security	requires	source_inventory	§7	Account for identity, status and location.
+rps-11-2019	source_security	requires	incident_response	§7	Manage breaches and discrepancies promptly.
+rps-11-2019	source_security	applies_to	transport	§5	Transport security complements transport safety.
+rps-c-2-rev-1-2019	transport	applies_to	hdr_source	§1	Sealed radioactive consignments in scope when moved as transport.
+rps-c-2-rev-1-2019	transport	requires	transport_package	Schedule A §§IV–VII	Classification, packaging, marking, radiation levels and contamination controls.
+rps-c-2-rev-1-2019	transport_package	requires	transport_handover	Schedule A §§V–VIII	Consignor, carrier and consignee responsibilities and documentation.
+rps-c-2-rev-1-2019	transport	requires	implementation_record	§3; Schedule A	Transport documents, approvals, checks and receipt as applicable.
+rps-c-2-rev-1-2019	source_security	applies_to	transport	§1; Schedule A	Security is complementary; detailed controls are in security instruments.
+rps-8-2005	research_exposure	uses	justification	§1–2	Additional exposure needs ethical and radiation justification.
+rps-8-2005	research_exposure	requires	physicist_risk_review	§2–3	Medical physicist assesses or independently verifies dose and risk.
+rps-8-2005	physicist_risk_review	informs	hrec_review	§2	HREC considers radiation risk in ethical review.
+rps-8-2005	research_exposure	uses	research_constraint	§3	Tabulated constraints apply to diagnostic investigations, not radiotherapy treatment doses.
+rps-8-2005	research_constraint	informs	hrec_review	§3	Exceedance triggers additional ethical scrutiny rather than automatic approval or prohibition.
+rps-8-2005	hrec_review	requires	informed_consent	§2	Participant information must explain relevant radiation risk.
+rps-8-2005	hrec_review	produces	implementation_record	§2–3	Retain assessment, decision, consent and approvals.
+radiation-safety-act-1999	safety_objective	uses	justification	ss 4–5	Queensland statutory principle.
+radiation-safety-act-1999	safety_objective	uses	optimisation	ss 4–5	Queensland statutory principle.
+radiation-safety-act-1999	safety_objective	uses	dose_limitation	ss 4–5	Queensland statutory principle; numbers are prescribed in Regulation Schedule 5.
+radiation-safety-act-1999	source_lifecycle	requires	possession_licence	Part 2	Possession limited by licence scope and conditions.
+radiation-safety-act-1999	source_lifecycle	requires	use_licence	Part 2	Individuals require relevant use licence.
+radiation-safety-act-1999	possession_licensee	requires	approved_rspp	ss 28–34	Approved RSPP is a statutory local control.
+radiation-safety-act-1999	possession_licensee	requires	rso	ss 35–37	Appoint qualified RSO.
+radiation-safety-act-1999	possession_licensee	requires	personal_monitoring	ss 38–40	Monitoring obligations depend on the Act and Regulation.
+radiation-safety-act-1999	compliant_premises	verified_by	compliance_certificate	ss 16–18	Certificates apply to prescribed sources and premises.
+radiation-safety-act-1999	incident_response	requires	regulatory_notification	s 45	Dangerous-event reporting when statutory criteria are met.
+radiation-safety-act-1999	source_lifecycle	requires	implementation_record	Parts 4–6	Approvals, supply, relocation and disposal create records.
+radiation-safety-regulation-2021	approved_rspp	requires	plan_content	Part 4 ss 14–24	Mandatory plan content for safe work, QC, access, monitoring and records.
+radiation-safety-regulation-2021	plan_content	includes	access_control	ss 14–18	Access and use measures.
+radiation-safety-regulation-2021	plan_content	includes	personal_monitoring	ss 14–18	Monitoring devices and results where applicable.
+radiation-safety-regulation-2021	plan_content	includes	quality_assurance	ss 14–18	Quality-control measures are specified.
+radiation-safety-regulation-2021	plan_content	includes	warning_system	ss 19–24	Practice-specific warnings and alarms as applicable.
+radiation-safety-regulation-2021	rso	requires	abnormal_dose_review	Part 6	RSO functions include monitoring review and incident investigation.
+radiation-safety-regulation-2021	occupational_exposure	uses	worker_limit_20_5_50	Schedule 5 Part 1 items 1–2	Binding Queensland adult worker effective-dose average and maximum.
+radiation-safety-regulation-2021	pregnant_worker	uses	pregnant_worker_limit_1_remainder	ss 52(2)(c), 53(2)(c), 54(2)(c), 55(2)(c)	Binding total effective dose for remainder of pregnancy when pregnancy is known or ought reasonably be known.
+radiation-safety-regulation-2021	pregnant_worker	special_case_of	occupational_exposure	ss 52–55	Pregnancy limit is in occupational-exposure provisions.
+radiation-safety-regulation-2021	public_exposure	uses	public_limit_1	Schedule 5 Part 3 item 1	Binding Queensland other-person effective-dose limit.
+radiation-safety-regulation-2021	occupational_exposure	requires	personal_monitoring	Part 7	Monitoring where prescribed.
+radiation-safety-regulation-2021	personal_monitoring	produces	exposure_record	Part 7	Assessment results and associated records.
+radiation-safety-regulation-2021	source_security	uses	source_category	Part 2; Part 5; Schedule 3	Security duties depend on categorisation.
+radiation-safety-standards-notice-2021	jurisdictional_adoption	designates	premises_standard	§3; Schedule 1 item 3	Formal legal bridge giving the named standard statutory status under Act s 16.
+radiation-safety-standards-notice-2021	premises_design	uses	premises_standard	§3; Schedule 1 item 3	Relevant radiation therapy rooms must meet the named standard.
+standard-for-premises-ionising-radiation-sources-2021	premises_standard	specifies	premises_weekly_test	§2.1.1	Technical test is in the standard, not in the Notice.
+standard-for-premises-ionising-radiation-sources-2021	compliant_premises	requires	premises_weekly_test	§2.1.1	10 µSv/week Type 1; 40 µSv/week Type 2 or 3, subject to exact definitions and assumptions.
+standard-for-premises-ionising-radiation-sources-2021	premises_weekly_test	uses	workload	§2.1.1	Potential total effective dose depends on practice workload.
+standard-for-premises-ionising-radiation-sources-2021	premises_weekly_test	uses	occupancy_factor	§2.1.1	Assess use of accessible adjacent areas under the standard's stated conditions.
+standard-for-premises-ionising-radiation-sources-2021	compliant_premises	requires	warning_system	§3.3.1; §3.4.2	Distinct beam/source warning arrangements for external beam and HDR/PDR rooms.
+standard-for-premises-ionising-radiation-sources-2021	compliant_premises	requires	interlock	§3.3.3; §3.4.4	Interlock response differs between beam and remote afterloader.
+standard-for-premises-ionising-radiation-sources-2021	compliant_premises	requires	last_person_out	§3.3.4; §3.4.5	Room clearance control before exposure.
+standard-for-premises-ionising-radiation-sources-2021	compliant_premises	requires	emergency_off	§3.3.6; §3.4.7	Emergency control tests are practice-specific.
+standard-for-premises-ionising-radiation-sources-2021	compliant_premises	verified_by	compliance_certificate	§2–3; Act ss 16–18	Accredited assessment and current certificate evidence compliance; ongoing compliance remains required.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	uses	justification	§1.1; §9.1	Patient exposure should have sufficient anticipated benefit.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	uses	optimisation	§1.1; §9.1	Patient efficacy and normal-tissue protection; worker/public ALARA.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	optimisation	uses	alara	§1.1; §9.1	Keep worker and public exposure as low as reasonably achievable.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	uses	dose_limitation	§1.1; §9.1	Applies to worker and public exposure, not intended patient treatment.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	occupational_exposure	uses	rspp_worker_20_annual	§2 Hazard assessment	Supplied RSPP wording; Queensland Schedule 5 contains the complete binding 20/5/50 structure.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	public_exposure	uses	public_limit_1	§2 Hazard assessment	RSPP states 1 mSv annual limit for other staff and public.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	patient_exposure	requires	prescription	§9.1; §9.7–9.8	Treatment requires authorised prescription and plan.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	prescription	requires	treatment_plan	§9.7–9.8	Approved plan must agree with prescription before first treatment.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	treatment_plan	requires	independent_check	§9.7	Independent MU/dose check and specialist ROMP review as applicable.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	treatment_plan	requires	data_integrity	§9.5; §9.7	Verify transfer into OIMS and treatment data.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	data_integrity	applies_to	oims	§9.5	OIMS access, overrides and upgrades are controlled.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	patient_exposure	requires	patient_identification	§9.6–9.10	Patient and procedure identity checked.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	patient_exposure	requires	calibration	§9.2; §15	Output and delivery must be verified.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	patient_exposure	requires	quality_assurance	§9; §15	Clinical and technical control across the pathway.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	quality_assurance	requires	commissioning	§9.2; §15	New or changed systems are tested before clinical use.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	commissioning	requires	formal_release	§9.2; §14	ROMP formally releases equipment after fault, service or modification.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	patient_exposure	uses	defence_in_depth	§9.3	Multiple independent barriers reduce single-failure harm.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	possession_licensee	requires	rso	§3–4	RSO advises, monitors, investigates and reports.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	requires	staff_competence	§6–8	Authorisation, training and credentialing match roles.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	requires	access_control	§7; §9.8	Restrict source and treatment-area access.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	requires	compliant_premises	§3; §13	Current premises certificates and reassessment after relevant changes.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	occupational_exposure	requires	personal_monitoring	§10	Provide monitoring where worker could exceed public limit or RSO determines it.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	personal_monitoring	uses	personal_dosimeter	§10	Assigned device worn, stored and returned as directed.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	personal_monitoring	produces	exposure_record	§10; §16	Individual records retained as stated in plan.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	exposure_record	triggers	abnormal_dose_review	§10	RSO investigates unusual readings and practices.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	hdr_source	requires	alarm_monitor	§11	Designated emergency recovery staff use alarm monitors.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	pregnant_worker	requires	worker_duty_review	§2; §4	RSPP states 1 mSv pro rata per annum after declared pregnancy; RSO evaluates duties.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	pregnant_worker	uses	rspp_pregnancy_1_prorata	§2 Hazard assessment	Local wording should be checked against Regulation ss 52–55 for operational decisions.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	pregnant_patient	requires	fetal_dose_assessment	§9.10	ROMP estimates and records fetal dose where specified.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	pregnant_patient	special_case_of	patient_exposure	§9.10	Pregnancy assessment belongs to the patient's individual medical-exposure decision.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	pregnant_patient	requires	patient_counselling	§9.10	RO counselling, consent and written instruction if treatment proceeds.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	research_exposure	requires	physicist_risk_review	§9.12	Additional research exposure receives approved ROMP risk assessment.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	hdr_source	requires	source_inventory	§17	Ir-192 source accountancy and security arrangements.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	hdr_source	requires	source_security	§17	Security-enhanced source; sensitive operational details remain controlled.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	hdr_source	requires	transport	§17	Source movement uses approved transport and handover controls.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	incident_response	requires	regulatory_notification	§18	Threshold-dependent statutory reporting.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	incident_response	produces	incident_learning	§18	Near misses and incidents reviewed through RSO, ROMP and committees.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	implemented_by	local_procedure	§9; §15–16	Controlled procedures specify tests and actions.
+thhs-rspp-radiation-therapy-practices-v6.0-r1	local_procedure	verified_by	implementation_record	§16	Retained records demonstrate local execution.

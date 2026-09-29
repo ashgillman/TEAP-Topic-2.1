@@ -1,0 +1,36 @@
+Title: Radiation Protection and Safety in Medical Uses of Ionizing Radiation, SSG-46
+Issuing body: International Atomic Energy Agency and joint sponsoring organisations
+Region: international
+Publication/current date: 2018
+Retrieval date: 2026-09-16
+Authority class: International specific safety guide; non-binding guidance
+Acquisition status: downloaded
+Source URL: https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1775_web.pdf
+Landing page: https://www.iaea.org/publications/11102/radiation-protection-and-safety-in-medical-uses-of-ionizing-radiation
+Source file: international/iaea-ssg-46-2018.pdf
+SHA-256: 168642b19af0edc993bfb4a1c82ee41e57f12edfbbf56bf692a8574d1788ea61
+
+Title:           17-24431_PUB1775_book.indb
+Creator:         Adobe InDesign CC 13.1 (Windows)
+Producer:        Adobe PDF Library 15.0
+CreationDate:    Thu Oct 11 21:33:19 2018 AEST
+ModDate:         Wed May 19 21:34:56 2021 AEST
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           340
+Encrypted:       yes (print:yes copy:yes change:no addNotes:no algorithm:AES)
+Page size:       453.543 x 680.315 pts
+Page rot:        0
+File size:       2207487 bytes
+Optimized:       no
+PDF version:     1.6
+PDF subtype:    PDF/X-4
+    Title:         ISO 15930 - Electronic document file format for prepress digital data exchange (PDF/X)
+    Abbreviation:  PDF/X-4
+    Subtitle:      Part 7: Complete exchange of printing data (PDF/X-4) and partial exchange of printing data with external profile reference (PDF/X-4p) using PDF 1.6
+    Standard:      ISO 15930-7

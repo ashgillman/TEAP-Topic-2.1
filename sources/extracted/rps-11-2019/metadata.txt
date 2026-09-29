@@ -1,0 +1,30 @@
+Title: Code of Practice for the Security of Radioactive Sources
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2019 corrected edition
+Retrieval date: 2026-09-16
+Authority class: National security code; legal force depends on adoption or licence conditions
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/rps11.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rps11
+Source file: australia/rps-11-2019.pdf
+SHA-256: 14cb693dd20ae87e0fa9c87db3dc76d38db4b7ed0f5ca5d2b11a843be89a4df5
+
+Creator:         Microsoft® Word for Microsoft 365
+Producer:        Microsoft® Word for Microsoft 365
+CreationDate:    Fri Jul 19 11:21:41 2024 AEST
+ModDate:         Fri Jul 19 11:21:41 2024 AEST
+Custom Metadata: no
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           35
+Encrypted:       no
+Page size:       595.32 x 841.92 pts (A4)
+Page rot:        0
+File size:       1048816 bytes
+Optimized:       no
+PDF version:     1.7

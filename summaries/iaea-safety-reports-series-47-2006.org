@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       iaea-safety-reports-series-47-2006
+:ROAM_ALIASES: "IAEA SRS 47" "Radiation Protection in the Design of Radiotherapy Facilities"
+:END:
+#+title: IAEA Safety Reports Series No. 47 — Radiation Protection in the Design of Radiotherapy Facilities (2006)
+#+FILETAGS: :resource:international:technical-guidance:shielding:
+#+ROAM_REFS: https://www-pub.iaea.org/MTCD/Publications/PDF/Pub1223_web.pdf
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/international/iaea-safety-reports-series-47-2006.pdf][Official PDF retained locally]] — IAEA, 2006; retrieved 16 September 2026.
+- [[file:../sources/extracted/iaea-safety-reports-series-47-2006/document.txt][Extracted text]]
+- [[file:../sources/extracted/iaea-safety-reports-series-47-2006/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- IAEA Safety Report providing technical methods and worked examples for radiotherapy facility design and shielding.
+- Non-binding technical guidance, not an IAEA Safety Requirement, Queensland statutory standard or site approval.
+- Actual THHS premises compliance is determined through Queensland law, the applicable statutory premises standard, approved design inputs and certification by appropriately qualified persons.
+
+* Key takeaways :AI:
+- SRS means /Safety Reports Series/: SRS 47 provides practical methods and worked examples for radiotherapy-facility shielding design, beginning with physical geometry and credible source terms and then considering workload, use, occupancy, distance, barriers and design goals.
+- External-beam, simulator/orthovoltage, brachytherapy and special-procedure facilities require different source and radiation-component models.
+- Primary, leakage, scatter and—at relevant energies—neutron components must be considered separately before being combined appropriately.
+- Worked examples illustrate methods; their assumed workloads, occupancies, dimensions or material properties are not universal local requirements.
+- Design calculations require verification by radiation survey after construction and after changes that could affect protection.
+
+* Summary :AI:
+** 1 — Introduction
+- Defines purpose, scope and intended use of the report for radiotherapy facility shielding design.
+
+** 2 — Terminology
+- Establishes shielding quantities and concepts needed for consistent calculations.
+
+** 3 — Design features
+- Covers room layout, access, barriers, doors, penetrations, ducts, mazes, warning systems and design coordination.
+
+** 4 — Shielding materials
+- Discusses attenuation and practical properties of concrete, lead, steel and other materials, including construction and verification considerations.
+
+** 5 — Calculation methods
+- Develops methods for primary, leakage and scattered radiation, occupancy/use/workload factors, distance, barrier transmission and special components.
+
+** 6 — External-beam worked examples
+- Demonstrates calculations for representative megavoltage treatment facilities.
+
+** 7 — Simulator and orthovoltage examples
+- Applies the framework to lower-energy X-ray facilities and their operating patterns.
+
+** 8 — Brachytherapy worked example
+- Demonstrates shielding assessment for a brachytherapy facility and source use.
+
+** 9 — Special procedures
+- Addresses geometries or techniques needing additional consideration beyond conventional examples.
+
+** 10 — Radiation survey
+- Describes post-construction or post-modification verification that the installed facility performs as designed.
+
+* Important definitions, roles, limits and records
+- /Workload/ :: Source output integrated over a defined period; a design input that must reflect credible local activity.
+- /Use factor/ :: Fraction of workload directed toward a barrier.
+- /Occupancy factor/ :: Fraction of time an adjacent location is occupied for the design assessment.
+- /Design goal/ :: Prospective shielding criterion; it is not automatically identical to a legal dose limit.
+- /Records/ :: Approved drawings, assumptions, calculations, material verification, construction changes, survey results and compliance certification.
+
+* Practical relationship to the THHS RSPP
+- Provides the technical evidence layer for the RSPP's compliant-premises, restricted-access, warning/interlock and reassessment controls.
+- Helps explain why equipment, workload, location or surrounding-occupancy changes can trigger shielding review and recertification.
+- Use the [[file:standard-for-premises-ionising-radiation-sources-2021.org][current Queensland premises standard]] and certificate process for binding requirements; use this report as technical support rather than local policy. No direct incorporation of SRS 47 into that standard is asserted.
+
+* See Also
+- [[file:radiation-safety-standards-notice-2021.org][Queensland Radiation Safety Standards Notice 2021]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021)]]
+- [[file:rps-14-3-2008.org][RPS 14.3]]
+- [[file:iaea-ssg-46-2018.org][IAEA SSG-46]]

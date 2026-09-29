@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       arpansa-rps-c-5-2019
+:ROAM_ALIASES: "RPS C-5" "Code for Radiation Protection in Medical Exposure"
+:END:
+#+title: RPS C-5 — Code for Radiation Protection in Medical Exposure (2019)
+#+FILETAGS: :resource:australia:code:medical-exposure:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-5
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-c-5-2019.pdf][Official PDF retained locally]] — ARPANSA, 2019; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-c-5-2019/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-c-5-2019/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- National code issued by ARPANSA for medical exposure.
+- In Queensland it is a standard condition of possession and use licences for practices involving diagnostic or therapeutic irradiation of a person (Act s 75(3); Regulation s 70(1), item 2).
+- Gives effect nationally to medical-exposure requirements derived substantially from IAEA GSR Part 3.
+
+* Key takeaways :AI:
+- Patient medical exposures require justification and optimisation; dose limits do not apply to the intended exposure of a patient.
+- Compliance is enforceable for the relevant Queensland licensed practice through the prescribed licence-condition mechanism; the code is not merely optional guidance in that setting.
+- Radiation therapy requires an authorised and documented treatment prescription, accurate calibration and dosimetry, suitable equipment, competent roles and a comprehensive QA programme.
+- Protection responsibilities extend across the Responsible Person, radiological medical practitioner, medical radiation practitioner/technologist and medical physicist.
+- Special provisions address pregnancy or breast-feeding where relevant, carers and comforters, biomedical research, and unintended or accidental medical exposure.
+- A documented Radiation Management Plan and retained clinical, dosimetric, QA, calibration, training and incident records turn the code into an auditable system.
+
+* Summary :AI:
+** 1 — Introduction
+- Defines the purpose, scope and application of the code across diagnostic, interventional, nuclear-medicine and radiation-therapy exposures.
+
+** 2 — Principles for medical exposure
+- Requires justification at the appropriate level and optimisation of protection and safety.
+- Distinguishes patient medical exposure from occupational and public exposure: intended patient dose is not constrained by occupational/public dose limits.
+
+** 3 — Requirements
+*** 3.1 — Control of medical exposure
+- Allocates responsibilities, requires appropriate authorisation, competence and referral/prescription arrangements, and controls who may perform or influence exposures.
+*** 3.2 — Protection and safety
+- Requires suitable equipment, acceptance and commissioning, calibration, dosimetry, optimisation, quality assurance and patient/exposure records.
+*** 3.3 — Specific patient circumstances
+- Addresses pregnancy and breast-feeding, paediatric or other special considerations, carers and comforters, and research participants as applicable.
+*** 3.4 — Unintended and accidental exposure
+- Requires prevention, prompt response, dose assessment, investigation, notification where applicable, corrective action and learning.
+*** 3.5 — Plans, training and records
+- Requires a documented management framework, education and competence, review, and records sufficient to demonstrate safe medical use.
+
+** Schedule A and appendices
+- /Schedule A/ :: Expected content of a Radiation Management Plan.
+- Appendices explain derivation and relationships with other Australian codes; glossary and references support consistent terminology.
+
+* Important definitions, roles, limits and records
+- /Medical exposure/ :: Exposure of patients as part of diagnosis or treatment, and specified exposures of carers/comforters and volunteers in biomedical research.
+- /Radiological medical practitioner/ :: Clinician with primary medical responsibility for justification and clinical conduct of the exposure.
+- /Medical physicist/ :: Provides specialist dosimetry, calibration, commissioning, QA and radiation-protection expertise within scope of competence.
+- /Treatment prescription/ :: The documented clinical authorisation defining the intended therapeutic exposure; it is a central control, not a dose limit.
+- /Records/ :: Prescription, patient identity, exposure/delivery data, calibration, commissioning, QA, competence, research approval and unintended-exposure investigation records.
+
+* Practical relationship to the THHS RSPP
+- Principal national medical-exposure basis for the RSPP's prescription, patient identification, treatment-planning, independent-check, commissioning, QA and incident-learning controls.
+- Supports the local Radiation Management Plan/RSPP structure but does not replace Queensland approval or statutory content requirements.
+- RSPP or departmental tolerances must be justified locally and should not be attributed to this code unless the code actually specifies them.
+
+* See Also
+- [[file:icrp-publication-103-2007.org][ICRP Publication 103]]
+- [[file:rps-c-1-rev-1-2020.org][RPS C-1 Rev. 1]]
+- [[file:rps-14-3-2008.org][RPS 14.3]]
+- [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]
+- [[file:iaea-ssg-46-2018.org][IAEA SSG-46]]

@@ -1,0 +1,60 @@
+:PROPERTIES:
+:ID:       arpansa-rps-8-2005
+:ROAM_ALIASES: "RPS 8" "Research Exposure Code"
+:END:
+#+title: RPS 8 — Code of Practice for the Exposure of Humans to Ionizing Radiation for Research Purposes (2005)
+#+FILETAGS: :resource:australia:code:research:
+#+ROAM_REFS: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rps8
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/australia/rps-8-2005.pdf][Official PDF retained locally]] — 2005 electronic edition with Annex 4 removed January 2015; retrieved 16 September 2026.
+- [[file:../sources/extracted/rps-8-2005/document.txt][Extracted text]]
+- [[file:../sources/extracted/rps-8-2005/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- National code issued by ARPANSA for human research involving additional ionising-radiation exposure.
+- In Queensland it is a standard possession/use licence condition for health-related research on persons involving an ionising radiation source (Act s 75(3); Regulation s 70(1), item 5).
+- Operates with human-research ethics requirements; it is not a substitute for HREC review or local research governance.
+
+* Key takeaways :AI:
+- Applies to radiation exposure additional to normal clinical management that is undertaken for research purposes.
+- Requires a medical physicist to assess or independently verify participant doses and associated radiation risk.
+- The Human Research Ethics Committee (HREC) uses that assessment when judging justification, consent information and whether additional advice is needed.
+- Dose constraints are prospective research controls, not occupational/public dose limits and not therapeutic prescription limits.
+- The code states that its tabulated research dose constraints apply to diagnostic investigations, not radiation therapy.
+
+* Summary :AI:
+** 1 — Introduction and scope
+- Defines research exposure, application and the relationship between radiation protection and ethical review.
+
+** 2 — Responsibilities
+- /Researcher/ :: Describes the exposure, alternatives, participant group and expected benefit and supplies information needed for dose/risk assessment and consent.
+- /Medical physicist/ :: Assesses or independently verifies dose and explains radiation risk in a form suitable for ethics review and participants.
+- /HREC/ :: Reviews justification, risk, consent and compliance with applicable dose constraints; seeks additional expert advice where necessary.
+- /Responsible Person/ :: Establishes systems for implementation and compliance with radiation regulatory requirements at the facility.
+
+** 3 — Radiation dose constraints for participants
+- Requires doses to be kept to the minimum practicable and assessed or independently verified by a medical physicist.
+- Adult effective-dose constraints are 5 mSv in any year and 10 mSv over 5 years; the code provides different source-scoped values for limited-life-expectancy groups, older adults, skin and other tissues.
+- For children and fetuses, the table provides lower constraints, including 0.1 mSv from conception to birth and 0.5 mSv in any year from birth to age 18, within a 5 mSv total effective-dose constraint to age 18.
+- Exceeding a constraint does not automatically authorise or prohibit research; it triggers particular HREC scrutiny and potentially further independent authoritative advice.
+
+** Annexes
+- Provide methods for radiation-risk assessment, risk communication and implementation guidance.
+- Annex 4 was removed from the electronic edition in January 2015; do not rely on it for current occupational or public limits.
+
+* Important definitions, roles, limits and records
+- /Additional research exposure/ :: Exposure beyond that required for the participant's normal clinical management.
+- /Dose constraint/ :: A maximum with which normal research circumstances should be able to comply; it is an optimisation and ethics-review tool.
+- /HREC/ :: Reviews ethical acceptability; it does not replace radiation regulatory approval.
+- /Records/ :: Protocol, dose calculation/verification, physicist risk assessment, HREC decision, consent material, approvals and actual doses where required.
+
+* Practical relationship to the THHS RSPP
+- Supports the RSPP requirement for ROMP assessment of additional research exposure before approval.
+- Connects radiation governance to research governance, HREC review and participant risk communication.
+- Does not set radiotherapy treatment prescription limits; its dose-constraint table is explicitly for diagnostic research exposure.
+
+* See Also
+- [[file:rps-c-5-2019.org][RPS C-5]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]

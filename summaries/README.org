@@ -1,0 +1,54 @@
+#+title: Source summaries — THHS Radiation Therapy RSPP upstream project
+#+FILETAGS: :index:resource:
+
+* Purpose
+This directory contains concise, source-faithful notes for the primary documents retained in the local corpus. Each note distinguishes the document's authority, jurisdiction and practical relationship to the approved THHS Radiation Therapy RSPP.
+
+The summaries are study aids. For an operative requirement, consult the current source document, applicable Queensland law, statutory standards, licence or approval conditions, and controlled THHS documents.
+
+* Completed summaries
+** THHS — approved local plan
+1. [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Safety and Protection Plan: Radiation Therapy Practices, v6.01]]
+
+** Queensland — binding instruments
+1. [[file:radiation-safety-act-1999.org][Radiation Safety Act 1999]]
+2. [[file:radiation-safety-regulation-2021.org][Radiation Safety Regulation 2021]]
+3. [[file:radiation-safety-standards-notice-2021.org][Radiation Safety (Radiation Safety Standards) Notice 2021]]
+4. [[file:standard-for-premises-ionising-radiation-sources-2021.org][Standard for premises—ionising radiation sources (2021)]] — official PDF retained locally, with extracted text and provenance.
+
+** Australia — national framework, codes and guidance
+1. [[file:ndrp2-2021.org][National Directory for Radiation Protection, 2nd Edition]]
+2. [[file:rps-f-1-2014.org][RPS F-1 — Fundamentals for Protection Against Ionising Radiation]]
+3. [[file:rps-c-1-rev-1-2020.org][RPS C-1 Rev. 1 — Planned Exposure Situations]]
+4. [[file:rps-c-5-2019.org][RPS C-5 — Medical Exposure]]
+5. [[file:rps-14-3-2008.org][RPS 14.3 — Radiotherapy Safety Guide]]
+6. [[file:rps-c-2-rev-1-2019.org][RPS C-2 Rev. 1 — Safe Transport]]
+7. [[file:rps-11-2019.org][RPS 11 — Security of Radioactive Sources]]
+8. [[file:rps-8-2005.org][RPS 8 — Human Research Exposure]]
+
+** International — principles, requirements and guidance
+1. [[file:icrp-publication-103-2007.org][ICRP Publication 103 — 2007 Recommendations]]
+2. [[file:iaea-sf-1-2006.org][IAEA SF-1 — Fundamental Safety Principles]]
+3. [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3 — International Basic Safety Standards]]
+4. [[file:iaea-ssg-46-2018.org][IAEA SSG-46 — Medical Uses of Ionizing Radiation]]
+5. [[file:iaea-safety-reports-series-47-2006.org][IAEA Safety Reports Series No. 47 — Radiotherapy Facility Design]]
+
+* Prioritised source and summary queue
+1. /Queensland Standard for ionising radiation apparatus—medical imaging (2021)/ — statutory standard relevant to in-scope imaging apparatus; official download remains pending.
+2. Relevant current /UNSCEAR/ evaluations — scientific evidence layer for radiation effects and risk; select reports by the RSPP practice being traced rather than treating UNSCEAR as a regulator.
+3. Any applicable THHS possession-licence, use-authorisation or approval conditions suitable for the project — these may create enforceable site-specific links but require access and review before inclusion.
+4. /RPS 14.1 — Safety Guide for Radiation Protection in Diagnostic and Interventional Radiology/ — low priority because its stated scope excludes radiotherapy, including treatment planning with dedicated equipment; retain only if a genuinely separate diagnostic/interventional practice enters scope.
+5. /RPS 14.2 — Safety Guide for Radiation Protection in Nuclear Medicine/ — supplementary for a defined nuclear-medicine interface, such as a radiopharmaceutical patient attending radiotherapy; its scope excludes external-beam and sealed-source radiotherapy itself.
+
+* Authority reading order
+The corpus is not one strict chain. A useful reading order is:
+
+scientific evidence → international recommendations/fundamentals → international requirements/guidance → Australian fundamentals/codes/guidance → Queensland Act/Regulation/statutory standards → licence and approval conditions → approved RSPP → departmental procedures → implementation records.
+
+Only the relevant Queensland instruments, licence/approval conditions and approved local requirements are directly enforceable at THHS. Other documents can be authoritative influences, nationally adoptable codes, technical guidance or evidence without themselves being Queensland law.
+
+* Project links
+- [[file:../sources/README.org][Local source corpus and provenance]]
+- [[file:../sources/source-register.tsv][Source register]]
+- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
+- [[file:../concept-graphs/graphs.org][Per-document concept graphs in the shared sourced graph]]

@@ -1,0 +1,147 @@
+digraph document_relationship_network {
+  graph [
+    rankdir=LR,
+    bgcolor="transparent",
+    pad=0.25,
+    nodesep=0.28,
+    ranksep=0.70,
+    splines=spline,
+    compound=true,
+    newrank=true,
+    fontname="Helvetica",
+    label="Structure of documents informing the THHS Radiation Safety and Protection Plan",
+    labelloc=t,
+    fontsize=18
+  ];
+
+  node [
+    shape=box,
+    style="rounded,filled",
+    fontname="Helvetica",
+    fontsize=9.5,
+    margin="0.13,0.09",
+    width=2.35,
+    penwidth=1.25
+  ];
+
+  edge [
+    color="#64748B",
+    fontcolor="#334155",
+    fontname="Helvetica",
+    fontsize=8,
+    arrowsize=0.65,
+    penwidth=1.05
+  ];
+
+  subgraph cluster_international {
+    label="INTERNATIONAL — recommendations, requirements and guidance\n(not direct Queensland law)";
+    color="#93C5FD";
+    fillcolor="#F5F9FF";
+    style="rounded,filled,dashed";
+    fontname="Helvetica";
+    fontsize=11;
+
+    icrp103 [label=<ICRP 103<BR/>2007 Recommendations<BR/><I>ICRP · international<BR/>Protection system</I>>, fillcolor="#E8F1FB", color="#2563EB"];
+    sf1 [label=<IAEA SF-1<BR/>Fundamental Safety Principles<BR/><I>IAEA · international fundamentals<BR/>Safety objective + principles</I>>, fillcolor="#E8F1FB", color="#2563EB"];
+    gsr3 [label=<IAEA GSR Part 3<BR/>International Basic Safety Standards<BR/><I>IAEA/co-sponsors · requirements<BR/>Protection + source safety</I>>, fillcolor="#E8F1FB", color="#2563EB", group="main"];
+    ssg46 [label=<IAEA SSG-46<BR/>Medical Uses of Ionizing Radiation<BR/><I>IAEA · safety guide<BR/>Apply GSR Part 3 in medicine</I>>, fillcolor="#E8F1FB", color="#2563EB"];
+    srs47 [label=<IAEA SRS 47<BR/>Design of Radiotherapy Facilities<BR/><I>IAEA · technical report<BR/>Shielding + facility design</I>>, fillcolor="#E8F1FB", color="#2563EB", group="facility"];
+
+    // Keep international sources in one vertical upstream layer, ordered from
+    // general protection systems/fundamentals to applied technical guidance.
+    { rank=same; icrp103; sf1; gsr3; ssg46; srs47; }
+    sf1 -> icrp103 [style=invis, weight=100];
+    srs47 -> ssg46 [style=invis, weight=100];
+  }
+
+  subgraph cluster_australia {
+    label="AUSTRALIA — national framework\n(authority depends on Queensland adoption)";
+    color="#5EEAD4";
+    fillcolor="#F0FDFA";
+    style="rounded,filled";
+    fontname="Helvetica";
+    fontsize=11;
+
+    rpsf1 [label=<RPS F-1<BR/>Fundamentals for Protection<BR/><I>ARPANSA · non-mandatory<BR/>Australian principles</I>>, fillcolor="#E6F7F5", color="#0F766E"];
+    ndrp2 [label=<NDRP2<BR/>National Directory, 2nd ed.<BR/><I>Health Ministers/ARPANSA · framework<BR/>National uniformity</I>>, fillcolor="#E6F7F5", color="#0F766E"];
+    rpsc1 [label=<RPS C-1 Rev. 1<BR/>Planned Exposure Code<BR/><I>ARPANSA/RHC · national code<BR/>Worker + public protection</I>>, fillcolor="#E6F7F5", color="#0F766E", group="main"];
+    rpsc5 [label=<RPS C-5<BR/>Medical Exposure Code<BR/><I>ARPANSA/RHC · national code<BR/>Patient protection + QA</I>>, fillcolor="#D1FAE5", color="#047857", penwidth=2.0];
+    rps143 [label=<RPS 14.3<BR/>Radiotherapy Safety Guide<BR/><I>ARPANSA · guidance<BR/>Clinical good practice</I>>, fillcolor="#E6F7F5", color="#0F766E"];
+    rps8 [label=<RPS 8<BR/>Human Research Exposure Code<BR/><I>ARPANSA · national code<BR/>Research risk + ethics</I>>, fillcolor="#E6F7F5", color="#0F766E"];
+    rps11 [label=<RPS 11<BR/>Security of Radioactive Sources<BR/><I>ARPANSA · national code<BR/>Source security</I>>, fillcolor="#E6F7F5", color="#0F766E"];
+    rpsc2 [label=<RPS C-2 Rev. 1<BR/>Safe Transport Code<BR/><I>ARPANSA/RHC · national code<BR/>Radioactive transport</I>>, fillcolor="#E6F7F5", color="#0F766E"];
+
+    // Keep the Australian framework in one vertical national layer, reading
+    // broadly from fundamentals/framework to specialised implementation.
+    { rank=same; rpsf1; ndrp2; rpsc1; rpsc5; rps143; rps8; rps11; rpsc2; }
+  }
+
+  subgraph cluster_queensland {
+    label="QUEENSLAND — binding instruments";
+    color="#FDBA74";
+    fillcolor="#FFFBEB";
+    style="rounded,filled";
+    fontname="Helvetica";
+    fontsize=11;
+
+    act [label=<QLD-ACT<BR/>Radiation Safety Act 1999<BR/><I>Queensland · legislation<BR/>Licensing + core duties</I>>, fillcolor="#FFF1D6", color="#C2410C", penwidth=2.0];
+    reg [label=<QLD-REG<BR/>Radiation Safety Regulation 2021<BR/><I>Queensland · subordinate law<BR/>Details + prescribed codes</I>>, fillcolor="#FFF1D6", color="#C2410C", penwidth=2.0, group="main"];
+    notice [label=<QLD-NOTICE<BR/>Safety Standards Notice 2021<BR/><I>Queensland · subordinate law<BR/>Notifies statutory standards</I>>, fillcolor="#FFF1D6", color="#C2410C"];
+    premises [label=<Premises Standard 2021<BR/>Ionising Radiation Sources<BR/><I>Queensland · statutory standard<BR/>Shielding + safety systems</I>>, fillcolor="#FFF1D6", color="#C2410C", group="facility"];
+
+    // Keep the Queensland instruments in one compact vertical layer, from the
+    // enabling Act through subordinate instruments to the technical standard.
+    { rank=same; act; reg; notice; premises; }
+  }
+
+  subgraph cluster_local {
+    label="THHS — approved control, implementation and evidence";
+    color="#C4B5FD";
+    fillcolor="#FAF5FF";
+    style="rounded,filled";
+    fontname="Helvetica";
+    fontsize=11;
+
+    rspp [label=<LOCAL-RSPP<BR/>THHS Radiation Therapy RSPP v6.01<BR/><I>THHS · approved local plan<BR/>Hazards + site controls</I>>, fillcolor="#F3E8FF", color="#7E22CE", penwidth=2.0, group="main"];
+    procedure [label=<PROCEDURES<BR/>Controlled departmental procedures<BR/><I>THHS department · local control<BR/>Process requirements</I>>, fillcolor="#FFF7ED", color="#B45309"];
+    workinstructions [label=<WORK INSTRUCTIONS<BR/>Task-specific directions<BR/><I>THHS department · local control<BR/>Detailed execution steps</I>>, fillcolor="#FFF7ED", color="#B45309"];
+    records [label=<RECORDS<BR/>Prescription, QA, monitoring, incidents<BR/><I>THHS · implementation evidence<BR/>Demonstrate performance</I>>, fillcolor="#ECFDF5", color="#15803D"];
+
+    // Stack the local plan, its procedures and its evidence vertically so the
+    // THHS cluster occupies one horizontal position instead of three ranks.
+    { rank=same; rspp; procedure; workinstructions; records; }
+  }
+
+  // Read the network from local control at left toward progressively more
+  // upstream authority and influence at right.
+  rpsc1 -> gsr3 [label="based on"];
+  rpsc5 -> gsr3 [label="based on"];
+  rpsf1 -> sf1 [label="informed by"];
+  rpsf1 -> icrp103 [label="informed by"];
+  gsr3 -> sf1 [label="underpinned by"];
+  gsr3 -> icrp103 [label="informed by"];
+  ssg46 -> gsr3 [label="applies requirements"];
+
+  rpsc1 -> rpsf1 [label="underpinned by"];
+  rpsc5 -> rpsf1 [label="underpinned by"];
+  rpsc5 -> rps143 [label="supported by", style=dashed, constraint=false, weight=0];
+  rpsc1 -> ndrp2 [label="within national framework", style=dotted];
+  rpsc5 -> ndrp2 [label="within national framework", style=dotted];
+
+  act -> reg [label="made under", color="#C2410C", dir=back];
+  act -> notice [label="made under", color="#C2410C", dir=back];
+  notice -> premises [label="notified by", color="#C2410C", dir=back];
+  reg -> rpsc5 [label="prescribes under s 70\nas licence condition", color="#047857", penwidth=1.8];
+  reg -> rps8 [label="prescribes for research", color="#047857"];
+  reg -> rps11 [label="prescribes for security", color="#047857"];
+  reg -> rpsc2 [label="prescribes for transport", color="#047857"];
+  reg -> rpsc1 [label="references selected concepts", style=dotted];
+  premises -> srs47 [label="design methods", style=dashed, color="#C2410C", constraint=false];
+
+  rspp -> act [label="approved under", color="#7E22CE", penwidth=1.7];
+  rspp -> reg [label="addresses prescribed measures", color="#7E22CE"];
+  rspp -> premises [label="implements", color="#7E22CE"];
+  procedure -> rspp [label="operationalises", color="#B45309"];
+  workinstructions -> procedure [label="implements", color="#B45309"];
+  records -> workinstructions [label="evidence", color="#15803D"];
+}

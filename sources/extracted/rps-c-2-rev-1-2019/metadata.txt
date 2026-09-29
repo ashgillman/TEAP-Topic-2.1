@@ -1,0 +1,31 @@
+Title: Code for the Safe Transport of Radioactive Material, Rev. 1
+Issuing body: Australian Radiation Protection and Nuclear Safety Agency
+Region: australia
+Publication/current date: 2019
+Retrieval date: 2026-09-16
+Authority class: National code intended for jurisdictional adoption
+Acquisition status: downloaded
+Source URL: https://www.arpansa.gov.au/sites/default/files/rps_c-2-2019.pdf
+Landing page: https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-2
+Source file: australia/rps-c-2-rev-1-2019.pdf
+SHA-256: 7bc2f4e2c80c80971475ef33ad9bdff9dee1b60e66eebceece15afe7f9e9f40d
+
+Author:          Meaghan Partridge
+Creator:         Acrobat PDFMaker 11 for Word
+Producer:        Adobe PDF Library 11.0
+CreationDate:    Fri Mar 22 11:02:16 2019 AEST
+ModDate:         Mon Apr  4 16:20:30 2022 AEST
+Custom Metadata: yes
+Metadata Stream: yes
+Tagged:          yes
+UserProperties:  no
+Suspects:        no
+Form:            AcroForm
+JavaScript:      no
+Pages:           195
+Encrypted:       no
+Page size:       595.32 x 841.92 pts (A4)
+Page rot:        0
+File size:       1788278 bytes
+Optimized:       yes
+PDF version:     1.6

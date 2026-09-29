@@ -1,0 +1,58 @@
+:PROPERTIES:
+:ID:       qld-radiation-safety-standards-notice-2021
+:ROAM_ALIASES: "Queensland Radiation Safety Standards Notice 2021"
+:END:
+#+title: Radiation Safety (Radiation Safety Standards) Notice 2021 (Queensland)
+#+FILETAGS: :resource:queensland:legislation:
+#+ROAM_REFS: https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0133
+#+STARTUP: hideblocks content
+
+* Source documents
+- [[file:../sources/queensland/radiation-safety-standards-notice-2021.pdf][Official PDF retained locally]] — current as at 1 September 2021; retrieved 16 September 2026.
+- [[file:../sources/extracted/radiation-safety-standards-notice-2021/document.txt][Extracted text]]
+- [[file:../sources/extracted/radiation-safety-standards-notice-2021/metadata.txt][Provenance and SHA-256 metadata]]
+
+* Authority and jurisdiction
+- Queensland subordinate legislation made under s 16 of the /Radiation Safety Act 1999/.
+- The Notice identifies documents that are radiation safety standards for the Act. It is the formal legal bridge between the Act and the named Queensland standards.
+
+* Key takeaways :AI:
+- Section 3 and Schedule 1 make five 2021 Queensland documents radiation safety standards under the Act.
+- For radiation therapy, the /Standard for premises—ionising radiation sources/ is a principal statutory standard for bunker design, shielding and premises compliance.
+- The medical-imaging apparatus standard may apply to imaging apparatus used within the radiation-therapy pathway, depending on the apparatus and practice.
+- A standard listed here is not merely guidance: legal duties concerning compliance and certificates arise through the Act and related instruments.
+- The premises standard is now retained in the local corpus with a [[file:standard-for-premises-ionising-radiation-sources-2021.org][dedicated summary]]. The medical-imaging apparatus standard remains to be acquired and summarised.
+
+* Summary :AI:
+** Sections 1–2 — Title and commencement
+- Names the Notice and provides its commencement arrangements.
+
+** Section 3 — Radiation safety standards
+- Declares the documents in Schedule 1 to be radiation safety standards for s 16 of the Act.
+
+** Section 4 — Inspection
+- Provides for public inspection of the standards.
+
+** Schedule 1 — Listed standards
+1. /Standard for ionising radiation apparatus—medical imaging (2021)/.
+2. /Standard for non-ionising radiation apparatus—medical and cosmetic procedures (2021)/.
+3. /Standard for premises—ionising radiation sources (2021)/.
+4. /Standard for premises—non-ionising radiation apparatus (2021)/.
+5. /Standard for radiation sources—industrial, mining, manufacturing and other practices (2021)/.
+
+* Important definitions, roles, limits and records
+- /Radiation safety standard/ :: A document given statutory status through s 16 of the Act and this Notice.
+- /Certificate of compliance/ :: The Act requires prescribed sources or premises to be assessed against the applicable standard and to hold a current certificate where required.
+- The Notice contains no clinical dose limit or QA tolerance itself; substantive requirements are in the listed standards and their enabling legislation.
+- Compliance certificates, assessment reports and records of relevant modifications are evidence that statutory premises or apparatus requirements remain satisfied.
+
+* Practical relationship to the THHS RSPP
+- Explains why the RSPP treats compliant premises and applicable compliant apparatus as mandatory controls.
+- Supports local controls for shielding, access restriction, warning systems, interlocks, reassessment after relevant changes and retention of certificates.
+- The exact technical requirements must be taken from the applicable standard, not inferred from this short Notice.
+
+* See Also
+- [[file:radiation-safety-act-1999.org][Radiation Safety Act 1999]]
+- [[file:radiation-safety-regulation-2021.org][Radiation Safety Regulation 2021]]
+- [[file:thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]
+- [[file:standard-for-premises-ionising-radiation-sources-2021.org][Standard for premises—ionising radiation sources (2021)]]

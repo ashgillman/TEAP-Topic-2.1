@@ -1,0 +1,70 @@
+#+title: RSPP upstream source corpus
+
+* Purpose
+
+This directory retains official primary source documents used to trace the THHS
+radiation therapy RSPP upstream.  The PDFs remain authoritative.  The packages in
+=extracted/= are searchable working representations and do not replace checking the
+source PDF before relying on exact wording, a numerical value or a table.
+
+* Layout
+
+- =local/= :: supplied THHS controlled documents retained for local traceability.
+- =queensland/= :: Queensland Acts, subordinate legislation and statutory standards.
+- =australia/= :: ARPANSA national fundamentals, codes, guides and the NDRP.
+- =international/= :: reserved for IAEA, ICRP and UNSCEAR primary sources.
+- =extracted/<source>/document.txt= :: layout-preserving UTF-8 text; form-feed
+  characters delimit PDF pages.
+- =extracted/<source>/metadata.txt= :: provenance, authority classification,
+  SHA-256 and =pdfinfo= output.
+- =source-register.tsv= :: source URL, landing page, title, issuer, date, retrieval
+  date, authority class and acquisition status.
+
+* Authority warning
+
+An ARPANSA code or NDRP element is not automatically Queensland law.  Its legal
+effect depends on adoption, incorporation, a licence condition or another identified
+Queensland mechanism.  RPS F-1 and RPS 14.3 are non-mandatory fundamentals/guidance.
+The source register records document class without asserting a Queensland adoption
+mechanism that has not yet been verified.
+
+* Pending official sources
+
+The 2021 Queensland /Standard for premises--ionising radiation sources/ is now
+retained from the user's copy of the official PDF, with extracted text, metadata
+and a dedicated summary. The remaining 2021 Queensland Health standard below was
+verified on the official source page, but automated PDF retrieval returned HTTP 403
+on 2026-09-16. No superseded or third-party copy has been substituted:
+
+- /Standard for ionising radiation apparatus--medical imaging (2021)/
+
+Place later official downloads in =queensland/=, add the relative filenames to the
+register and change their status to =downloaded= before rebuilding the corpus.
+
+The appropriate UNSCEAR evidence report remains to be selected against the map's
+actual evidence needs rather than treating the whole UNSCEAR catalogue as one source.
+
+* Regeneration
+
+Run from any directory:
+
+#+begin_src sh
+sources/build-extracted-sources.sh
+#+end_src
+
+The script requires Poppler's =pdftotext= and =pdfinfo=, Pandoc for DOCX extraction,
+the =file= utility and =shasum=.
+
+* Local controlled sources
+
+The THHS RSPP is retained in =local/= and registered as =retained_local=.  It is not
+presented as a public download.  Before operational use, confirm the current approved
+version in the THHS document-control system; the supplied copy is retained here for
+study and traceability.
+
+* Extraction notes
+
+The older IAEA SF-1 and Safety Reports Series No. 47 PDFs contain defective font
+maps in some cover and front-matter pages.  Their substantive body text extracts
+readably, but the affected preliminary lines remain garbled in =document.txt=.
+Use the authoritative PDF when those pages matter.

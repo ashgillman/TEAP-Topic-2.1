@@ -1,0 +1,93 @@
+concept_id	label	scope_note
+safety_objective	Protect people and environment	Overall radiological safety objective.
+radiation_evidence	Radiation effects evidence	Biological and epidemiological evidence considered in protection decisions.
+stochastic_risk	Stochastic risk	Probability of late effects considered in protection.
+tissue_reaction	Tissue reactions	Effects with dose-related severity above relevant thresholds.
+justification	Justification	Decide whether an activity or individual exposure has sufficient benefit.
+optimisation	Optimisation	Choose protection reasonably achievable while meeting the intended purpose.
+dose_limitation	Dose limitation	Limit exposure of individuals where the protection system applies limits.
+planned_exposure	Planned exposure situation	Deliberate introduction or operation of a radiation source.
+emergency_exposure	Emergency exposure situation	Unexpected situation requiring urgent protective action.
+existing_exposure	Existing exposure situation	Exposure already present when a control decision is required.
+occupational_exposure	Occupational exposure	Exposure incurred by workers in the course of work.
+public_exposure	Public exposure	Exposure of members of the public from a practice.
+patient_exposure	Patient medical exposure	Exposure of a patient for diagnosis or treatment.
+worker_limit_20_5_50	Adult worker effective-dose limit: 20 mSv/year averaged over 5 years; 50 mSv in one year	Recommendation or requirement status depends on the source document; Queensland Schedule 5 is the binding local value.
+rspp_worker_20_annual	RSPP-stated worker dose limit: 20 mSv annually	Shorthand wording in the supplied local plan; consult Queensland Schedule 5 for the complete binding five-year average and one-year cap.
+public_limit_1	Public effective-dose limit: 1 mSv/year	Source-scoped value; Queensland Schedule 5 states the binding local limit for other persons.
+patient_no_limit	No occupational/public dose limit for intended patient treatment	The intended patient dose is controlled through justification and optimisation.
+dose_constraint	Dose constraint	Prospective source-related optimisation tool; distinct from a dose limit.
+reference_level	Reference level	Prospective optimisation tool for emergency or existing exposure.
+investigation_level	Investigation level	Local trigger for review, potentially below a legal limit.
+alara	ALARA	As low as reasonably achievable, subject to the intended purpose.
+time_control	Time	Reduce duration of exposure where feasible.
+distance_control	Distance	Increase separation from a source where feasible.
+shielding_control	Shielding	Interpose suitable barriers between source and person.
+area_classification	Area classification	Define controlled, supervised or other areas as appropriate to exposure risk.
+access_control	Access control	Restrict entry and source use to appropriate people and conditions.
+personal_monitoring	Personal monitoring	Measure and assess an individual's occupational exposure.
+personal_dosimeter	Personal dosimeter	Assigned passive or active device used for occupational dose assessment.
+alarm_monitor	Personal alarm monitor	Device providing immediate warning in specified higher-risk work.
+workplace_survey	Workplace radiation survey	Measure area radiation fields or verify premises performance.
+exposure_record	Exposure record	Retained individual monitoring and dose assessment record.
+abnormal_dose_review	Abnormal dose review	Investigation of unusual readings or exposure conditions.
+pregnant_worker	Pregnant worker	Worker who has declared pregnancy; occupational protection context.
+pregnant_worker_limit_1_remainder	Pregnant worker effective-dose limit: 1 mSv for remainder of pregnancy	Binding Queensland Regulation ss 52–55 as applicable after awareness of pregnancy; distinct from RSPP pro-rata wording.
+rspp_pregnancy_1_prorata	RSPP-stated pregnancy control: 1 mSv pro rata per annum	Wording in supplied plan; compare with current Queensland Regulation's 1 mSv for remainder of pregnancy.
+pregnant_patient	Pregnant patient	Patient for whom treatment or imaging may expose an embryo or fetus.
+fetal_dose_assessment	Embryo/fetus dose assessment	Estimate exposure and risk for pregnancy-specific decisions.
+worker_duty_review	Pregnancy work-duty review	Review work conditions to control embryo/fetus exposure.
+patient_counselling	Pregnancy counselling and consent	Clinical explanation of risks, benefits and alternatives.
+prescription	Treatment prescription	Documented clinical authorisation of intended radiation treatment.
+patient_identification	Patient identification	Confirm the correct patient and treatment data.
+treatment_plan	Treatment plan	Approved technical and clinical description of delivery.
+calibration	Calibration and dosimetry	Establish and verify source output and delivered dose.
+commissioning	Acceptance and commissioning	Establish equipment and system performance before clinical use.
+quality_assurance	Quality assurance	Planned checks across clinical and technical processes.
+independent_check	Independent check	Second or independent verification of critical plan or dose data.
+data_integrity	Data-transfer integrity	Ensure prescription, plan and delivery-system data remain consistent.
+oims	Oncology information management system	Safety-critical treatment record and delivery-control system.
+formal_release	Formal clinical release	Qualified authorisation to resume clinical use after change or fault.
+defence_in_depth	Defence in depth	Multiple barriers against a single failure causing harm.
+incident_response	Incident response	Control, report, assess, investigate and learn from unintended exposure or near miss.
+incident_learning	Incident learning	Use events and near misses to improve controls.
+regulatory_notification	Regulatory notification	Notify the regulator when a statutory reporting threshold is met.
+possession_licence	Possession licence	Queensland permission to possess specified radiation sources.
+use_licence	Use licence	Queensland permission for an individual to use a source within scope.
+approved_rspp	Approved RSPP	Regulator-approved local radiation safety and protection plan.
+plan_content	RSPP required content	Mandatory classes of measures the plan must address.
+possession_licensee	Possession licensee	Organisation holding the Queensland possession licence.
+rso	Radiation Safety Officer	Qualified person appointed for statutory radiation safety functions.
+staff_competence	Training and competence	Personnel understand and can perform assigned roles safely.
+local_procedure	Controlled local procedure	Site-approved operational instruction or work instruction.
+implementation_record	Implementation record	Record demonstrating that a control was carried out.
+management_system	Safety management system	Roles, resources, review and records used to manage protection and safety.
+source_lifecycle	Source lifecycle	Acquisition, possession, use, relocation, supply, transport and disposal.
+source_security	Source security	Prevent unauthorised access, removal or malicious use of radioactive sources.
+source_category	Source category	Risk/security classification relevant to graded controls.
+source_inventory	Source inventory and accountancy	Knowledge of source identity, status and authorised location.
+hdr_source	HDR brachytherapy source	Sealed radioactive source used in remote afterloading.
+transport	Radioactive material transport	Preparation, consigning, carriage, in-transit storage and receipt.
+transport_package	Transport package controls	Classification, package, labels, documents and checks.
+transport_handover	Documented handover	Transfer of custody and receipt of a radioactive consignment.
+premises_design	Radiotherapy premises design	Facility layout, shielding and safety features.
+source_term	Radiation source term	Credible output and components used in a shielding calculation.
+workload	Workload	Amount of source use over a defined period.
+use_factor	Use factor	Fraction of workload directed toward a barrier.
+occupancy_factor	Occupancy factor	Fraction of time an adjacent area is occupied.
+barrier_components	Primary, leakage, scatter and neutron components	Distinct radiation components considered where relevant in barrier design.
+premises_weekly_test	Premises weekly dose criterion	Queensland Standard section 2.1.1 test for specified accessible area types.
+compliant_premises	Compliant premises	Premises meeting applicable Queensland radiation safety standards.
+premises_standard	Queensland premises standard	Standard for premises—ionising radiation sources (2021), given statutory status by the Standards Notice.
+compliance_certificate	Certificate of compliance	Queensland evidence of an accredited compliance assessment.
+warning_system	Radiation warning system	Visual or audible indication of source or beam state.
+interlock	Interlock	Safety system that prevents or interrupts exposure under specified conditions.
+last_person_out	Last-person-out control	Room clearance step before initiating exposure.
+emergency_off	Emergency-off control	Accessible control to stop exposure or return a source to safety.
+research_exposure	Additional research exposure	Exposure beyond normal clinical management for research.
+research_constraint	Research participant dose constraint	Prospective research and ethics control, scoped to the code's stated applications.
+physicist_risk_review	Medical physicist dose/risk review	Independent assessment or verification for research ethics review.
+hrec_review	HREC review	Ethical review of research justification, risk and consent.
+informed_consent	Informed consent	Participant information and agreement appropriate to the research or clinical decision.
+national_harmonisation	National harmonisation	Coordination of radiation protection across Australian jurisdictions.
+jurisdictional_adoption	Jurisdictional adoption	Identified legal mechanism giving an external code local effect.
