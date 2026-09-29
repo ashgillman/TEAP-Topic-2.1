@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2026-09-29 Tue 21:26 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>THHS Radiation Therapy RSPP: Upstream Traceability Map</title>
+<meta name="author" content="Ashley Gillman" />
+<meta name="generator" content="Org Mode" />
+<style type="text/css">
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-c:before { content: 'C'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'JavaScript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">THHS Radiation Therapy RSPP: Upstream Traceability Map</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org98d8e66">Purpose and reading rule</a></li>
+<li><a href="#org1aaebb8">Authority classes used in this map</a></li>
+<li><a href="#orgfe34d3b">Visual prototypes</a>
+<ul>
+<li><a href="#orgfd50bf1">Prototype A: authority ladder</a></li>
+<li><a href="#org180dffb">Document relationship network</a></li>
+<li><a href="#orgb78ebce">Prototype C: worked traceability chains</a></li>
+<li><a href="#orgd8b1ecb">Recommendation</a></li>
+</ul>
+</li>
+<li><a href="#org3b92845">Document register</a>
+<ul>
+<li><a href="#org16ea1e6">THHS / local</a></li>
+<li><a href="#org6b679f6">Queensland statutory framework</a></li>
+<li><a href="#org317dec1">Australian codes, fundamentals and framework</a></li>
+<li><a href="#org7b5caf0">International recommendations and standards</a></li>
+</ul>
+</li>
+<li><a href="#orgcc3eb10">High-value practice traceability map</a></li>
+<li><a href="#orgaf0a9e8">Principal relationship chains</a>
+<ul>
+<li><a href="#orgc51c566">Medical exposure and treatment delivery</a></li>
+<li><a href="#orga868f13">Premises</a></li>
+<li><a href="#orgf3156fa">Occupational and public protection</a></li>
+</ul>
+</li>
+<li><a href="#org10c720b">Adoption and currency findings</a></li>
+<li><a href="#org1c9bdcc">Questions to resolve in the next pass</a></li>
+<li><a href="#orgadf1e7c">See also</a></li>
+</ul>
+</div>
+</div>
+<p>
+Working draft: the document register, section-level traces and open questions here support the concise <a href="../rspp-upstream-map.html">mapping overview</a>.
+</p>
+<div id="outline-container-org98d8e66" class="outline-2">
+<h2 id="org98d8e66">Purpose and reading rule</h2>
+<div class="outline-text-2" id="text-org98d8e66">
+<p>
+This map traces high-value controls in the THHS <i>Radiation Safety and Protection Plan for Radiation Therapy Practices</i>, Version 6.0 - Revision 1 (v6.01), to their principal upstream sources.
+</p>
+
+<p>
+It is not a single chain in which every upstream publication directly regulates THHS.  Read it as a hierarchy of different kinds of authority:
+</p>
+
+<ol class="org-ol">
+<li><b>Scientific evidence and professional consensus</b> explain radiation effects and workable safety controls.</li>
+<li><b>International recommendations</b> (for example ICRP) and <b>international safety standards and guidance</b> (for example IAEA) influence national frameworks but do not directly regulate a Queensland hospital.</li>
+<li><b>Australian fundamentals, codes and guidance</b> provide nationally agreed principles and requirements.  They acquire Queensland legal force only where Queensland legislation adopts or incorporates them, a licence makes them a condition, or another identified legal mechanism applies.</li>
+<li><b>Queensland Acts and subordinate legislation</b> are legally binding.  Minister-made radiation safety standards notified under the Act set statutory minimum safety criteria.</li>
+<li><b>Possession/use licences, approvals and their conditions</b> are enforceable.  Of particular importance, the <i>Code for Radiation Protection in Medical Exposure</i> (RPS C-5) is prescribed for human diagnostic and therapeutic practices and is therefore a standard condition of the relevant Queensland possession and use licences (Act s 75(3); Regulation s 70(1), item 2).</li>
+<li>The <b>approved local RSPP</b> converts the applicable law, licence conditions, hazards and selected good practice into site-specific controls.  Departmental procedures and work instructions operationalise it; records demonstrate implementation.</li>
+</ol>
+
+<p>
+Terms such as <i>must</i>, <i>limit</i> and <i>required</i> below are source-scoped.  A guide or recommendation is not labelled law unless the adoption mechanism is identified.
+</p>
+</div>
+</div>
+<div id="outline-container-org1aaebb8" class="outline-2">
+<h2 id="org1aaebb8">Authority classes used in this map</h2>
+<div class="outline-text-2" id="text-org1aaebb8">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Class</th>
+<th scope="col" class="org-left">Meaning in this project</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Legally binding legislation</td>
+<td class="org-left">An Act of the Queensland Parliament.</td>
+</tr>
+
+<tr>
+<td class="org-left">Subordinate legislation</td>
+<td class="org-left">A regulation or notice made under an Act.</td>
+</tr>
+
+<tr>
+<td class="org-left">Statutory radiation-safety standard</td>
+<td class="org-left">A Queensland standard made and notified under Act s 16; compliance is required through Act ss 17&ndash;20.</td>
+</tr>
+
+<tr>
+<td class="org-left">Enforceable licence or approval condition</td>
+<td class="org-left">A condition imposed directly or by Act s 75 and Regulation s 70; contravention is addressed by Act s 77.</td>
+</tr>
+
+<tr>
+<td class="org-left">Approved local plan</td>
+<td class="org-left">The possession licensee's regulator-approved RSPP identified in its possession licence.</td>
+</tr>
+
+<tr>
+<td class="org-left">National code capable of jurisdictional adoption</td>
+<td class="org-left">An ARPANSA/Radiation Health Committee code that requires an adoption mechanism to have force in Queensland.</td>
+</tr>
+
+<tr>
+<td class="org-left">Non-mandatory guidance or recommendation</td>
+<td class="org-left">Guidance supporting good practice; not independently binding.</td>
+</tr>
+
+<tr>
+<td class="org-left">International safety requirement or guide</td>
+<td class="org-left">IAEA requirement or guidance for national implementation; not direct Queensland law.</td>
+</tr>
+
+<tr>
+<td class="org-left">Technical evidence or professional consensus</td>
+<td class="org-left">Scientific evidence, recommendations or professional practice supporting the control.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgfe34d3b" class="outline-2">
+<h2 id="orgfe34d3b">Visual prototypes</h2>
+<div class="outline-text-2" id="text-orgfe34d3b">
+<p>
+The diagrams deliberately use different visual language for different authority classes.  Blue international nodes are influential but not direct Queensland regulation; teal Australian nodes require an identified adoption mechanism; orange Queensland nodes are binding instruments; purple is the approved local RSPP; green is retained evidence.
+</p>
+
+<p>
+All three prototypes have editable Graphviz source and rendered SVG output in <a href="../figures/">figures/</a>.  Run the source blocks from the project root to reproduce the checked SVGs using Graphviz through Nix.
+</p>
+</div>
+<div id="outline-container-orgfd50bf1" class="outline-3">
+<h3 id="orgfd50bf1">Prototype A: authority ladder</h3>
+<div class="outline-text-3" id="text-orgfd50bf1">
+<p>
+This is the clearest one-page explanation of how evidence and recommendations become local practice without pretending there is a single direct legislative chain.
+</p>
+
+<ul class="org-ul">
+<li>Editable source: <a href="../figures/authority-ladder.dot">authority-ladder.dot</a></li>
+<li>Rendered figure: <a href="../figures/authority-ladder.svg">authority-ladder.svg</a></li>
+</ul>
+
+<div class="org-src-container">
+<pre class="src src-sh"><code>nix shell nixpkgs#graphviz --command dot \
+  -Tsvg figures/authority-ladder.dot \
+  -o figures/authority-ladder.svg
+</code></pre>
+</div>
+
+
+<div id="org6257dcc" class="figure">
+<p><img src="../figures/authority-ladder.svg" alt="authority-ladder.svg" class="org-svg" width="500" />
+</p>
+<p><span class="figure-number">Figure 1: </span>Prototype A. Authority ladder from evidence to implementation record. The move from Australian framework to Queensland law is explicitly conditional on adoption or prescription.</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org180dffb" class="outline-3">
+<h3 id="org180dffb">Document relationship network</h3>
+<div class="outline-text-3" id="text-org180dffb">
+<p>
+This network is the detailed upstream reference view.  Read it from left to right: THHS local control → Queensland binding instruments → Australian framework → international recommendations and standards.  Direct RSPP-to-Australian and RSPP-to-international edges are omitted; a publication cited by the RSPP does not thereby become an independent source of authority.  The Regulation instead links to the national codes it prescribes or references, and those codes link to their broader foundations.  Dashed or dotted relationships show guidance, technical context or partial reference rather than direct legal adoption.
+</p>
+
+<ul class="org-ul">
+<li>Editable source: <a href="../figures/document-relationship-network.dot">document-relationship-network.dot</a></li>
+<li>Rendered figure: <a href="../figures/document-relationship-network.svg">document-relationship-network.svg</a></li>
+<li>Interactive explorer: <a href="../interactive-network/index.html">open the clickable document network</a></li>
+<li>Explorer notes and rebuild instructions: <a href="../interactive-network/README.html">interactive-network/README.org</a></li>
+</ul>
+
+<div class="org-src-container">
+<pre class="src src-sh"><code>nix shell nixpkgs#graphviz --command dot \
+  -Tsvg figures/document-relationship-network.dot \
+  -o figures/document-relationship-network.svg
+</code></pre>
+</div>
+
+
+<div id="orgb7e549e" class="figure">
+<p><img src="../figures/document-relationship-network.svg" alt="document-relationship-network.svg" class="org-svg" width="1200" />
+</p>
+<p><span class="figure-number">Figure 2: </span>Left-to-right upstream trace from THHS through Queensland and the Australian framework to international sources. The dashed premises-standard–IAEA SRS 47 link shows technical context, not direct adoption or regulation.</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgb78ebce" class="outline-3">
+<h3 id="orgb78ebce">Prototype C: worked traceability chains</h3>
+<div class="outline-text-3" id="text-orgb78ebce">
+<p>
+The three lanes show how the same hierarchy is applied to a patient control, a worker/public protection control and an incident-learning control.  Each ends in a retained record rather than stopping at policy.
+</p>
+
+<ul class="org-ul">
+<li>Editable source: <a href="../figures/worked-traceability-chains.dot">worked-traceability-chains.dot</a></li>
+<li>Rendered figure: <a href="../figures/worked-traceability-chains.svg">worked-traceability-chains.svg</a></li>
+</ul>
+
+<div class="org-src-container">
+<pre class="src src-sh"><code>nix shell nixpkgs#graphviz --command dot \
+  -Tsvg figures/worked-traceability-chains.dot \
+  -o figures/worked-traceability-chains.svg
+</code></pre>
+</div>
+
+
+<div id="org0947c7a" class="figure">
+<p><img src="../figures/worked-traceability-chains.svg" alt="worked-traceability-chains.svg" class="org-svg" width="1400" />
+</p>
+<p><span class="figure-number">Figure 3: </span>Prototype C. Worked chains for treatment justification, personal monitoring and incident response. The personal-monitoring lane says “informs; selected concepts referenced” rather than claiming wholesale Queensland adoption of RPS C-1.</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd8b1ecb" class="outline-3">
+<h3 id="orgd8b1ecb">Recommendation</h3>
+<div class="outline-text-3" id="text-orgd8b1ecb">
+<p>
+Use <b>Prototype A, the authority ladder,</b> as the project’s main overview figure.  It communicates the most important interpretive rule at a glance: influence is not the same as legal authority, and local compliance must end in evidence.  Use Prototype C immediately after it as the practical worked example.  Keep the document relationship network as a detailed reference figure because it contains more document-level information than is comfortable for an opening overview.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org3b92845" class="outline-2">
+<h2 id="org3b92845">Document register</h2>
+<div class="outline-text-2" id="text-org3b92845">
+<p>
+Most entries were checked against official publisher or legislation pages on 2026-09-16; the Queensland premises standard was checked again on 2026-09-29. “Current” means current on that official page, not that every clause has been independently compared with the THHS licence.
+</p>
+
+<p>
+Documents are grouped by jurisdiction.  Within each entry, the definition-list fields separate legal status, clinical relevance and currency so they can be read vertically without horizontal scrolling.
+</p>
+</div>
+<div id="outline-container-org16ea1e6" class="outline-3">
+<h3 id="org16ea1e6">THHS / local</h3>
+<div class="outline-text-3" id="text-org16ea1e6">
+<ul class="org-ul">
+<li><b>LOCAL-RSPP — <i>Radiation Safety and Protection Plan for Radiation Therapy Practices</i>, Version 6.0 - Revision 1</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>Townsville Hospital and Health Service (THHS)</dd>
+<dt>Jurisdiction</dt><dd>THHS/local</dd>
+<dt>Document type</dt><dd>Approved local plan</dd>
+<dt>Authority / legal power</dt><dd>Approved under the <i>Radiation Safety Act 1999</i> and identified in the possession licence</dd>
+<dt>Radiation-therapy relevance</dt><dd>Local hazards, roles, training, safe work, QA, monitoring, records, source lifecycle and incidents</dd>
+<dt>Relationship to the RSPP</dt><dd>Immediate operational authority mapped in this document</dd>
+<dt>Official source</dt><dd><a href="../sources/local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx">local controlled source copy</a></dd>
+<dt>Currency / version checked</dt><dd>v6.01; supplied project source</dd>
+</dl></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6b679f6" class="outline-3">
+<h3 id="org6b679f6">Queensland statutory framework</h3>
+<div class="outline-text-3" id="text-org6b679f6">
+<ul class="org-ul">
+<li><b>QLD-ACT — <i>Radiation Safety Act 1999</i></b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>Queensland Parliament</dd>
+<dt>Jurisdiction</dt><dd>Queensland</dd>
+<dt>Document type</dt><dd>Act</dd>
+<dt>Authority / legal power</dt><dd>Legally binding legislation</dd>
+<dt>Radiation-therapy relevance</dt><dd>Licensing; statutory standards; RSPPs; RSO; monitoring; prescription; exposure; source lifecycle; dangerous events</dd>
+<dt>Relationship to the RSPP</dt><dd>Primary legislative basis for the RSPP and possession/use controls</dd>
+<dt>Official source</dt><dd><a href="https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1999-020">Queensland Legislation</a></dd>
+<dt>Currency / version checked</dt><dd>Reprint current from 23 Sep 2025; checked 2026-09-16</dd>
+</dl></li>
+<li><b>QLD-REG — <i>Radiation Safety Regulation 2021</i></b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>Queensland Governor in Council</dd>
+<dt>Jurisdiction</dt><dd>Queensland</dd>
+<dt>Document type</dt><dd>Regulation</dd>
+<dt>Authority / legal power</dt><dd>Subordinate legislation made under QLD-ACT</dd>
+<dt>Radiation-therapy relevance</dt><dd>Prescribed RSPP measures; certificate periods; dose limits; authorised prescribers; standard licence conditions</dd>
+<dt>Relationship to the RSPP</dt><dd>Supplies detailed requirements and makes selected ARPANSA codes standard licence conditions</dd>
+<dt>Official source</dt><dd><a href="https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0125">Queensland Legislation</a></dd>
+<dt>Currency / version checked</dt><dd>Reprint current from 1 Oct 2025; checked 2026-09-16</dd>
+</dl></li>
+<li><b>QLD-NOTICE — <i>Radiation Safety (Radiation Safety Standards) Notice 2021</i></b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>Queensland Minister for Health</dd>
+<dt>Jurisdiction</dt><dd>Queensland</dd>
+<dt>Document type</dt><dd>Statutory notice</dd>
+<dt>Authority / legal power</dt><dd>Subordinate legislation under QLD-ACT s 16</dd>
+<dt>Radiation-therapy relevance</dt><dd>Identifies the five current Queensland radiation safety standards</dd>
+<dt>Relationship to the RSPP</dt><dd>Makes the premises and medical-imaging standards statutory standards</dd>
+<dt>Official source</dt><dd><a href="https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0133">Queensland Legislation</a></dd>
+<dt>Currency / version checked</dt><dd>Commenced 1 Sep 2021; checked 2026-09-16</dd>
+</dl></li>
+<li><b>QLD-PREMISES — <i>Standard for premises—ionising radiation sources</i> (2021)</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>Queensland Health</dd>
+<dt>Jurisdiction</dt><dd>Queensland</dd>
+<dt>Document type</dt><dd>Radiation safety standard</dd>
+<dt>Authority / legal power</dt><dd>Statutory standard made under QLD-ACT s 16; compliance/certification through ss 17&ndash;20</dd>
+<dt>Radiation-therapy relevance</dt><dd>General area-dose, warning and RSO-contact tests (s 2.1); radiation-therapy room safety systems (s 3.3); HDR/PDR remote-afterloading room tests (s 3.4)</dd>
+<dt>Relationship to the RSPP</dt><dd>Direct basis for compliant premises and retained certificates</dd>
+<dt>Title note</dt><dd>“PR100” belongs to older editions; the official 2021 title and Standards Notice do not use that designation. The supplied controlled RSPP still uses “PR100:2021”.</dd>
+<dt>Official source</dt><dd><a href="https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1104661/premises-ionising-radiation-sources.pdf">Queensland Health PDF</a></dd>
+<dt>Summary</dt><dd><a href="../summaries/standard-for-premises-ionising-radiation-sources-2021.html">Queensland premises standard summary</a></dd>
+<dt>Currency / version checked</dt><dd>Made 13 Aug 2021; expires 31 Aug 2031; official PDF checked online 2026-09-29</dd>
+</dl></li>
+<li><b>QLD-MI — <i>Standard for ionising radiation apparatus—medical imaging</i> (2021)</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>Queensland Health</dd>
+<dt>Jurisdiction</dt><dd>Queensland</dd>
+<dt>Document type</dt><dd>Radiation safety standard</dd>
+<dt>Authority / legal power</dt><dd>Statutory standard made under QLD-ACT s 16; compliance/certification through ss 17&ndash;20</dd>
+<dt>Radiation-therapy relevance</dt><dd>Minimum performance for imaging apparatus, including radiotherapy treatment-planning imaging; excludes treatment-delivery systems</dd>
+<dt>Relationship to the RSPP</dt><dd>Direct for covered imaging apparatus; not a treatment-machine performance standard</dd>
+<dt>Official source</dt><dd><a href="https://www.health.qld.gov.au/system-governance/licences/radiation-licensing/legislation/resources">Queensland Health standards page</a></dd>
+<dt>Currency / version checked</dt><dd>2021; checked 2026-09-16</dd>
+</dl></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org317dec1" class="outline-3">
+<h3 id="org317dec1">Australian codes, fundamentals and framework</h3>
+<div class="outline-text-3" id="text-org317dec1">
+<ul class="org-ul">
+<li><b>RPS-C5 — <i>Code for Radiation Protection in Medical Exposure</i> (2019), Radiation Protection Series C-5</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA and Radiation Health Committee</dd>
+<dt>Jurisdiction</dt><dd>Australia; adopted in Queensland for specified practices</dd>
+<dt>Document type</dt><dd>National code</dd>
+<dt>Authority / legal power</dt><dd>Enforceable standard licence condition for human diagnostic/therapeutic possession and use: QLD-ACT s 75(3), QLD-REG s 70(1) item 2</dd>
+<dt>Radiation-therapy relevance</dt><dd>Justification, optimisation, medical-physics oversight, calibration, acceptance/commissioning, QA, planning, incidents, records and research exposure</dd>
+<dt>Relationship to the RSPP</dt><dd>Principal Australian medical-exposure requirements upstream of many clinical controls</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-5">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>July 2019; current page checked 2026-09-16</dd>
+</dl></li>
+<li><b>RPS-8 — <i>Code of Practice for the Exposure of Humans to Ionizing Radiation for Research Purposes</i> (2005), Radiation Protection Series No. 8</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA</dd>
+<dt>Jurisdiction</dt><dd>Australia; adopted in Queensland for specified practice</dd>
+<dt>Document type</dt><dd>National code</dd>
+<dt>Authority / legal power</dt><dd>Enforceable standard licence condition for human radiation research: QLD-ACT s 75(3), QLD-REG s 70(1) item 5</dd>
+<dt>Radiation-therapy relevance</dt><dd>Radiation risk assessment, information/consent and HREC review of research exposure</dd>
+<dt>Relationship to the RSPP</dt><dd>Direct upstream basis for local ROMP assessment plus ethics approval</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rps8">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2005; Annex 4 removed Jan 2015; checked 2026-09-16</dd>
+</dl></li>
+<li><b>RPS-11 — <i>Code of Practice for the Security of Radioactive Sources</i> (2019), Radiation Protection Series No. 11</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA</dd>
+<dt>Jurisdiction</dt><dd>Australia; adopted in Queensland for security enhanced sources</dd>
+<dt>Document type</dt><dd>National code</dd>
+<dt>Authority / legal power</dt><dd>Enforceable standard licence condition where the practice involves a security enhanced source: QLD-ACT s 75(3), QLD-REG s 70(1) item 7</dd>
+<dt>Radiation-therapy relevance</dt><dd>Source categorisation, security culture, access, inventory and response</dd>
+<dt>Relationship to the RSPP</dt><dd>Direct for security-enhanced HDR sources, alongside the approved security plan</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rps11">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2019 electronic edition; checked 2026-09-16</dd>
+</dl></li>
+<li><b>RPS-C2 — <i>Code for the Safe Transport of Radioactive Material</i> (2019), Radiation Protection Series C-2 (Rev. 1)</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA and Radiation Health Committee</dd>
+<dt>Jurisdiction</dt><dd>Australia; adopted in Queensland for transport</dd>
+<dt>Document type</dt><dd>National code adopting IAEA SSR-6 (Rev. 1)</dd>
+<dt>Authority / legal power</dt><dd>Standard transport-licence condition: QLD-ACT s 75(4), QLD-REG s 70(2)(a)</dd>
+<dt>Radiation-therapy relevance</dt><dd>Packages, consignor/carrier controls, documentation and transport safety</dd>
+<dt>Relationship to the RSPP</dt><dd>Direct for transport of HDR sources; separate security-plan requirements may also apply</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-2">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2019 Rev. 1; checked 2026-09-16</dd>
+</dl></li>
+<li><b>RPS-C1 — <i>Code for Radiation Protection in Planned Exposure Situations</i> (2020), Radiation Protection Series C-1 (Rev. 1)</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA and Radiation Health Committee</dd>
+<dt>Jurisdiction</dt><dd>Australia/model national framework</dd>
+<dt>Document type</dt><dd>National code capable of jurisdictional adoption</dd>
+<dt>Authority / legal power</dt><dd>Not identified here as a wholesale standard condition for Queensland radiation therapy; QLD-REG expressly uses it for selected dose concepts/calculations</dd>
+<dt>Radiation-therapy relevance</dt><dd>Occupational/public/environmental protection; design, procedures, training, optimisation and dose limitation</dd>
+<dt>Relationship to the RSPP</dt><dd>National basis for worker/public controls; use Queensland provisions for the binding rule</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-1">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2020 Rev. 1; checked 2026-09-16</dd>
+</dl></li>
+<li><b>RPS-F1 — <i>Fundamentals for Protection Against Ionising Radiation</i> (2014), Radiation Protection Series F-1</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA</dd>
+<dt>Jurisdiction</dt><dd>Australia</dd>
+<dt>Document type</dt><dd>National fundamentals</dd>
+<dt>Authority / legal power</dt><dd>Non-mandatory; top tier of the national framework</dd>
+<dt>Radiation-therapy relevance</dt><dd>Effects and risks; ten principles of protection, safety and security</dd>
+<dt>Relationship to the RSPP</dt><dd>Explains the principles beneath codes, legislation and the RSPP</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/fundamentals/rpsf-1">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2014; checked 2026-09-16</dd>
+</dl></li>
+<li><b>NDRP2 — <i>National Directory for Radiation Protection</i>, 2nd ed. (2021)</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA; endorsed by Australian Health Ministers</dd>
+<dt>Jurisdiction</dt><dd>Australia</dd>
+<dt>Document type</dt><dd>National regulatory framework</dd>
+<dt>Authority / legal power</dt><dd>Agreed statements for adoption by jurisdictions; not self-executing law</dd>
+<dt>Radiation-therapy relevance</dt><dd>National uniformity in radiation regulation</dd>
+<dt>Relationship to the RSPP</dt><dd>Context for the Queensland framework; no blanket Queensland adoption is assumed</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/national-directory-for-radiation-protection">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2nd ed., 2021; checked 2026-09-16</dd>
+</dl></li>
+<li><b>RPS-14.3 — <i>Safety Guide for Radiation Protection in Radiotherapy</i> (2008), Radiation Protection Series 14.3</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ARPANSA</dd>
+<dt>Jurisdiction</dt><dd>Australia</dd>
+<dt>Document type</dt><dd>Safety guide</dd>
+<dt>Authority / legal power</dt><dd>Non-mandatory guidance; currently supports implementation of RPS C-5</dd>
+<dt>Radiation-therapy relevance</dt><dd>Practical radiotherapy protection, equipment, QA and incident prevention</dd>
+<dt>Relationship to the RSPP</dt><dd>Professional/practical basis for detailed local controls; not independently law</dd>
+<dt>Official source</dt><dd><a href="https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-3">ARPANSA</a></dd>
+<dt>Currency / version checked</dt><dd>2008; Annex L removed Jan 2015; current support status checked 2026-09-16</dd>
+</dl></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org7b5caf0" class="outline-3">
+<h3 id="org7b5caf0">International recommendations and standards</h3>
+<div class="outline-text-3" id="text-org7b5caf0">
+<ul class="org-ul">
+<li><b>ICRP-103 — <i>The 2007 Recommendations of the International Commission on Radiological Protection</i>, ICRP Publication 103</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>ICRP</dd>
+<dt>Jurisdiction</dt><dd>International</dd>
+<dt>Document type</dt><dd>Recommendation / professional consensus</dd>
+<dt>Authority / legal power</dt><dd>Non-mandatory recommendation</dd>
+<dt>Radiation-therapy relevance</dt><dd>Evidence-informed system of justification, optimisation and dose limitation; planned/emergency/existing exposures</dd>
+<dt>Relationship to the RSPP</dt><dd>Scientific and conceptual influence on IAEA and Australian frameworks</dd>
+<dt>Official source</dt><dd><a href="https://www.icrp.org/publication.asp?id=ICRP+Publication+103">ICRP</a></dd>
+<dt>Project summary</dt><dd><a href="../summaries/icrp-publication-103-2007.html">Concise ICRP Publication 103 summary</a></dd>
+<dt>Currency / version checked</dt><dd>2007 recommendations remain in use while revision is in progress; checked 2026-09-17</dd>
+</dl></li>
+<li><b>IAEA-SF1 — <i>Fundamental Safety Principles</i>, IAEA Safety Standards Series No. SF-1</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>IAEA and co-sponsors</dd>
+<dt>Jurisdiction</dt><dd>International</dd>
+<dt>Document type</dt><dd>Safety fundamentals</dd>
+<dt>Authority / legal power</dt><dd>International principles for national implementation; not direct Queensland law</dd>
+<dt>Radiation-therapy relevance</dt><dd>Fundamental safety objective and ten principles</dd>
+<dt>Relationship to the RSPP</dt><dd>Conceptual influence on RPS F-1 and the wider framework</dd>
+<dt>Official source</dt><dd><a href="https://nucleus-apps.iaea.org/nss-oui/collections/publishedcollections">IAEA Safety Standards e-versions</a></dd>
+<dt>Currency / version checked</dt><dd>2006; current e-version listed 2026-07-21</dd>
+</dl></li>
+<li><b>IAEA-GSR3 — <i>Radiation Protection and Safety of Radiation Sources: International Basic Safety Standards</i>, General Safety Requirements Part 3</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>IAEA and co-sponsors</dd>
+<dt>Jurisdiction</dt><dd>International</dd>
+<dt>Document type</dt><dd>General safety requirements</dd>
+<dt>Authority / legal power</dt><dd>International requirements for national implementation; not direct Queensland law</dd>
+<dt>Radiation-therapy relevance</dt><dd>Responsibilities, planned exposures, occupational/public/medical exposure, emergency preparedness</dd>
+<dt>Relationship to the RSPP</dt><dd>Principal international requirements reflected in RPS C-1 and RPS C-5</dd>
+<dt>Official source</dt><dd><a href="https://nucleus-apps.iaea.org/nss-oui/Content/Index?CollectionId=m_3761d926-c16f-4477-a63b-741a9db1c16c&amp;type=PublishedCollection">IAEA</a></dd>
+<dt>Currency / version checked</dt><dd>2014; e-version listed 2026-07-21</dd>
+</dl></li>
+<li><b>IAEA-SSG46 — <i>Radiation Protection and Safety in Medical Uses of Ionizing Radiation</i>, Specific Safety Guide No. SSG-46</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>IAEA</dd>
+<dt>Jurisdiction</dt><dd>International</dd>
+<dt>Document type</dt><dd>Specific safety guide</dd>
+<dt>Authority / legal power</dt><dd>Non-binding international guidance</dd>
+<dt>Radiation-therapy relevance</dt><dd>Application of GSR Part 3 to medical exposure, including radiotherapy</dd>
+<dt>Relationship to the RSPP</dt><dd>Detailed international influence on clinical governance and safety practice</dd>
+<dt>Official source</dt><dd><a href="https://www.iaea.org/publications/11102/radiation-protection-and-safety-in-medical-uses-of-ionizing-radiation">IAEA</a></dd>
+<dt>Currency / version checked</dt><dd>2018; checked 2026-09-16</dd>
+</dl></li>
+<li><b>IAEA-SRS47 — <i>Radiation Protection in the Design of Radiotherapy Facilities</i>, Safety Reports Series No. 47</b>
+<dl class="org-dl">
+<dt>Issuing body</dt><dd>IAEA</dd>
+<dt>Jurisdiction</dt><dd>International</dd>
+<dt>Document type</dt><dd>Technical safety report</dd>
+<dt>Authority / legal power</dt><dd>Non-binding technical guidance</dd>
+<dt>Radiation-therapy relevance</dt><dd>Shielding design, safety systems and facility verification</dd>
+<dt>Relationship to the RSPP</dt><dd>Technical support for premises design; the Queensland 2021 premises standard and its certificate remain the immediate statutory basis</dd>
+<dt>Official source</dt><dd><a href="https://www-pub.iaea.org/MTCD/publications/PDF/Pub1223_web.pdf">IAEA PDF</a></dd>
+<dt>Currency / version checked</dt><dd>2006; checked 2026-09-16</dd>
+</dl></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgcc3eb10" class="outline-2">
+<h2 id="orgcc3eb10">High-value practice traceability map</h2>
+<div class="outline-text-2" id="text-orgcc3eb10">
+<p>
+The “Local implementation / evidence” field names the control and the record that should demonstrate it.  It does not disclose security-sensitive locations, source identifiers, contacts or detailed recovery instructions.
+</p>
+
+<p>
+Each numbered practice is followed by the same six traceability fields.  This makes the direction of traceability visible from Queensland authority through broader influences to local evidence, while keeping the authority qualification beside the practice.
+</p>
+<ol class="org-ol">
+<li><b>Possession licences, use licences and individual authorisation</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 12&ndash;13 require possession/use licences; s 43(4) requires the possession licensee to prevent unauthorised use.  Licence conditions apply under ss 75&ndash;77.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cl 3.5.2 requires applicable licences/permits and competent personnel.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 requirements for notification/authorisation and responsible parties.</dd>
+<dt>Scientific / professional basis</dt><dd>Competence and clear control of source custody reduce error and uncontrolled exposure.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 3, 6&ndash;8; current licences, local authorisation/credentialing list and training records.</dd>
+<dt>Authority note</dt><dd>Licences are statutory; THHS individual authorisation/credentialing is a local control and may also evidence licence/RSPP compliance.</dd>
+</dl></li>
+<li><b>Approved RSPP and compliance with it</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 28&ndash;34 define, approve/change and require access/training for the plan; ss 43(3), 44(3) connect compliance with protection obligations; possession licence identifies the approved plan (s 66).</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.5.5&ndash;3.5.6 and Schedule A require and implement a Radiation Management Plan.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 management-system and local-rules requirements.</dd>
+<dt>Scientific / professional basis</dt><dd>Risk controls are reliable only when hazards, responsibilities, review and training are documented and implemented.</dd>
+<dt>Local implementation / evidence</dt><dd>Controlled approved RSPP, availability/read acknowledgement, annual review/audit and approved amendment record.</dd>
+<dt>Authority note</dt><dd>The approved RSPP is legally significant; departmental documents beneath it do not replace it.</dd>
+</dl></li>
+<li><b>Radiation governance: possession licensee, RSO, RSC and RSWG</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 35&ndash;37 require a qualified RSO and minimum functions; s 43 places duties on the possession licensee.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 assigns the Responsible Person, practitioner, operator and medical physicist; RPS C-1 supports radiation-protection roles.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 requirements on prime responsibility, protection officers/experts and management systems.</dd>
+<dt>Scientific / professional basis</dt><dd>Multidisciplinary oversight, independent advice and escalation strengthen safety culture.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 3&ndash;5; appointment/certificate, committee terms of reference, minutes, RSO reports and annual report.</dd>
+<dt>Authority note</dt><dd>The RSO role is statutory.  The RSC and RSWG are local governance controls, not verbatim statutory bodies under QLD-ACT.</dd>
+</dl></li>
+<li><b>Justification and an approved treatment prescription</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 5 (justification); s 41(1)&ndash;(3) requires an authorised prescriber and delivery compliant with the prescription; QLD-REG s 65 and sch 6 pt 2 identify authorised persons.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 2.2.1, 3.1 and 3.2.1&ndash;3.2.6.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirements 35 and 37; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>ICRP-103 justification; therapeutic benefit must outweigh detriment for the individual exposure.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 1, 9.1, 9.5, 9.7&ndash;9.8; approved prescription, plan approval, identity/site checks and treatment record.</dd>
+<dt>Authority note</dt><dd>Direct statutory and licence-condition basis.</dd>
+</dl></li>
+<li><b>Optimisation and ALARA</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 5 defines optimisation/ALARA; s 37(2)(a),(c) gives RSO functions; ss 43&ndash;44 require reasonable protective steps.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 2.2.2 and 3.2.7&ndash;3.2.22; RPS C-1 for occupational/public exposures; RPS-F1 principles.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirements 11 and 38; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>ICRP-103 optimisation and risk/detriment framework.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 1&ndash;2, 4, 9 and 15; optimised plan and imaging protocols, QA, review and documented exceptions.</dd>
+<dt>Authority note</dt><dd>Direct principle; the detailed local methods are risk controls chosen to meet it.</dd>
+</dl></li>
+<li><b>Occupational, public and pregnancy dose limits</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 41(5), 42 and 42A; QLD-REG ss 52&ndash;59 and sch 5: adult occupational effective dose averages 20 mSv/y over 5 years and must not exceed 50 mSv in any 12 months; adult lens 20 mSv/y averaged over 5 years and 50 mSv maximum in any 12 months; adult skin/hands/feet 500 mSv/12 months.  Public limits are 1 mSv effective, 15 mSv lens and 50 mSv skin in 12 months.  Where pregnancy is known or ought reasonably be known, the effective-dose limit is 1 mSv for the remainder of pregnancy.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-1 (planned occupational/public exposure); RPS C-5 expressly excludes patient therapeutic exposure from dose limits.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 sch III and Requirements 21&ndash;25; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>ICRP-103 system of limitation; embryo/fetus protection.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 2, 4, 9.1 and 10; classification, work review, pregnancy assessment, monitor results and dose investigation records.</dd>
+<dt>Authority note</dt><dd>These are limits, not routine design targets.  Patient therapeutic exposure is governed by justification, optimisation and prescription, not occupational/public limits.</dd>
+</dl></li>
+<li><b>Premises shielding, compliance certification and access controls</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 16&ndash;20 require compliance and certificates; QLD-REG s 8(2) gives a 5-year premises certificate period; QLD-NOTICE lists the <i>Standard for premises—ionising radiation sources (2021)</i>, with general s 2.1 and practice-specific ss 3.3&ndash;3.4 tests.</dd>
+<dt>Main Australian design context</dt><dd>RPS C-1 planned-exposure facility design/access principles; RPS 14.3 radiotherapy shielding and room-design guidance; RPS C-5 medical facility/equipment and QA requirements for relevant licence holders.</dd>
+<dt>Principal international design context</dt><dd>IAEA-GSR3 safety assessment and prevention/mitigation; IAEA-SSG46 medical-facility planning; IAEA-SRS47 radiotherapy shielding methods. These are technical/contextual relationships, not proven textual ancestry of the Queensland standard.</dd>
+<dt>Scientific / professional basis</dt><dd>Shielding calculations based on energy, workload, use/occupancy and design constraints.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 7 and 13; design assessment, certificate of compliance, surveys, access records and reassessment after material change.</dd>
+<dt>Authority note</dt><dd>The 2021 premises standard is a statutory minimum. Its Type 1/2/3 weekly dose tests are premises criteria, distinct from public/worker dose limits and prospective shielding design goals. Design assumptions and departmental access methods are local implementation.</dd>
+</dl></li>
+<li><b>Safety systems, interlocks, warning systems and defence in depth</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 17, 43&ndash;44 plus 2021 premises standard ss 3.3&ndash;3.4 safety-system tests; approved RSPP hazard controls under s 28.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cl 3.4.1 and Schedule A; RPS 14.3 practical guidance.</dd>
+<dt>Principal international influence</dt><dd>IAEA-SF1 Principle 8; IAEA-GSR3 prevention/mitigation; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Human-factors engineering and multiple independent barriers reduce single-failure risk.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 9.3, 9.8&ndash;9.9, 12&ndash;13; daily safety checks, interlock/warning tests, fault/override records and periodic verification.</dd>
+<dt>Authority note</dt><dd>Some devices are required by the 2021 premises standard; the complete defence-in-depth arrangement is a local risk control.</dd>
+</dl></li>
+<li><b>Acceptance testing, commissioning and independent output verification</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 75(3) + QLD-REG s 70(1) item 2 make RPS C-5 a licence condition; QLD-ACT ss 17&ndash;20 apply where a statutory source/premises standard covers the item.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.1.4(c), 3.2.13 and 3.2.17 require medical-physics oversight, commissioning, QA and independent external-beam verification.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirement 38; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Traceable dosimetry, independent measurement and end-to-end testing detect systematic calibration/configuration error.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 9.2 and 15; acceptance/commissioning report, calibration record, independent verification/audit and formal clinical release.</dd>
+<dt>Authority note</dt><dd>Direct RPS C-5 licence-condition basis; the chosen test suite and tolerances remain source/professional/local scoped.</dd>
+</dl></li>
+<li><b>Quality management, QA, QC and controlled records</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 28 requires measures and review; s 43 protection duty; RPS C-5 is a standard licence condition as above.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.2.17&ndash;3.2.19 and 3.5.3; RPS 14.3 guidance.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirements 5 and 38; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Process control, metrological traceability, trend review and corrective action manage systematic and random error.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 15&ndash;16; controlled procedures/forms, schedule, QC results, trend/non-conformance review, calibration and maintenance history.</dd>
+<dt>Authority note</dt><dd>RPS C-5 requires the programme and records; local procedures set the detailed implementation.</dd>
+</dl></li>
+<li><b>Independent plan/MU checks and patient-specific verification</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>RPS C-5 standard licence condition; QLD-ACT s 41(3) requires dose/way of delivery to comply with prescription.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cl 3.2.20(d) explicitly requires patient-specific independent MU or treatment-time calculations; RPS 14.3 supports detailed practice.</dd>
+<dt>Principal international influence</dt><dd>IAEA-SSG46; IAEA-GSR3 Requirement 38.</dd>
+<dt>Scientific / professional basis</dt><dd>Independent algorithms/review and measurement reduce correlated planning and transfer failures.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP s 9.7; independent MU/dose check, ROMP review, patient-specific dosimetry and recorded authorisation before treatment.</dd>
+<dt>Authority note</dt><dd>Independent MU/time calculation has a direct code basis; modality-specific measurement is a risk-graded professional/local control unless otherwise conditioned.</dd>
+</dl></li>
+<li><b>OIMS access, data-transfer integrity, upgrades and change control</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 41(3), 43&ndash;44; RPS C-5 licence condition, especially QA after software installation/modification.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.2.17(a)(iv), (e), 3.2.20(c) and Schedule A; RPS 14.3.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirement 38; IAEA-SSG46 software, records and medical-exposure safety guidance.</dd>
+<dt>Scientific / professional basis</dt><dd>Configuration management, access control and independent transfer verification address systematic digital-pathway risk.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP s 9.5; role-based access list, transfer check, upgrade acceptance report, change approval, override and incident records.</dd>
+<dt>Authority note</dt><dd>The Act does not name OIMS.  These are local controls implementing prescription, code and general safety duties.</dd>
+</dl></li>
+<li><b>Training, supervision, competence and credentialing</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 33&ndash;34 require RSPP training; ss 35&ndash;37 cover qualified RSO/training functions; s 43(4) controls authorised use.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.1.4(b), 3.5.2 and 3.5.6(b); RPS C-1 worker information/training.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirements 13 and 26; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Competence, supervised practice and refreshers are human-factors barriers.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 6&ndash;8 and training attachments; induction acknowledgment, annual training, competency assessment, credential and supervision record.</dd>
+<dt>Authority note</dt><dd>Training has direct statutory/code support.  The departmental credentialing scheme is a local, risk-based assurance control.</dd>
+</dl></li>
+<li><b>Personal monitoring, investigation and exposure records</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 28(3), ss 38&ndash;40; QLD-REG s 50 specifies record content; dose limits in ss 52&ndash;59/sch 5.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-1 occupational monitoring and investigation; RPS C-5 does not govern occupational exposure.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirements 24&ndash;27; occupational guidance including IAEA GSG-7.</dd>
+<dt>Scientific / professional basis</dt><dd>Dosimetry verifies optimisation/limits and supports abnormal-result investigation and longitudinal records.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 4 and 10&ndash;11; issue/return register, dose reports, worker notification, investigation and record retention (later of 30 years after last assessment or age 75 under Act s 38(6)).</dd>
+<dt>Authority note</dt><dd>Direct statutory basis.</dd>
+</dl></li>
+<li><b>Maintenance, fault response and formal ROMP release</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 43&ndash;45; RPS C-5 standard licence condition requires QA after maintenance/software change and repair/maintenance records.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.2.13(b), 3.2.17(a)(iii)&ndash;(iv),(e)&ndash;(f); RPS 14.3.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 prevention, maintenance and verification requirements; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Post-maintenance testing prevents latent calibration/configuration errors; separation of service and clinical-release authority is defence in depth.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 9.2, 9.4 and 14; fault/work record, post-service QC, restriction status and signed ROMP release.</dd>
+<dt>Authority note</dt><dd>Formal ROMP release is a strong local control implementing the code/general duties; vendor release alone is not the local clinical authorisation.</dd>
+</dl></li>
+<li><b>Incident reporting, dose assessment, learning and regulatory notification</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 45 requires immediate notice of defined dangerous events and written confirmation within 7 days after oral notice; RPS C-5 standard licence condition covers unintended/accidental medical exposure.</dd>
+<dt>Main Australian basis</dt><dd>RPS C-5 cls 3.4.1&ndash;3.4.3 and 3.5.3; RPS 14.3 guidance.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 Requirements 15 and 41; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Prospective risk reduction plus investigation, dose reconstruction and shared learning prevent recurrence.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 6 and 18; make safe, notify ROMP/RSO, dose/clinical assessment, OIMS incident entry, investigation, corrective action, regulator report where required and return-to-service record.</dd>
+<dt>Authority note</dt><dd>Not every near miss is a statutory dangerous event.  Local reporting is deliberately broader; statutory notification follows the Act/licence threshold, not local incident level alone.</dd>
+</dl></li>
+<li><b>HDR source inventory, security, transport and emergency arrangements</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 34A&ndash;34P, 44A&ndash;45; QLD-REG s 7 defines security-enhanced categories; s 70 prescribes RPS-11 and RPS-C2 as licence conditions where applicable.</dd>
+<dt>Main Australian basis</dt><dd>RPS-11 (security); RPS-C2 (transport); RPS C-5/RPS 14.3 (clinical HDR safety).</dd>
+<dt>Principal international influence</dt><dd>IAEA Code of Conduct on Safety and Security of Radioactive Sources; IAEA SSR-6; IAEA-GSR3/SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Source accountability, access control, package integrity, survey capability and rehearsed contingency response.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 9.9, 11&ndash;12 and 17&ndash;18; controlled inventory, receipt/transfer records, security/transport-plan evidence, training/drill and survey records.</dd>
+<dt>Authority note</dt><dd>Direct statutory/licence-condition basis.  Security-sensitive details and detailed recovery instructions stay in controlled documents, not this map.</dd>
+</dl></li>
+<li><b>Acquisition, supply, relocation and disposal</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT ss 23&ndash;27A require acquisition/relocation approvals, restrict supply/disposal and prohibit abandonment; licence/approval conditions also apply.</dd>
+<dt>Main Australian basis</dt><dd>NDRP2 national framework; RPS-C2 for transport; applicable disposal code/approval as specified by regulator.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 source lifecycle; IAEA SSR-6 for transport.</dd>
+<dt>Scientific / professional basis</dt><dd>Cradle-to-grave control prevents orphan sources and uncontrolled exposure.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP ss 3 and 17; approval, recipient licence check, inventory update, transfer/transport/disposal certificate and regulator notice.</dd>
+<dt>Authority note</dt><dd>Direct statutory basis; the exact approval depends on the transaction and source.</dd>
+</dl></li>
+<li><b>Research exposure assessment and ethics approval</b>
+<dl class="org-dl">
+<dt>Immediate Queensland basis</dt><dd>QLD-ACT s 75(3) + QLD-REG s 70(1) item 5 make RPS-8 a standard licence condition for human radiation research; item 2 also makes RPS C-5 applicable to medical exposure.</dd>
+<dt>Main Australian basis</dt><dd>RPS-8; RPS C-5 cls 3.2.6 and 3.2.21 require HREC approval and research dose constraints/optimisation; National Statement on Ethical Conduct in Human Research.</dd>
+<dt>Principal international influence</dt><dd>IAEA-GSR3 medical research requirements; IAEA-SSG46.</dd>
+<dt>Scientific / professional basis</dt><dd>Ethical justification, informed consent, independent review and prospective dose/risk assessment.</dd>
+<dt>Local implementation / evidence</dt><dd>RSPP s 9.12; protocol, ROMP radiation-risk/dose assessment, HREC approval, consent/information and exposure record.</dd>
+<dt>Authority note</dt><dd>Direct licence-condition basis for the codes; the ROMP workflow is local implementation.</dd>
+</dl></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgaf0a9e8" class="outline-2">
+<h2 id="orgaf0a9e8">Principal relationship chains</h2>
+<div class="outline-text-2" id="text-orgaf0a9e8">
+<p>
+These chains state the strongest evidenced route without implying that every upstream source is directly enforceable.
+</p>
+</div>
+<div id="outline-container-orgc51c566" class="outline-3">
+<h3 id="orgc51c566">Medical exposure and treatment delivery</h3>
+<div class="outline-text-3" id="text-orgc51c566">
+<p>
+ICRP-103 recommendations
+→ inform IAEA-GSR3 medical-exposure requirements
+→ implemented nationally in RPS-C5
+→ prescribed by QLD-REG s 70(1) item 2 as a standard licence condition under QLD-ACT s 75(3)
+→ implemented in the approved LOCAL-RSPP
+→ operationalised through departmental procedures, checks and authorisations
+→ evidenced by prescription, planning, QA and treatment records.
+</p>
+</div>
+</div>
+<div id="outline-container-orga868f13" class="outline-3">
+<h3 id="orga868f13">Premises</h3>
+<div class="outline-text-3" id="text-orga868f13">
+<p>
+International/professional shielding methods, including IAEA-SRS47, provide design techniques
+→ apply the separate Queensland <i>Standard for premises—ionising radiation sources (2021)</i> tests
+→ the premises standard is notified under QLD-ACT s 16 by QLD-NOTICE
+→ compliance and certification required by QLD-ACT ss 17&ndash;20
+→ implemented in LOCAL-RSPP access/safety-system controls
+→ evidenced by design reports, surveys, test results and the current certificate of compliance.
+</p>
+</div>
+</div>
+<div id="outline-container-orgf3156fa" class="outline-3">
+<h3 id="orgf3156fa">Occupational and public protection</h3>
+<div class="outline-text-3" id="text-orgf3156fa">
+<p>
+ICRP-103
+→ IAEA-GSR3
+→ RPS-F1/RPS-C1 and the Australian framework
+→ Queensland-specific duties and limits in QLD-ACT/QLD-REG
+→ LOCAL-RSPP monitoring, access and investigation controls
+→ evidenced by monitoring, training, survey and investigation records.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org10c720b" class="outline-2">
+<h2 id="org10c720b">Adoption and currency findings</h2>
+<div class="outline-text-2" id="text-org10c720b">
+<ul class="org-ul">
+<li><b>Confirmed adoption:</b> RPS C-5, RPS-8, RPS-11 and RPS-C2 have identified Queensland licence-condition mechanisms for the practices described above (QLD-ACT s 75; QLD-REG s 70).</li>
+<li><b>No blanket adoption claimed:</b> NDRP2, RPS-F1, RPS-C1, RPS-14.3, ICRP and IAEA publications are not treated as directly binding merely because the RSPP cites or follows them.  Specific Queensland cross-references, licence conditions and approved-plan commitments may still give particular provisions operational or legal significance.</li>
+<li><b>Treatment-delivery apparatus:</b> the 2021 Queensland medical-imaging apparatus standard expressly includes radiotherapy treatment-planning systems but excludes radiotherapy treatment-delivery systems.  Treatment-machine acceptance, commissioning, calibration and QA are therefore traced principally through RPS C-5 as a licence condition, the approved RSPP and professional standards—not incorrectly through that imaging-apparatus standard.</li>
+<li><b>Local controls:</b> RSC/RSWG governance, patient-specific measurement, detailed OIMS permissions and formal ROMP clinical release are often stronger and more specific than the wording of the Act.  They are identified as local risk controls implementing broader statutory/code duties.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org1c9bdcc" class="outline-2">
+<h2 id="org1c9bdcc">Questions to resolve in the next pass</h2>
+<div class="outline-text-2" id="text-org1c9bdcc">
+<ul class="org-ul">
+<li>Check the actual THHS possession and use licence schedules for any site-specific conditions beyond the standard conditions.  Those instruments are not in the project and this map does not infer their contents.</li>
+<li>Confirm whether a separate current Queensland treatment-delivery apparatus standard or regulator-approved QA programme applies to any THHS device; none is identified in the 2021 Standards Notice list.</li>
+<li>Add paragraph-level cross-references from IAEA-SSG46 and RPS-14.3 after those source texts are added to the local source corpus.</li>
+<li>Check current departmental procedures/work instructions to replace generic record labels with exact controlled document names, without copying security-sensitive content into the study file.</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgadf1e7c" class="outline-2">
+<h2 id="orgadf1e7c">See also</h2>
+<div class="outline-text-2" id="text-orgadf1e7c">
+<ul class="org-ul">
+<li><a href="../summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.html">Concise THHS RSPP summary</a></li>
+<li><a href="../summaries/icrp-publication-103-2007.html">ICRP Publication 103 summary</a></li>
+<li><a href="../tasks.html">Project brief and remaining deliverables</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Date: 2026-09-16</p>
+<p class="author">Author: Ashley Gillman</p>
+<p class="date">Created: 2026-09-29 Tue 21:26</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

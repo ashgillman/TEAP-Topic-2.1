@@ -20,6 +20,10 @@ source PDF before relying on exact wording, a numerical value or a table.
 - =source-register.tsv= :: source URL, landing page, title, issuer, date, retrieval
   date, authority class and acquisition status.
 
+Four added international transport, security and occupational-protection documents
+(IAEA SSR-6 Rev. 1, NSS No. 11-G Rev. 1, NSS No. 46-T and GSG-7) are linked to official IAEA PDFs
+rather than retained in =international/=. Their source-register status records this.
+
 * Authority warning
 
 An ARPANSA code or NDRP element is not automatically Queensland law.  Its legal

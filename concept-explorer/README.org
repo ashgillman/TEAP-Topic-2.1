@@ -1,0 +1,18 @@
+#+title: RSPP concept source map
+
+* Purpose
+The [[file:index.html][HTML explorer]] starts with a concept in the supplied local RSPP and shows the documents addressing it at four levels: local, Queensland, Australia and international. It shows source locators, authority classes, notes and links to each document. Concept-to-concept relationships are not drawn.
+
+The page reads =concepts.tsv=, =documents.tsv=, =edges.tsv= and =crosswalk.tsv= directly from [[file:../concept-graphs/README.org][concept-graphs/]]. No generated Org graph or build step is needed. Exact shared concept IDs provide most document matches. =crosswalk.tsv= adds explicit comparisons for equivalent language, broader plan-content frameworks and local wording differences. Each cited passage links to the closest relevant heading in the source's HTML summary. A document card is not proof of legal adoption or a historical derivation.
+
+* Preview
+From the project root, run:
+
+#+begin_src sh
+python3 -m http.server 8000
+#+end_src
+
+Open [[http://localhost:8000/concept-explorer/]]. A local HTTP server is required for the browser to fetch the TSV and Org source tables. The page has no external JavaScript dependency.
+
+* Coverage and limits
+The picker contains the concept IDs used by the local RSPP rows in =edges.tsv=. Empty columns mean that no passage has yet been mapped in the current dataset; they do not prove that the wider source corpus is silent. The map uses the document's written authority class. It does not imply that ICRP or IAEA recommendations are binding in Queensland without a cited adoption mechanism.

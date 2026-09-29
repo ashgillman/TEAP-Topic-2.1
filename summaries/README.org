@@ -2,7 +2,7 @@
 #+FILETAGS: :index:resource:
 
 * Purpose
-This directory contains concise, source-faithful notes for the primary documents retained in the local corpus. Each note distinguishes the document's authority, jurisdiction and practical relationship to the approved THHS Radiation Therapy RSPP.
+This directory contains concise, source-faithful notes for the primary documents in the project corpus. Most source PDFs are retained locally; the newer IAEA transport, security and occupational-protection PDFs are linked at their official IAEA URLs. Each note distinguishes the document's authority, jurisdiction and practical relationship to the approved THHS Radiation Therapy RSPP.
 
 The summaries are study aids. For an operative requirement, consult the current source document, applicable Queensland law, statutory standards, licence or approval conditions, and controlled THHS documents.
 
@@ -31,7 +31,11 @@ The summaries are study aids. For an operative requirement, consult the current 
 2. [[file:iaea-sf-1-2006.org][IAEA SF-1 — Fundamental Safety Principles]]
 3. [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3 — International Basic Safety Standards]]
 4. [[file:iaea-ssg-46-2018.org][IAEA SSG-46 — Medical Uses of Ionizing Radiation]]
-5. [[file:iaea-safety-reports-series-47-2006.org][IAEA Safety Reports Series No. 47 — Radiotherapy Facility Design]]
+5. [[file:iaea-gsg-7-2018.org][IAEA GSG-7 — Occupational Radiation Protection]]
+6. [[file:iaea-safety-reports-series-47-2006.org][IAEA Safety Reports Series No. 47 — Radiotherapy Facility Design]]
+7. [[file:iaea-ssr-6-rev-1-2018.org][IAEA SSR-6 Rev. 1 — Safe Transport (2018)]] — edition incorporated in RPS C-2 (2019); superseded internationally by Rev. 2 (2025).
+8. [[file:iaea-nss-11-g-rev-1-2019.org][IAEA NSS No. 11-G Rev. 1 — Security in Use and Storage]]
+9. [[file:iaea-nss-46-t-2024.org][IAEA NSS No. 46-T — Security in Transport]]
 
 * Prioritised source and summary queue
 1. /Queensland Standard for ionising radiation apparatus—medical imaging (2021)/ — statutory standard relevant to in-scope imaging apparatus; official download remains pending.
@@ -51,4 +55,4 @@ Only the relevant Queensland instruments, licence/approval conditions and approv
 - [[file:../sources/README.org][Local source corpus and provenance]]
 - [[file:../sources/source-register.tsv][Source register]]
 - [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
-- [[file:../concept-graphs/graphs.org][Per-document concept graphs in the shared sourced graph]]
+- [[file:../concept-explorer/index.html][RSPP concept source map — trace a local concept through document levels]]

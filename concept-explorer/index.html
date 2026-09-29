@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RSPP concept source map</title>
+  <meta name="description" content="Trace a local radiation protection concept through Queensland, Australian and international source documents.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <p class="eyebrow">THHS radiation therapy RSPP · source trace</p>
+      <h1>Follow a local concept upstream</h1>
+      <p class="intro">Choose a concept in the local RSPP. Compare the passages that address it across Queensland, Australian and international documents.</p>
+    </div>
+    <nav class="page-links" aria-label="Related views">
+      <a href="../interactive-network/">Document network</a>
+      <a href="../rspp-upstream-map.html">Upstream map</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="picker card" aria-labelledby="picker-heading">
+      <div>
+        <h2 id="picker-heading">Start with the RSPP</h2>
+        <p>Search the concepts extracted from the supplied local plan.</p>
+      </div>
+      <div class="picker-controls">
+        <label for="concept-search">Find a concept</label>
+        <input id="concept-search" type="search" placeholder="Search e.g. pregnancy, dose, monitoring">
+        <label for="concept-select">Local RSPP concept</label>
+        <select id="concept-select" aria-describedby="concept-count"></select>
+        <p id="concept-count" class="muted" aria-live="polite">Loading concepts…</p>
+      </div>
+    </section>
+
+    <section class="trace-header" aria-live="polite">
+      <p class="eyebrow">Selected concept</p>
+      <h2 id="selected-title">Loading…</h2>
+      <p id="selected-note"></p>
+      <p id="mapping-note" class="mapping-note"></p>
+    </section>
+
+    <div id="source-map" class="source-map" aria-label="Document layers for the selected concept"></div>
+    <p class="scope-note">A card means the document addresses the selected concept or a clearly marked related topic. It does not, by itself, establish that one document legally adopts or historically derived its wording from another. Read the locator and authority label before using a claim.</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

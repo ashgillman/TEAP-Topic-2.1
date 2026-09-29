@@ -35,8 +35,10 @@
 ** 3 — Safety requirements
 *** General requirements
 - Addresses responsibility, management systems, safety assessment, prevention and mitigation, competence, source control and regulatory interfaces.
+- Clause 3.1.4 requires a documented, resourced and reviewed Radiation Management Plan; accident reporting follows Code and applicable jurisdictional criteria.
 *** Occupational exposure
 - Requires engineered and administrative controls, area classification, local rules, monitoring, dose assessment, worker information and records.
+- Section 3.2 requires induction, refresher training, suitable qualifications and training records for occupationally exposed workers.
 *** Public and environmental exposure
 - Requires control of discharges and public exposure, monitoring and assessment, and protection of the environment appropriate to the risk.
 

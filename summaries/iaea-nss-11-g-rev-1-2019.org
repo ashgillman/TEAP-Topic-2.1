@@ -1,0 +1,28 @@
+#+title: IAEA NSS No. 11-G (Rev. 1) — Security of Radioactive Material in Use and Storage (2019)
+#+FILETAGS: :resource:international:security:
+#+ROAM_REFS: https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1840_web.pdf
+
+* Source documents
+- [[https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1840_web.pdf][Official IAEA PDF]] — checked 29 September 2026.
+
+* Authority and jurisdiction
+- International implementing guide for security of radioactive material in use and storage and associated facilities. It is guidance, not Queensland law.
+- Whether a particular HDR source is subject to Queensland security-enhanced-source requirements depends on its legal categorisation and approved arrangements.
+
+* Key takeaways :AI:
+- Security measures are graded to the source and threat context and address unauthorised removal or sabotage.
+- Management includes access control, source accountancy, inventory, information protection, training and response.
+- Public study material should not expose sensitive site-specific security arrangements.
+
+* Summary :AI:
+** Sections 1–3 — Scope and State security regime
+- Explains objectives, responsibilities, categorisation and the interface between radiation safety and security.
+** Section 4 — Security of radioactive material in use and storage
+- Describes graded security functions and management, including access control and accountancy. This summary intentionally omits operational details.
+
+* Practical relationship to the THHS RSPP
+- Provides international context for the RSPP's HDR source security and inventory concepts. Queensland Regulation Part 5 and the prescribed Australian security code give the applicable local regulatory path.
+
+* See Also
+- [[file:rps-11-2019.org][RPS 11 (2019)]]
+- [[file:radiation-safety-regulation-2021.org][Queensland Radiation Safety Regulation 2021]]

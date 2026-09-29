@@ -146,6 +146,8 @@ radiation-safety-regulation-2021	plan_content	includes	access_control	ss 14–18
 radiation-safety-regulation-2021	plan_content	includes	personal_monitoring	ss 14–18	Monitoring devices and results where applicable.
 radiation-safety-regulation-2021	plan_content	includes	quality_assurance	ss 14–18	Quality-control measures are specified.
 radiation-safety-regulation-2021	plan_content	includes	warning_system	ss 19–24	Practice-specific warnings and alarms as applicable.
+radiation-safety-regulation-2021	plan_content	includes	personal_dosimeter	s 16	RSPP must specify who wears personal monitoring devices, how they are worn and stored, and assessment intervals.
+radiation-safety-regulation-2021	plan_content	includes	alarm_monitor	s 19	Personal radiation alarms and their use and checks are prescribed for relevant ionising-radiation practices.
 radiation-safety-regulation-2021	rso	requires	abnormal_dose_review	Part 6	RSO functions include monitoring review and incident investigation.
 radiation-safety-regulation-2021	occupational_exposure	uses	worker_limit_20_5_50	Schedule 5 Part 1 items 1–2	Binding Queensland adult worker effective-dose average and maximum.
 radiation-safety-regulation-2021	pregnant_worker	uses	pregnant_worker_limit_1_remainder	ss 52(2)(c), 53(2)(c), 54(2)(c), 55(2)(c)	Binding total effective dose for remainder of pregnancy when pregnancy is known or ought reasonably be known.
@@ -154,6 +156,9 @@ radiation-safety-regulation-2021	public_exposure	uses	public_limit_1	Schedule 5 
 radiation-safety-regulation-2021	occupational_exposure	requires	personal_monitoring	Part 7	Monitoring where prescribed.
 radiation-safety-regulation-2021	personal_monitoring	produces	exposure_record	Part 7	Assessment results and associated records.
 radiation-safety-regulation-2021	source_security	uses	source_category	Part 2; Part 5; Schedule 3	Security duties depend on categorisation.
+radiation-safety-regulation-2021	source_security	requires	source_inventory	ss 33–34	For security-enhanced sources, confirm presence and maintain inventories and related documents.
+radiation-safety-regulation-2021	transport	requires	source_security	Part 5 Division 3 ss 38–44	Transport security plan measures apply to security-enhanced sources; separate transport safety rules also apply.
+iaea-ssg-46-2018	transport	applies_to	hdr_source	§5.282–5.326	Medical-use guidance addresses radioactive-material transport; consult the transport standard and applicable national code for detailed safety controls.
 radiation-safety-standards-notice-2021	jurisdictional_adoption	designates	premises_standard	§3; Schedule 1 item 3	Formal legal bridge giving the named standard statutory status under Act s 16.
 radiation-safety-standards-notice-2021	premises_design	uses	premises_standard	§3; Schedule 1 item 3	Relevant radiation therapy rooms must meet the named standard.
 standard-for-premises-ionising-radiation-sources-2021	premises_standard	specifies	premises_weekly_test	§2.1.1	Technical test is in the standard, not in the Notice.
@@ -204,3 +209,41 @@ thhs-rspp-radiation-therapy-practices-v6.0-r1	incident_response	requires	regulat
 thhs-rspp-radiation-therapy-practices-v6.0-r1	incident_response	produces	incident_learning	§18	Near misses and incidents reviewed through RSO, ROMP and committees.
 thhs-rspp-radiation-therapy-practices-v6.0-r1	approved_rspp	implemented_by	local_procedure	§9; §15–16	Controlled procedures specify tests and actions.
 thhs-rspp-radiation-therapy-practices-v6.0-r1	local_procedure	verified_by	implementation_record	§16	Retained records demonstrate local execution.
+iaea-ssr-6-rev-1-2018	transport	requires	transport_package	Sections IV–VI	2018 transport requirements cover material and package classification, limits, marking, labelling and package performance; this edition is incorporated in RPS C-2 (2019) Schedule A.
+iaea-ssr-6-rev-1-2018	transport	requires	transport_handover	Section V paras 545–588	Consignor, carrier and consignee responsibilities include checks, documents, carriage and receipt as applicable; the IAEA has since issued Rev. 2 (2025).
+iaea-nss-11-g-rev-1-2019	source_security	uses	source_category	§§3–4	Graded security for radioactive material in use and storage depends on risk and source categorisation; international guidance, not Queensland law.
+iaea-nss-11-g-rev-1-2019	source_security	requires	access_control	§4	Prevent unauthorised access and removal through a graded security system; site-specific arrangements remain controlled.
+iaea-nss-11-g-rev-1-2019	source_security	requires	source_inventory	§4	Source accountancy and control support timely detection of discrepancies.
+iaea-nss-46-t-2024	transport	requires	source_security	§§2–6	Transport security guidance covers categorisation, security planning and graded measures; distinct from transport safety requirements.
+iaea-nss-46-t-2024	transport	requires	transport_handover	§§5–7	Security responsibilities continue through preparation, carriage and transfer of custody as applicable.
+rps-14-3-2008	management_system	designates	rso	§3.6; Annex B	The guide describes a trained RSO advising the Responsible Person; delegation does not remove management responsibility. Queensland appointment requirements come from Queensland law.
+rps-14-3-2008	rso	oversees	personal_monitoring	Annex B	Illustrative RSO duties include provision of monitors and occupational exposure records.
+rps-14-3-2008	rso	supports	staff_competence	Annex B	Illustrative RSO duties include staff radiation-safety training.
+rps-14-3-2008	management_system	requires	defence_in_depth	§4.2	Multiple safeguards in critical radiotherapy equipment aim to prevent maladministration.
+rps-c-1-rev-1-2020	management_system	requires	radiation_management_plan	§3.1.4	Responsible Person develops, documents, resources, implements and reviews a risk-graded Radiation Management Plan; not the Queensland RSPP approval mechanism.
+rps-c-1-rev-1-2020	radiation_management_plan	includes	local_procedure	§3.1.4; §3.2	Work procedures and administrative controls implement planned-exposure protection.
+rps-c-1-rev-1-2020	management_system	requires	staff_competence	§3.2 Information, instruction and training	Induction, refresher training, appropriate qualifications and participation records are specified.
+rps-c-1-rev-1-2020	incident_response	requires	regulatory_notification	§3 Prevention and mitigation of accidents	The Code calls for reporting events meeting plan criteria; Queensland notification thresholds must be checked separately.
+rps-c-5-2019	management_system	requires	radiation_management_plan	§3.5.5–3.5.6; Schedule A	The medical-exposure Code requires a Radiation Management Plan and implementation; Queensland gives this Code effect for relevant practices through licence conditions.
+rps-c-5-2019	management_system	requires	staff_competence	§3.5.2	Personnel with patient-protection duties need appropriate training and competence.
+rps-c-5-2019	research_exposure	requires	hrec_review	§3.2.6	Medical research exposure requires ethics review and the applicable research code; scope differs from therapeutic treatment dose.
+iaea-gsr-part-3-2014	occupational_exposure	requires	radiation_management_plan	Requirement 24; §3.87–3.97	Radiation protection programme contains area designation, local rules and workplace monitoring; international requirement for national implementation.
+iaea-gsr-part-3-2014	occupational_exposure	designates	radiation_protection_officer	§3.94(e)	Designate an RPO as appropriate under regulatory criteria; the role is not automatically identical to a Queensland-certified RSO.
+iaea-gsr-part-3-2014	radiation_protection_officer	oversees	workplace_survey	§3.96	Workplace monitoring is supervised by an RPO or qualified expert.
+iaea-gsr-part-3-2014	radiation_management_plan	includes	local_procedure	§3.94(a)–(d)	Written local rules and procedures, including investigation levels and supervision, support occupational protection.
+iaea-gsr-part-3-2014	management_system	requires	staff_competence	§3.110	Workers receive information, instruction, training and periodic retraining, with records.
+iaea-gsr-part-3-2014	management_system	requires	defence_in_depth	§3.40	Sequential independent provisions prevent accidents, mitigate consequences and restore safe conditions.
+iaea-gsr-part-3-2014	research_exposure	requires	hrec_review	§3.152; §3.161	Biomedical research medical exposure requires ethics approval and practitioner responsibility.
+iaea-gsr-part-3-2014	incident_response	requires	regulatory_notification	§3.181	Significant unintended or accidental medical exposures are reported under the standard; local reporting duties depend on Queensland rules.
+iaea-ssg-46-2018	management_system	designates	radiation_protection_officer	§2.96; §2.134	Medical-facility RPO oversees occupational and public protection; it has no direct patient-protection role unless separately qualified.
+iaea-ssg-46-2018	oims	requires	data_integrity	§5.69–5.70	Record-and-verify interfaces, treatment data and network transfer require systematic verification.
+iaea-ssg-46-2018	commissioning	verifies	data_integrity	§5.235–5.236	Acceptance and commissioning check software interfaces and transferred data before clinical use.
+iaea-ssg-46-2018	management_system	requires	defence_in_depth	§5.303–5.304	Equipment, facility and procedural barriers are combined against potential exposure.
+iaea-ssg-46-2018	pregnant_patient	requires	patient_counselling	§5.254	Treatment decisions for a pregnant patient require consultation with the practitioner.
+iaea-ssg-46-2018	hrec_review	requires	physicist_risk_review	§2.99–2.100	Research ethics review uses medical-physicist dose and risk estimates; research dose constraints are separately considered.
+iaea-ssg-46-2018	management_system	requires	staff_competence	§2.104–2.134	Education, training and competence are assigned across medical-radiation roles.
+iaea-ssg-46-2018	incident_response	requires	regulatory_notification	§5.274–5.276	Significant events are reported under applicable national criteria; voluntary learning can include other events.
+iaea-gsg-7-2018	management_system	designates	radiation_protection_officer	§3.66	Appoint an RPO when required by the regulator to oversee compliance; general guidance, not Queensland certification.
+iaea-gsg-7-2018	management_system	requires	personal_monitoring	§3.100–3.118	Management designs a risk-based monitoring programme with qualified expertise; individual monitoring is used where appropriate.
+iaea-gsg-7-2018	investigation_level	triggers	abnormal_dose_review	§3.122–3.127	An exceeded investigation level triggers review of the result, circumstances and corrective action; it is distinct from a dose limit.
+iaea-gsg-7-2018	personal_monitoring	produces	exposure_record	§3.132–3.140	Individual occupational exposure records should be retrievable, complete and protected against loss.

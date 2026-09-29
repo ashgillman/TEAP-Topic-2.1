@@ -1,0 +1,34 @@
+#+title: IAEA SSR-6 (Rev. 1) — Regulations for the Safe Transport of Radioactive Material (2018)
+#+FILETAGS: :resource:international:transport:
+#+ROAM_REFS: https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1798_web.pdf
+
+* Source documents
+- [[https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1798_web.pdf][Official IAEA PDF]] — 2018 edition; checked 29 September 2026.
+- [[https://nucleus-apps.iaea.org/nss-oui/Content/Index?CollectionId=m_b03c4897-38e3-41f4-a2d4-f3670bd8b300&type=PublishedCollection][Current IAEA SSR-6 (Rev. 2), 2025 edition]].
+
+* Authority and jurisdiction
+- IAEA international transport safety requirements. Rev. 1 was superseded internationally by Rev. 2 (2025).
+- RPS C-2 (2019) Schedule A incorporates the 2018 edition for the Australian code. The later IAEA edition does not automatically amend the Queensland-prescribed code.
+
+* Key takeaways :AI:
+- Transport safety uses graded material and package classification, package performance, dose-rate and contamination controls, marking, labelling, documents and carriage requirements.
+- Consignor, carrier and consignee duties extend across preparation, transport and receipt.
+- Security of a source during transport is a related but distinct subject; see IAEA NSS No. 46-T and Queensland transport security requirements where applicable.
+
+* Summary :AI:
+** Sections I–III — Scope, definitions and general provisions
+- Establishes the scope, radiation-protection programme, training and management provisions.
+** Section IV — Activity limits and material classification
+- Classifies radioactive material and defines activity limits used in package selection.
+** Section V — Transport requirements and controls
+- Covers package categories, dose-rate and contamination controls, marking and labelling, transport documents and responsibilities through carriage.
+** Sections VI–VIII — Package requirements, tests and approvals
+- Establishes graded package performance, testing and administrative approvals.
+
+* Practical relationship to the THHS RSPP
+- Provides the international transport-safety basis incorporated into RPS C-2 (2019). Check the current Australian code and Queensland legal mechanism for binding obligations.
+- The local HDR source transport procedure must also address any applicable source-security controls.
+
+* See Also
+- [[file:rps-c-2-rev-1-2019.org][RPS C-2 (2019)]]
+- [[file:iaea-nss-46-t-2024.org][IAEA NSS No. 46-T]]

@@ -5,21 +5,21 @@ stochastic_risk	Stochastic risk	Probability of late effects considered in protec
 tissue_reaction	Tissue reactions	Effects with dose-related severity above relevant thresholds.
 justification	Justification	Decide whether an activity or individual exposure has sufficient benefit.
 optimisation	Optimisation	Choose protection reasonably achievable while meeting the intended purpose.
-dose_limitation	Dose limitation	Limit exposure of individuals where the protection system applies limits.
+dose_limitation	Dose limit — occupational and public (principle)	Limit exposure of individuals where the protection system applies limits.
 planned_exposure	Planned exposure situation	Deliberate introduction or operation of a radiation source.
 emergency_exposure	Emergency exposure situation	Unexpected situation requiring urgent protective action.
 existing_exposure	Existing exposure situation	Exposure already present when a control decision is required.
 occupational_exposure	Occupational exposure	Exposure incurred by workers in the course of work.
 public_exposure	Public exposure	Exposure of members of the public from a practice.
 patient_exposure	Patient medical exposure	Exposure of a patient for diagnosis or treatment.
-worker_limit_20_5_50	Adult worker effective-dose limit: 20 mSv/year averaged over 5 years; 50 mSv in one year	Recommendation or requirement status depends on the source document; Queensland Schedule 5 is the binding local value.
-rspp_worker_20_annual	RSPP-stated worker dose limit: 20 mSv annually	Shorthand wording in the supplied local plan; consult Queensland Schedule 5 for the complete binding five-year average and one-year cap.
-public_limit_1	Public effective-dose limit: 1 mSv/year	Source-scoped value; Queensland Schedule 5 states the binding local limit for other persons.
+worker_limit_20_5_50	Dose limit — occupational: 20 mSv/year averaged over 5 years; 50 mSv in one year	Recommendation or requirement status depends on the source document; Queensland Schedule 5 is the binding local value.
+rspp_worker_20_annual	Dose limit — occupational: 20 mSv/year averaged over 5 years; 50 mSv in one year (RSPP shorthand)	The supplied RSPP says only 20 mSv annually. The complete five-year average and single-year maximum come from Queensland Schedule 5, not the local wording.
+public_limit_1	Dose limit — public: 1 mSv/year	Source-scoped value; Queensland Schedule 5 states the binding local limit for other persons.
 patient_no_limit	No occupational/public dose limit for intended patient treatment	The intended patient dose is controlled through justification and optimisation.
 dose_constraint	Dose constraint	Prospective source-related optimisation tool; distinct from a dose limit.
 reference_level	Reference level	Prospective optimisation tool for emergency or existing exposure.
 investigation_level	Investigation level	Local trigger for review, potentially below a legal limit.
-alara	ALARA	As low as reasonably achievable, subject to the intended purpose.
+alara	ALARA	Keep worker and public exposure as low as reasonably achievable, accounting for practical factors; upstream sources often call this optimisation.
 time_control	Time	Reduce duration of exposure where feasible.
 distance_control	Distance	Increase separation from a source where feasible.
 shielding_control	Shielding	Interpose suitable barriers between source and person.
@@ -32,8 +32,8 @@ workplace_survey	Workplace radiation survey	Measure area radiation fields or ver
 exposure_record	Exposure record	Retained individual monitoring and dose assessment record.
 abnormal_dose_review	Abnormal dose review	Investigation of unusual readings or exposure conditions.
 pregnant_worker	Pregnant worker	Worker who has declared pregnancy; occupational protection context.
-pregnant_worker_limit_1_remainder	Pregnant worker effective-dose limit: 1 mSv for remainder of pregnancy	Binding Queensland Regulation ss 52–55 as applicable after awareness of pregnancy; distinct from RSPP pro-rata wording.
-rspp_pregnancy_1_prorata	RSPP-stated pregnancy control: 1 mSv pro rata per annum	Wording in supplied plan; compare with current Queensland Regulation's 1 mSv for remainder of pregnancy.
+pregnant_worker_limit_1_remainder	Dose limit — pregnant worker: 1 mSv for remainder of pregnancy	Binding Queensland Regulation ss 52–55 as applicable after awareness of pregnancy; distinct from RSPP pro-rata wording.
+rspp_pregnancy_1_prorata	Dose limit — pregnant worker: 1 mSv (RSPP pro-rata wording)	Wording in supplied plan; compare with current Queensland Regulation's 1 mSv for remainder of pregnancy.
 pregnant_patient	Pregnant patient	Patient for whom treatment or imaging may expose an embryo or fetus.
 fetal_dose_assessment	Embryo/fetus dose assessment	Estimate exposure and risk for pregnancy-specific decisions.
 worker_duty_review	Pregnancy work-duty review	Review work conditions to control embryo/fetus exposure.
@@ -58,6 +58,8 @@ approved_rspp	Approved RSPP	Regulator-approved local radiation safety and protec
 plan_content	RSPP required content	Mandatory classes of measures the plan must address.
 possession_licensee	Possession licensee	Organisation holding the Queensland possession licence.
 rso	Radiation Safety Officer	Qualified person appointed for statutory radiation safety functions.
+radiation_protection_officer	Radiation protection officer (IAEA)	IAEA role overseeing occupational and public radiation protection; analogous to, but not identical with, the Queensland statutory RSO.
+radiation_management_plan	Radiation management / protection programme	Documented national or international protection programme; analogous in purpose to parts of the approved RSPP, without sharing its Queensland approval status.
 staff_competence	Training and competence	Personnel understand and can perform assigned roles safely.
 local_procedure	Controlled local procedure	Site-approved operational instruction or work instruction.
 implementation_record	Implementation record	Record demonstrating that a control was carried out.

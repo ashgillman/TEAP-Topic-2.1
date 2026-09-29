@@ -1,32 +1,31 @@
-#+title: Sourced concept graph — method and scope
+#+title: Sourced concept graph — data and scope
 
 * What is here
-This is one directed, labelled concept multigraph.  =concepts.tsv= defines a shared vertex vocabulary; =edges.tsv= contains source-attributed assertions; =documents.tsv= records each source's authority class and links.  The graph for a document is the subset of edges with its =document_id= and all their endpoint vertices.  [[file:graphs.org][graphs.org]] presents all 18 document subgraphs as readable vertex and edge tables.  It is generated from the TSV files.
+This folder contains the source data for one directed, labelled concept multigraph. =concepts.tsv= defines a shared vertex vocabulary; =edges.tsv= contains source-attributed assertions; =documents.tsv= records each source's authority class and links. =crosswalk.tsv= records explicit comparisons when a local concept has different wording or scope upstream, with a document and locator filter where a general concept would otherwise pull in unrelated passages. =*= means any document or locator. A document's graph is the subset of edges with its =document_id= and all their endpoint vertices.
+
+The [[file:../concept-explorer/index.html][interactive concept source map]] starts with a local RSPP concept and shows supporting passages by document level. It does not draw concept-to-concept edges.
 
 An edge reads “subject predicate object,” qualified by the source locator and note.  The same pair of concepts may have edges from several documents.  This records convergence and provenance; it does not by itself mean one document copied, adopted or legally enforces another.  Keep the =authority_class= attached when later drawing a visualisation.
 
 * Important scope distinctions
 - The 20 mSv/year average over five years and 50 mSv maximum in one year is represented by =worker_limit_20_5_50=.  It appears in ICRP 103 §5.10, IAEA GSR Part 3 Schedule III.1, RPS C-1 Schedule A and the binding Queensland Regulation Schedule 5 Part 1.  ICRP 103 says it *retained* the recommendation from Publication 60; its Annex A supplies biological/risk rationale, but this corpus does not yet establish a complete historical derivation of the exact number.  Add Publication 60 and selected UNSCEAR evidence before presenting such a derivation.
 - The supplied THHS RSPP states 20 mSv annually for radiation-practice workers.  Its =rspp_worker_20_annual= vertex is separate because the summary wording does not state the five-year average and 50 mSv cap.  For the binding legal rule, use the current Queensland Regulation.
+- ALARA is mapped to the wider optimisation principle where upstream documents use that language. Queensland Act ss 4–5 provide the statutory optimisation principle; Regulation Part 4 specifies RSPP safe-use and quality-control content but does not prescribe the acronym ALARA.
+- The Queensland statutory RSO maps to an Australian radiotherapy RSO description in RPS 14.3 and to the IAEA /radiation protection officer/ (RPO) as a functional analogue. GSR Part 3, SSG-46 and GSG-7 do not confer Queensland RSO certification. SSG-46 scopes the RPO to occupational and public protection rather than direct patient-protection duties.
+- The Queensland-approved RSPP maps to the Radiation Management Plan in RPS C-1/C-5 and the IAEA occupational radiation protection programme as broader programme analogues; their approval and legal status are distinct.
+- Queensland Regulation Part 4 sets required classes of RSPP measures. =crosswalk.tsv= labels a broader plan-content mapping where a detailed THHS control implements that framework; this is not a claim that the Regulation names every local clinical workflow.
+- Transport safety and transport security are separate. RPS C-2 (2019) incorporates the 2018 IAEA SSR-6 edition; the IAEA has since published Rev. 2 (2025). The 2019 IAEA security guide and 2024 transport-security technical guidance supply international context, while Queensland Part 5 and prescribed Australian codes determine applicable local obligations.
 - Pregnancy has two contexts: =pregnant_worker= and =pregnant_patient=.  The Regulation's 1 mSv for the *remainder of pregnancy* (ss 52–55, as applicable) is distinct from the supplied RSPP's “1 mSv pro rata per annum” wording.  A patient who may be pregnant requires an individual clinical decision, counselling and fetal-dose assessment where indicated; the occupational limit is not a treatment-dose limit.
 - =time_control=, =distance_control= and =shielding_control= are practical ways to optimise worker/public exposure.  IAEA SSG-46 §5.15 applies the trio to radiotherapy facility design.  RPS 14.3 §13.2 includes it in staff/carer training.  They are not substitutes for justification, optimisation and dose limitation.
 - =premises_weekly_test= is the Queensland premises standard's compliance test for defined area types.  It is not a patient-dose limit or a universal design goal.  The 2021 Standards Notice gives the named premises standard statutory status; the standard supplies the technical tests.
 - RPS 8 research constraints apply to the code's stated diagnostic research investigations.  They must not be used as therapeutic prescription limits.
 
 * Source coverage and status
-The 18 graphs correspond exactly to the completed Org summaries in [[file:../summaries/README.org][the source-summary index]].  The Queensland premises standard was reviewed in its official online PDF; a retained local PDF is pending.  The Queensland medical-imaging apparatus standard and selected primary scientific evidence reports are also pending and have no graph yet.  The RSPP is the supplied v6.01 controlled copy; confirm the current approved copy before operational use.
+The documents correspond to the completed Org summaries in [[file:../summaries/README.org][the source-summary index]]. Four IAEA transport, security and occupational-protection PDFs are linked to official IAEA files rather than retained locally; their concise summaries and HTML copies are in the corpus. The Queensland premises standard is retained with extracted text and a summary. The Queensland medical-imaging apparatus standard and selected primary scientific evidence reports remain pending and have no graph yet. The RSPP is the supplied v6.01 controlled copy; confirm the current approved copy before operational use.
 
 The [[https://www.legislation.qld.gov.au/view/whole/html/inforce/current/act-1999-020][Queensland Act]], [[https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0125][Regulation]], [[https://www.legislation.qld.gov.au/view/whole/html/inforce/current/sl-2021-0133][Standards Notice]] and [[https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1104661/premises-ionising-radiation-sources.pdf][official premises standard]] were checked online on 29 September 2026 for the key legal and numerical nodes.  The retained PDFs in the corpus carry their own publication/current-as-at dates; recheck the official live instrument before operational use.
 
-* Rebuild and validate
-Run from the project root:
+* Updating the graph
+Edit the TSV source tables, then reload the [[file:../concept-explorer/index.html][interactive visualization]] from the project web server. The explorer reads the tables directly. Exact legal or numerical use still requires checking the source instrument and its currency.
 
-#+begin_src sh
-python3 concept-graphs/build.py
-python3 concept-graphs/build.py --check
-#+end_src
-
-The build checks table columns, unique IDs, defined vertices, per-document coverage, duplicate assertions, and document links before generating =graphs.org=.  Exact legal or numerical use still requires checking the source instrument and its currency.
-
-* Next mapping step
-The shared concept IDs are stable join keys for a later visualisation.  A visualisation can colour edges by source authority and filter by document, jurisdiction, concept or relationship.  Only add a cross-document legal edge such as “adopts” or “made under” when the specific mechanism is recorded and cited; similar concept wording alone is insufficient.
+Only add a cross-document legal edge such as “adopts” or “made under” when the specific mechanism is recorded and cited; similar concept wording alone is insufficient.

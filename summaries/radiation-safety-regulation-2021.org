@@ -36,12 +36,18 @@
 ** Part 4 — Radiation safety and protection plans
 *** Sections 14–18 — Core measures
 - Requires the plan to address safe work procedures and quality control, remediation of accidents, access to and use of sources, monitoring equipment, safety devices and PPE, and registers/procedure records.
+- Section 16 specifies which workers wear personal monitoring devices, how and where they are worn or stored, and assessment intervals.
 *** Sections 19–24 — Practice-specific measures
 - Adds controls for warning or alarm systems, radiation monitoring, unsealed radioactive substances, medical procedures and identification associated with medical images or records.
+- Section 19 specifies personal radiation alarm use and checks for relevant ionising-radiation practices.
 - The required content is a minimum framework; the approved RSPP may contain more detailed local controls proportionate to the practice.
 
 ** Part 5 — Security-enhanced sources
 - Prescribes matters for source security and security plans. Applicability depends on the categorisation of the source; sensitive operational security detail should remain controlled.
+*** Sections 29–37 — Security plans for use and storage
+- Require graded security measures for applicable security-enhanced sources, including presence checks and inventories (ss 33–34).
+*** Sections 38–44 — Transport security plans
+- Prescribe transport security measures for applicable security-enhanced sources. This is distinct from radioactive-material transport safety requirements and is summarised here without sensitive operational detail.
 
 ** Part 6 — Radiation safety officers
 - Specifies qualifications and functions, including advice, training, hazard assessment, monitoring, inspections, incident investigation, records and reporting to the possession licensee.

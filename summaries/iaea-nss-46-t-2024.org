@@ -1,0 +1,30 @@
+#+title: IAEA NSS No. 46-T — Security of Nuclear and Other Radioactive Material in Transport (2024)
+#+FILETAGS: :resource:international:security:transport:
+#+ROAM_REFS: https://www.iaea.org/publications/15617/security-of-nuclear-and-other-radioactive-material-in-transport
+
+* Source documents
+- [[https://www.iaea.org/publications/15617/security-of-nuclear-and-other-radioactive-material-in-transport][Official IAEA publication page]] and [[https://www-pub.iaea.org/MTCD/publications/PDF/p15617-PUB2090_web.pdf][PDF]] — checked 29 September 2026.
+
+* Authority and jurisdiction
+- International technical guidance for States and competent authorities on transport security. It is not a Queensland licence condition by itself.
+- It is later than RPS 11 (2019), so it is relevant international context rather than an asserted historical source for that code.
+
+* Key takeaways :AI:
+- Transport security is graded by material category and differs from transport radiation-safety package controls.
+- Responsibilities, security planning and continuity of custody matter through preparation, carriage and receipt.
+- Operational route, equipment and response details are intentionally omitted here.
+
+* Summary :AI:
+** Sections 1–3 — Scope, categorisation and regulation
+- Explains transport-security levels, regulator responsibilities and the safety-security interface.
+** Sections 4–6 — Systems, measures and plans
+- Describes design, implementation and review of graded transport-security arrangements.
+** Section 7 — Maintaining security during transport
+- Addresses continuity of responsibility and custody through transport and handover.
+
+* Practical relationship to the THHS RSPP
+- Gives international context for HDR source transport security. Queensland Regulation Part 5 Division 3 and prescribed Australian security and transport codes establish the relevant local pathway.
+
+* See Also
+- [[file:rps-11-2019.org][RPS 11 (2019)]]
+- [[file:rps-c-2-rev-1-2019.org][RPS C-2 (2019)]]

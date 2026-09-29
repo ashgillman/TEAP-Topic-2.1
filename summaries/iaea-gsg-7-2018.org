@@ -1,0 +1,40 @@
+#+title: IAEA GSG-7 — Occupational Radiation Protection (2018)
+#+FILETAGS: :resource:international:occupational-protection:
+#+ROAM_REFS: https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1785_web.pdf
+
+* Source documents
+- [[https://www-pub.iaea.org/MTCD/Publications/PDF/PUB1785_web.pdf][Official IAEA PDF]] — General Safety Guide No. GSG-7, jointly sponsored by the IAEA and ILO; checked 29 September 2026. PDF linked, not retained in this corpus.
+- [[https://www.iaea.org/publications/search/topics/occupational-radiation-protection-network-orpnet/type/safety-standards-series/year/2018?type=3939][IAEA publication listing]].
+
+* Authority and jurisdiction
+- International guidance for implementing occupational protection requirements in GSR Part 3. It does not directly impose duties on THHS.
+- The Queensland Radiation Safety Act and Regulation define the local statutory RSO role and worker-monitoring duties. The guide's radiation protection officer (RPO) is a functional comparison, not a claim of identical certification or powers.
+
+* Key takeaways :AI:
+- Management owns the radiation protection programme and supplies resources and qualified advice.
+- An RPO is appointed where required by the regulatory body to oversee application of requirements and compliance (para 3.66).
+- Monitoring is based on expected exposure and workplace conditions; individual dosimetry is used where appropriate (paras 3.100–3.118).
+- Investigation levels prompt review of unexpected results or trends; they are distinct from dose limits and dose constraints (paras 3.122–3.127).
+- Individual exposure records need to be complete, retrievable and protected against loss (paras 3.132–3.140).
+
+* Summary :AI:
+** Programme design and responsibilities
+- The occupational protection programme identifies roles, workplace conditions and measures proportionate to risk.
+*** Radiation protection officer and qualified experts (paras 3.60–3.68)
+- Management secures qualified expertise and appoints an RPO when required by the regulator. Technical advice and day-to-day oversight support, but do not replace, management responsibility.
+*** Monitoring and assessment (paras 3.96–3.121)
+- Management designs workplace and individual monitoring using prior radiological assessment, the work performed and regulatory requirements.
+*** Investigation levels (paras 3.122–3.127)
+- Define a trigger and investigation process in advance; review the result and circumstances, then consider corrective action and lessons.
+*** Exposure records (paras 3.132–3.140)
+- Maintain accurate, intelligible and retrievable individual dose records with appropriate protection against loss.
+
+* Practical relationship to the THHS RSPP
+- Helps trace the local RSO, personal-monitoring, unusual-dose investigation and exposure-record controls to international occupational-protection guidance.
+- Use the Queensland Act, Regulation and approved RSPP for operative local duties and thresholds.
+
+* See Also
+- [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]
+- [[file:iaea-ssg-46-2018.org][IAEA SSG-46]]
+- [[file:radiation-safety-act-1999.org][Queensland Radiation Safety Act 1999]]
+- [[file:radiation-safety-regulation-2021.org][Queensland Radiation Safety Regulation 2021]]

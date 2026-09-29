@@ -114,6 +114,16 @@ h1 {
   font-size: 0.82rem;
 }
 
+.concept-link {
+  grid-column: 1 / -1;
+  justify-self: end;
+  margin-bottom: 5px;
+  color: #1d4ed8;
+  font-weight: 750;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
 .legend span {
   display: inline-flex;
   align-items: center;

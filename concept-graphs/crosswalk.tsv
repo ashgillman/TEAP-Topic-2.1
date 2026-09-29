@@ -1,0 +1,41 @@
+local_concept_id	source_concept_id	document_id	locator_filter	mapping_kind	note
+alara	optimisation	radiation-safety-act-1999	ss 4–5	conceptual equivalent	The Queensland Act states optimisation as a protection principle.
+alara	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation Part 4 specifies safe-use and quality-control content for the RSPP; it does not prescribe the word ALARA.
+alara	optimisation	rps-f-1-2014	§4 principle 5	conceptual equivalent	RPS F-1 expresses the optimisation principle.
+alara	optimisation	rps-c-1-rev-1-2020	§2	conceptual equivalent	RPS C-1 states the planned-exposure optimisation approach.
+alara	optimisation	icrp-publication-103-2007	§5	conceptual equivalent	ICRP expresses ALARA within its optimisation principle for worker and public exposure.
+alara	optimisation	iaea-sf-1-2006	Principle 5	conceptual equivalent	IAEA SF-1 states optimisation as a fundamental safety principle.
+alara	optimisation	iaea-gsr-part-3-2014	§2; §3	conceptual equivalent	IAEA GSR Part 3 requires optimisation across applicable exposure situations.
+rspp_worker_20_annual	worker_limit_20_5_50	*	*	compare wording	The RSPP says 20 mSv annually; compare the complete five-year average and single-year cap in upstream sources.
+rspp_pregnancy_1_prorata	pregnant_worker_limit_1_remainder	*	*	compare wording	The RSPP's pro-rata wording differs from Queensland's remainder-of-pregnancy limit.
+rspp_pregnancy_1_prorata	pregnant_worker	*	*	broader topic	National and international worker-pregnancy guidance informs the protection context; it does not establish the Queensland numerical rule.
+personal_dosimeter	personal_monitoring	*	*	broader topic	Upstream monitoring provisions address the programme within which individual devices are used.
+alarm_monitor	personal_monitoring	*	*	broader topic	Upstream monitoring guidance gives context; check the local HDR-specific alarm-monitor requirement separately.
+oims	data_integrity	*	*	broader topic	Upstream data-integrity requirements inform OIMS controls without necessarily naming the local system.
+local_procedure	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation Part 4 requires safe-use and quality-control procedures in the RSPP.
+commissioning	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires quality-control procedures; commissioning is a more specific local implementation.
+calibration	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires quality-control procedures; calibration is a more specific control.
+data_integrity	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires safe-use and quality-control procedures; it does not name data-transfer checks.
+oims	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 supplies a safe-use and quality-control framework; it does not name the local OIMS.
+formal_release	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires quality-control and safe-use procedures; formal release is a local implementation.
+independent_check	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 sets the framework for safe use and quality control; it does not specify this local checking step.
+defence_in_depth	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation Part 4 requires multiple classes of control; defence in depth is a broader safety interpretation.
+prescription	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires safe-use procedures; the clinical prescription control is more specific.
+treatment_plan	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires safe-use and quality-control procedures; treatment-plan approval is more specific.
+patient_identification	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires safe-use procedures; it does not itself specify the local patient-identification check.
+staff_competence	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation Part 4 specifies who undertakes measures and checks; the local credentialing programme adds detail.
+incident_learning	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	Regulation s 14 requires accident remediation procedures; learning and review go beyond that minimum.
+research_exposure	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	The Regulation requires safe-use procedures for the radiation practice; it does not set the research-specific ethical review shown in the RSPP.
+fetal_dose_assessment	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	The Regulation requires safe-use procedures for the practice; Part 4 does not name fetal dose assessment.
+hdr_source	source_security	radiation-safety-regulation-2021	Part 2; Part 5; Schedule 3	conditional security scope	The Regulation classifies security-enhanced sources; application to an HDR source depends on its activity and categorisation.
+patient_exposure	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	The Regulation requires procedures for safe use of radiation sources in a therapeutic practice; it does not specify the entire clinical exposure pathway.
+physicist_risk_review	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	The Regulation requires safe-use and quality-control procedures; this does not itself prescribe the named research-review role.
+patient_counselling	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	The Regulation supplies the therapeutic-practice safety framework but does not specifically prescribe pregnancy counselling in Part 4.
+pregnant_patient	plan_content	radiation-safety-regulation-2021	Part 4 ss 14–24	plan-content framework	The Regulation requires safe-use procedures for a therapeutic practice; it does not specifically name patient pregnancy in Part 4.
+worker_duty_review	pregnant_worker_limit_1_remainder	radiation-safety-regulation-2021	ss 52(2)(c), 53(2)(c), 54(2)(c), 55(2)(c)	operational implication	The post-notification limit informs duty planning; the cited provisions do not prescribe a particular review workflow.
+rso	radiation_protection_officer	iaea-gsr-part-3-2014	§3.94(e)	role analogue	IAEA RPO designation is comparable to RSO oversight, but Queensland defines and certifies its own statutory RSO role.
+rso	radiation_protection_officer	iaea-ssg-46-2018	§2.96; §2.134	role analogue	IAEA medical-facility RPO oversees occupational and public protection; its role is not identical to the Queensland RSO or a medical physicist.
+rso	radiation_protection_officer	iaea-gsg-7-2018	§3.66	role analogue	GSG-7 describes conditional RPO appointment; Queensland law supplies the appointment and certification requirements locally.
+approved_rspp	radiation_management_plan	rps-c-1-rev-1-2020	§3.1.4	broader programme analogue	The national Radiation Management Plan addresses similar protection controls; it is not the Queensland-approved RSPP.
+approved_rspp	radiation_management_plan	rps-c-5-2019	§3.5.5–3.5.6; Schedule A	broader programme analogue	The medical-exposure Code specifies a Radiation Management Plan; Queensland gives the Code effect for relevant practices through licence conditions.
+approved_rspp	radiation_management_plan	iaea-gsr-part-3-2014	Requirement 24; §3.87–3.97	broader programme analogue	The international radiation protection programme supports occupational arrangements but has no Queensland RSPP approval status.

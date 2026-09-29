@@ -37,11 +37,14 @@
 - Requires authorisation, review, inspection, enforcement and supporting infrastructure proportionate to radiation risk.
 *** Occupational exposure
 - Covers area classification, engineered and administrative controls, local rules, worker monitoring, dose assessment, health surveillance and records.
+- Requirement 24 places local rules and workplace monitoring within a radiation protection programme. Paragraph 3.94(e) calls for an RPO where appropriate under regulatory criteria; para 3.96 places workplace monitoring under an RPO or qualified expert.
+- Paragraph 3.110 requires worker instruction, training, periodic retraining and records. The RPO role is not the Queensland statutory RSO certificate.
 *** Public and environmental exposure
 - Covers source-related public exposure, discharges, monitoring, assessment and environmental protection.
 *** Medical exposure
 - Allocates responsibilities among the radiological medical practitioner, medical radiation technologist and medical physicist.
 - Requires justification, optimisation, appropriate equipment, calibration, patient dosimetry, QA, special consideration of pregnancy and breast-feeding, and investigation of unintended or accidental medical exposure.
+- Biomedical research exposure requires ethics approval (paras 3.152 and 3.161); significant unintended or accidental exposure is reported under para 3.181, subject to national implementation.
 
 ** 4 — Emergency exposure situations
 - Establishes preparedness, response, worker and public protection, reference levels, transition and review requirements.

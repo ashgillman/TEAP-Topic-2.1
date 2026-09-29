@@ -29,6 +29,8 @@
 
 ** 2 — Framework for medical uses
 - Covers governmental and regulatory responsibilities, a graded approach, roles and responsibilities, education/training/competence, management systems and safety assessment.
+- Paragraphs 2.96 and 2.134 define the medical-facility RPO's occupational/public-protection oversight; the role does not itself carry patient-radiation-protection responsibility or replace medical-physics competence.
+- Paragraphs 2.99–2.100 place medical-physicist dose/risk estimates and prospective constraints before the research ethics committee.
 
 ** 3 — Diagnostic radiology and image-guided procedures
 - Gives modality-specific guidance for facility/equipment safety, occupational protection, patient exposure, public protection and accident prevention.
@@ -39,12 +41,15 @@
 ** 5 — Radiation therapy
 *** General and facility/equipment safety (paras 5.1–5.92)
 - Addresses multidisciplinary responsibilities, facility design, shielding, equipment safety features, acceptance, commissioning and control after changes or servicing.
+- Paragraphs 5.69–5.70 call for systematic verification of record-and-verify interfaces and data integrity across the radiotherapy network.
 *** Occupational protection (paras 5.93–5.188)
 - Covers controlled/supervised areas, local rules, engineered controls, monitoring, staff competence and source-specific precautions.
 *** Individuals undergoing medical exposure (paras 5.189–5.281)
 - Covers justification, prescription, patient identification, optimisation, calibration and dosimetry, treatment planning/delivery, QA, pregnancy and patient records.
+- Acceptance and commissioning verify interfaces and data transfer before clinical use (paras 5.235–5.236); treatment decisions in pregnancy involve consultation with the patient (para 5.254).
 *** Public protection, accidents and transport (paras 5.282–5.326)
 - Covers public access/exposure, prevention and mitigation of unintended or accidental exposure, reporting and learning, and transport of radioactive material.
+- Paragraphs 5.274–5.276 distinguish reporting significant events to the regulator from broader voluntary incident learning; paras 5.303–5.304 recommend defence in depth.
 
 ** Appendices
 - /Appendix I/ :: Typical causes and contributing factors in accidental medical exposures.

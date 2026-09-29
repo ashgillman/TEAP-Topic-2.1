@@ -28,9 +28,11 @@
 * Summary :AI:
 ** 1–3 — Introduction, justification and responsibilities
 - Defines scope and justification, then allocates complementary responsibilities across management, clinicians, therapists, physicists, the RSO, suppliers and service personnel.
+- Section 3.6 describes the RSO's advisory and oversight role and states that delegation does not remove the Responsible Person's legal responsibility. Annex B lists illustrative RSO duties, including monitoring, training, review and reporting; Queensland law determines the local appointment.
 
 ** 4 — Optimisation of protection
 - Addresses facility and equipment design and operation, source/equipment calibration, clinical dosimetry and QA as an integrated system.
+- Section 4.2 invokes multiple safeguards (defence in depth) for critical radiotherapy components.
 
 ** 5 — Pregnancy
 - Recommends processes to identify and manage possible pregnancy and to assess fetal exposure where clinically relevant.

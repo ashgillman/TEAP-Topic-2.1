@@ -44,6 +44,7 @@
 - Requires prevention, prompt response, dose assessment, investigation, notification where applicable, corrective action and learning.
 *** 3.5 — Plans, training and records
 - Requires a documented management framework, education and competence, review, and records sufficient to demonstrate safe medical use.
+- Clauses 3.5.5–3.5.6 and Schedule A specify the Radiation Management Plan and its implementation. The plan is a code requirement; Queensland approval of an RSPP is a distinct legal step.
 
 ** Schedule A and appendices
 - /Schedule A/ :: Expected content of a Radiation Management Plan.
