@@ -8,6 +8,9 @@ The THHS radiation therapy RSPP sits within several layers of documents: Queensl
 
 For example, the Queensland /Radiation Safety Regulation 2021/ makes RPS C-5 a standard licence condition for the relevant medical practices. RPS 14.3 helps practitioners apply RPS C-5 in radiotherapy; the guide itself is not prescribed by that provision. The figures below show these different relationships at different levels of detail.
 
+* Explore the mappings
+- [[file:interactive-network/index.html][Interactive document network]] — select a document to read its key takeaways and follow its full summary.
+- [[file:concept-explorer/index.html][Interactive concept explorer]] — explore source-attributed relationships between protection concepts across documents.
 * Figures
 ** Authority ladder
 This overview follows the path from evidence and international recommendations through national documents and Queensland law to the approved RSPP, local instructions and records. The step from an Australian publication to Queensland law applies only where an adoption or licence mechanism is identified.
@@ -30,6 +33,3 @@ These examples follow a specific control from its source through local implement
 #+attr_html: :style max-width:100%;height:auto
 [[file:figures/worked-traceability-chains.svg]]
 
-* Explore the mappings
-- [[file:interactive-network/index.html][Interactive document network]] — select a document to read its key takeaways and follow its full summary.
-- [[file:concept-explorer/index.html][Interactive concept explorer]] — explore source-attributed relationships between protection concepts across documents.

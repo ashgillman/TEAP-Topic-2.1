@@ -644,7 +644,7 @@ Answer:
 7. Required communication/notification.
 8. Records and closure criteria.
 
-* Edge-case questions (not in study context)
+* Edge-case questions (not in study context) :noexport:
 ** What if you travel between states. Can I deliver radiation in Vic if I have a QLD Use License? :AI:
 /Short answer/ :: Not on the QLD use licence alone.  Radiation-use licensing is state and territory based.  Victoria requires the individual to hold Victorian authority for the relevant source and purpose, or to fall within a valid exemption or mutual-recognition pathway.
 
