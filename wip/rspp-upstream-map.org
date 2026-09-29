@@ -5,7 +5,7 @@
 #+options: toc:3 num:nil
 #+STARTUP: hideblocks content
 
-Working draft: the document register, section-level traces and open questions here support the concise [[file:../rspp-upstream-map.org][mapping overview]].
+Working draft: the document register, section-level traces and open questions here support the concise [[file:../resources.org][resources overview]].
 
 * Purpose and reading rule
 This map traces high-value controls in the THHS /Radiation Safety and Protection Plan for Radiation Therapy Practices/, Version 6.0 - Revision 1 (v6.01), to their principal upstream sources.
@@ -37,7 +37,7 @@ Terms such as /must/, /limit/ and /required/ below are source-scoped.  A guide o
 * Visual prototypes
 The diagrams deliberately use different visual language for different authority classes.  Blue international nodes are influential but not direct Queensland regulation; teal Australian nodes require an identified adoption mechanism; orange Queensland nodes are binding instruments; purple is the approved local RSPP; green is retained evidence.
 
-All three prototypes have editable Graphviz source and rendered SVG output in [[file:../figures/][figures/]].  Run the source blocks from the project root to reproduce the checked SVGs using Graphviz through Nix.
+All three prototypes have editable Graphviz source and rendered SVG output in [[file:../figures/][figures/]].  The source blocks run from the project root to reproduce the checked SVGs using Graphviz through Nix.
 
 ** Prototype A: authority ladder
 This is the clearest one-page explanation of how evidence and recommendations become local practice without pretending there is a single direct legislative chain.
@@ -45,7 +45,7 @@ This is the clearest one-page explanation of how evidence and recommendations be
 - Editable source: [[file:../figures/authority-ladder.dot][authority-ladder.dot]]
 - Rendered figure: [[file:../figures/authority-ladder.svg][authority-ladder.svg]]
 
-#+begin_src sh :results silent :exports code :eval never-export
+#+begin_src sh :dir .. :results silent :exports code :eval never-export
 nix shell nixpkgs#graphviz --command dot \
   -Tsvg figures/authority-ladder.dot \
   -o figures/authority-ladder.svg
@@ -61,9 +61,9 @@ This network is the detailed upstream reference view.  Read it from left to righ
 - Editable source: [[file:../figures/document-relationship-network.dot][document-relationship-network.dot]]
 - Rendered figure: [[file:../figures/document-relationship-network.svg][document-relationship-network.svg]]
 - Interactive explorer: [[file:../interactive-network/index.html][open the clickable document network]]
-- Explorer notes and rebuild instructions: [[file:../interactive-network/README.org][interactive-network/README.org]]
+- Explorer notes and rebuild instructions: =interactive-network/README.org= in the project source.
 
-#+begin_src sh :results silent :exports code :eval never-export
+#+begin_src sh :dir .. :results silent :exports code :eval never-export
 nix shell nixpkgs#graphviz --command dot \
   -Tsvg figures/document-relationship-network.dot \
   -o figures/document-relationship-network.svg
@@ -79,7 +79,7 @@ The three lanes show how the same hierarchy is applied to a patient control, a w
 - Editable source: [[file:../figures/worked-traceability-chains.dot][worked-traceability-chains.dot]]
 - Rendered figure: [[file:../figures/worked-traceability-chains.svg][worked-traceability-chains.svg]]
 
-#+begin_src sh :results silent :exports code :eval never-export
+#+begin_src sh :dir .. :results silent :exports code :eval never-export
 nix shell nixpkgs#graphviz --command dot \
   -Tsvg figures/worked-traceability-chains.dot \
   -o figures/worked-traceability-chains.svg
@@ -456,4 +456,4 @@ ICRP-103
 * See also
 - [[file:../summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][Concise THHS RSPP summary]]
 - [[file:../summaries/icrp-publication-103-2007.org][ICRP Publication 103 summary]]
-- [[file:../tasks.org][Project brief and remaining deliverables]]
+- Project brief and remaining deliverables: =tasks.org= in the project source.

@@ -1,4 +1,4 @@
-#+title: How the RSPP documents connect
+#+title: RSPP resources
 #+author: Ashley Gillman
 #+options: toc:nil num:nil
 #+STARTUP: hideblocks content
@@ -33,5 +33,3 @@ These examples follow a specific control from its source through local implement
 * Explore the mappings
 - [[file:interactive-network/index.html][Interactive document network]] — select a document to read its key takeaways and follow its full summary.
 - [[file:concept-explorer/index.html][Interactive concept explorer]] — explore source-attributed relationships between protection concepts across documents.
-- [[file:summaries/README.org][Source summaries]] — read the individual document notes and check their authority and scope.
-- [[file:wip/rspp-upstream-map.org][Detailed working draft]] — document register, traceability chains and open questions behind these overview figures.

@@ -33,7 +33,7 @@
 - [[file:summaries/radiation-safety-standards-notice-2021.org][Radiation Safety Standards Notice 2021 summary]].
 - [[file:summaries/standard-for-premises-ionising-radiation-sources-2021.org][Standard for premises—ionising radiation sources (2021) summary]] and [[https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1104661/premises-ionising-radiation-sources.pdf][official Queensland Health PDF]]. This is the current title; “PR100” is the older designation still used in the supplied RSPP.
 - [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][Approved THHS Radiation Therapy RSPP summary]] and [[file:sources/local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx][controlled source copy]].
-- [[file:rspp-upstream-map.org][RSPP upstream traceability map]] — use for authority links and section-level traceability.
+- [[file:resources.org][RSPP resources]] — authority figures and links to the interactive views.
 
 ** Prescribed national codes and supporting sources
 - [[file:summaries/rps-c-5-2019.org][RPS C-5 — Medical Exposure]] — prescribed Queensland possession/use licence condition for relevant human diagnostic and therapeutic practices (QLD Radiation Safety Act s 75(3); QLD Radiation Safety Regulation s 70(1), item 2).
@@ -681,7 +681,7 @@ Answer:
 8. Obtain and add the missing premises standard, ICRP 84, TG-36 and TG-203 before learning their technical values.
 
 * See Also :noexport:
-- [[file:rspp-upstream-map.org][THHS RSPP upstream traceability map]]
+- [[file:resources.org][RSPP resources]]
 - [[file:summaries/README.org][Primary-source summary index and pending-source queue]]
 - [[file:summaries/icrp-publication-103-2007.org][ICRP Publication 103 summary]]
 - [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS Radiation Therapy RSPP summary]]

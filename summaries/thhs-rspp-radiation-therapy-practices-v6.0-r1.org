@@ -259,7 +259,7 @@
 - [[file:rps-c-5-2019.org][RPS C-5 summary]]
 - [[file:rps-14-3-2008.org][RPS 14.3 summary]]
 - [[file:standard-for-premises-ionising-radiation-sources-2021.org][Queensland premises standard (2021) summary]]
-- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
+- [[file:../resources.org][RSPP resources]]
 - [[file:../study.org][KA2 Topic 2.1 study guide]]
 - [[file:/Users/gil/Downloads/KA2_Overview.pdf][KA2 Overview]]
 - [[file:/Users/gil/Downloads/Topic 2.1 Principles, Application and risk of radiation.pdf][KA2 Topic 2.1: Principles, application and risk of radiation]]

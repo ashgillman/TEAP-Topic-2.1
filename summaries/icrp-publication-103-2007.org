@@ -94,4 +94,4 @@
 - [[file:rps-f-1-2014.org][RPS F-1]]
 - [[file:rps-c-1-rev-1-2020.org][RPS C-1 Rev. 1]]
 - [[file:rps-c-5-2019.org][RPS C-5]]
-- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
+- [[file:../resources.org][RSPP resources]]

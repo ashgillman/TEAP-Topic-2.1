@@ -54,5 +54,5 @@ Only the relevant Queensland instruments, licence/approval conditions and approv
 * Project links
 - [[file:../sources/README.org][Local source corpus and provenance]]
 - [[file:../sources/source-register.tsv][Source register]]
-- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
+- [[file:../resources.org][RSPP resources]]
 - [[file:../concept-explorer/index.html][RSPP concept source map — trace a local concept through document levels]]

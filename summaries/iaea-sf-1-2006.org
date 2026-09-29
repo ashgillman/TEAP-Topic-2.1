@@ -57,4 +57,4 @@
 - [[file:icrp-publication-103-2007.org][ICRP Publication 103]]
 - [[file:iaea-gsr-part-3-2014.org][IAEA GSR Part 3]]
 - [[file:rps-f-1-2014.org][RPS F-1]]
-- [[file:../rspp-upstream-map.org][RSPP upstream traceability map]]
+- [[file:../resources.org][RSPP resources]]
