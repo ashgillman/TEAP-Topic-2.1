@@ -21,6 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - uses: DeterminateSystems/nix-installer-action@v20
+      - uses: DeterminateSystems/magic-nix-cache-action@v15
       - uses: actions/configure-pages@v5
       - name: Build the static site
         run: nix develop .#default -c scripts/build-site.sh "$RUNNER_TEMP/site-build"
