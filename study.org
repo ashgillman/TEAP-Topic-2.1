@@ -7,66 +7,11 @@
 #+STARTUP: hideblocks content
 #+options: toc:1
 
-* Scope and how to use this note
-- This note covers Topic 2.1 and LO 2.1.1–2.1.4. The supervisor's broader KA2 overview also lists shielding and incident outcomes under Topics 2.2 and 2.3; those are outside this note except where they illuminate a Topic 2.1 concept.
-- The supervisor documents define the expected curriculum and assessment style. They are not legal or clinical authorities.
-- The substantive summaries below are traced to the retained Queensland, ARPANSA, IAEA and approved local primary sources. Authority is stated explicitly.
-- For each practice question, answer aloud or in writing before opening the comment block. Each comment starts with a light hint, links to the relevant core concept and source summary, then gives a short suggested answer for checking your response.
-- A reliable assessment answer follows: /authority → requirement or principle → local implementation → record or evidence → limitations/uncertainty/next action/.
+* Scope :noexport:
+- This note covers Topic 2.1 and LO 2.1.1–2.1.4. The broader KA2 also lists shielding and incident outcomes under Topics 2.2 and 2.3; those are outside this note except where they illuminate a Topic 2.1 concept.
+- The substantive summaries below are traced to the retained Queensland, ARPANSA, IAEA and approved local primary sources.
 
-* Source basis
-** Citation shorthand used in this note :noexport:
-- /QLD Radiation Safety Act/ :: /Radiation Safety Act 1999/ (Queensland).
-- /QLD Radiation Safety Regulation/ :: /Radiation Safety Regulation 2021/ (Queensland).
-- /s/ and /ss/ :: section and sections. These identify numbered legal provisions, not page numbers; for example, “s 70” means section 70 and “ss 75–77” means sections 75 through 77.
-- /pt/ and /sch/ :: part and schedule.
-- Therefore, “QLD Radiation Safety Regulation s 70” means section 70 of the /Radiation Safety Regulation 2021/ (Queensland). Section 70 prescribes particular ARPANSA documents as standard conditions of specified Queensland possession, use or transport licences. The enabling rule is QLD Radiation Safety Act s 75.
-
-** Supervisor curriculum documents :noexport:
-- [[file:/Users/gil/Downloads/KA2_Overview.pdf][KA2 – Radiation Safety and Protection – LO Overview]] — curriculum expectations for LO 2.1.1–2.3 and the expected oral, practical, written or MCQ evidence.
-- [[file:/Users/gil/Downloads/Topic 2.1 Principles, Application and risk of radiation.pdf][Topic 2.1 — The principles, application and risks of radiation protection]] — teaching context for LO 2.1.1–2.1.3, including local examples.
-- Personal names, appointments, storage locations, example badge results and departmental details in the slides must be checked against current controlled THHS records before use.
-
-** Binding Queensland and local sources
-- [[file:summaries/radiation-safety-act-1999.org][Radiation Safety Act 1999 summary]] and [[file:sources/queensland/radiation-safety-act-1999.pdf][retained Act PDF]].
-- [[file:summaries/radiation-safety-regulation-2021.org][Radiation Safety Regulation 2021 summary]] and [[file:sources/queensland/radiation-safety-regulation-2021.pdf][retained Regulation PDF]].
-- [[file:summaries/radiation-safety-standards-notice-2021.org][Radiation Safety Standards Notice 2021 summary]].
-- [[file:summaries/standard-for-premises-ionising-radiation-sources-2021.org][Standard for premises—ionising radiation sources (2021) summary]] and [[https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1104661/premises-ionising-radiation-sources.pdf][official Queensland Health PDF]]. This is the current title; “PR100” is the older designation still used in the supplied RSPP.
-- [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][Approved THHS Radiation Therapy RSPP summary]] and [[file:sources/local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx][controlled source copy]].
-- [[file:resources.org][RSPP resources]] — authority figures and links to the interactive views.
-
-** Prescribed national codes and supporting sources
-- [[file:summaries/rps-c-5-2019.org][RPS C-5 — Medical Exposure]] — prescribed Queensland possession/use licence condition for relevant human diagnostic and therapeutic practices (QLD Radiation Safety Act s 75(3); QLD Radiation Safety Regulation s 70(1), item 2).
-- [[file:summaries/rps-8-2005.org][RPS 8 — Human Research Exposure]] — prescribed for health-related research on persons (QLD Radiation Safety Regulation s 70(1), item 5).
-- [[file:summaries/rps-11-2019.org][RPS 11 — Security of Radioactive Sources]] — prescribed where the practice involves a security-enhanced source (QLD Radiation Safety Regulation s 70(1), item 7).
-- [[file:summaries/rps-c-2-rev-1-2019.org][RPS C-2 — Safe Transport]] — prescribed for transport licences by QLD Radiation Safety Act s 75(4) and QLD Radiation Safety Regulation s 70(2).
-- [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1 — Planned Exposure Situations]], [[file:summaries/rps-f-1-2014.org][RPS F-1 — Fundamentals]] and [[file:summaries/rps-14-3-2008.org][RPS 14.3 — Radiotherapy guide]] — important national sources, but not labelled directly binding here without a specific mechanism.
-- [[file:summaries/icrp-publication-103-2007.org][ICRP Publication 103]], [[file:summaries/iaea-gsr-part-3-2014.org][IAEA GSR Part 3]], [[file:summaries/iaea-ssg-46-2018.org][IAEA SSG-46]] and [[file:summaries/iaea-sf-1-2006.org][IAEA SF-1]] — international recommendations, requirements, guidance and fundamentals that influence Australian sources but do not directly regulate THHS.
-
-** Currency and evidence gaps
-- Legal currency was rechecked against the official in-force Queensland pages on 17 September 2026: the QLD Radiation Safety Act page was consolidated as at 10 February 2026 and the QLD Radiation Safety Regulation page as at 14 December 2025. The locally retained PDFs are slightly earlier consolidations, so the official current text prevails.
-- The official /Standard for premises—ionising radiation sources (2021)/ was checked against the retained PDF on 29 September 2026 and summarised. Use the PDF, including its complete test tables and exceptions, for an operational assessment.
-- ICRP 84, AAPM TG-36 and AAPM TG-203 are curriculum references but are not retained in this corpus. Detailed numerical claims from them are therefore study gaps rather than assertions in this note.
-
-** RPS 14 family — current status and Topic 2.1 relevance
-| Document | Topic | Current status | Relevance to this radiation-therapy project |
-|-
-| RPS 14 | /Code of Practice for Radiation Protection in the Medical Applications of Ionizing Radiation/ (2008) | Withdrawn; superseded by RPS C-1 plus RPS C-5 | Historical parent code only. It should not remain listed as a current governing reference. |
-| RPS 14.1 | /Safety Guide for Radiation Protection in Diagnostic and Interventional Radiology/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Its stated scope excludes radiotherapy, including treatment planning with dedicated equipment. It is relevant only if the service separately undertakes genuine diagnostic/interventional radiology, not merely because radiotherapy uses CT simulation or IGRT. |
-| RPS 14.2 | /Safety Guide for Radiation Protection in Nuclear Medicine/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Its scope excludes external-beam and sealed-source radiotherapy. It is nevertheless useful at the interface when a patient administered a radiopharmaceutical attends radiotherapy and may expose RT staff. |
-| RPS 14.3 | /Safety Guide for Radiation Protection in Radiotherapy/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Directly relevant and correctly included in the corpus and RSPP. It provides practical guidance; RPS C-5 supplies the prescribed code requirements. |
-
-- ARPANSA describes all three 14.x documents as guides that now support implementation of RPS C-5. Their original parent was RPS 14, but that parent relationship is historical rather than current.
-- Official pages: [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-1][RPS 14.1]], [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-2][RPS 14.2]], [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-3][RPS 14.3]] and [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-5][RPS C-5]].
-
-** RSPP reference-list review finding
-- The controlled THHS RSPP currently cites RPS 14 and RPS 14.3; it does not cite RPS 14.1 or RPS 14.2.
-- The RPS 14 entry is stale because the code has been withdrawn and superseded. A future controlled RSPP amendment should remove RPS 14 as a current reference and retain RPS C-1, RPS C-5 and RPS 14.3 with their correct titles, years and roles.
-- RPS 14.1 should be considered only if the plan covers a separate diagnostic/interventional radiology practice; its own scope excludes radiotherapy and dedicated treatment-planning equipment. RPS 14.2 should be added only if the plan defines a real nuclear-medicine interface, such as management of a radiopharmaceutical patient attending RT; the supervisor's curriculum mention alone is not enough.
-- The same bibliography pass should correct /APRANSA/ to /ARPANSA/, give RPS C-5 its correct title and year, and update the RPS 11 citation from the superseded 2007 edition to the 2019 edition already prescribed by the current QLD Radiation Safety Regulation.
-- Do not silently edit the controlled RSPP. A reference update should follow the RSPP's document-control, governance and regulatory approval pathway, including QLD Radiation Safety Act ss 30–32 where a change to the approved plan requires recording or approval.
-
-* Important corrections and distinctions
+* Important corrections and distinctions :noexport:
 | Supervisor/lecture shorthand | Primary-source reading for assessment |
 |-
 | The RSPP is the “parent document” | The RSPP is the approved local plan. Queensland law, statutory standards and licence/approval conditions sit above it; procedures and records sit below it. |
@@ -78,14 +23,6 @@
 | Patient treatment dose should be below an occupational/public limit | Dose limits do not apply to the intended medical exposure of the treated patient. Patient protection depends on justification, optimisation, prescription, calibration/dosimetry, QA and correct delivery. |
 | Public exposure may be averaged to permit 5 mSv in one year | The current Queensland Schedule 5 limit is 1 mSv effective dose in any 12-month period, with separate lens and skin limits. Do not use the slide's older shorthand as the current Queensland rule. |
 | Named local office holders in the slides can be memorised | Learn the statutory and local roles. Verify the current appointee, nominee, licence scope and contact pathway from controlled records. |
-
-* Curriculum coverage matrix
-| LO | Expected capability | Assessment evidence | What competent performance looks like | Core primary sources |
-|-
-| 2.1.1 | Identify and discuss local radiation-protection legislation | Oral | Explain the authority hierarchy; connect international/national ideas to Queensland law and the RSPP; explain risk communication and RSO/RSC governance | QLD Radiation Safety Act, QLD Radiation Safety Regulation, Standards Notice, RPS F-1, RPS C-5, GSR Part 3, RSPP |
-| 2.1.2 | Understand and practise radiation-protection methods | Oral or practical | Analyse radiation harm; distinguish medical/occupational/public/environmental protection; choose and interpret monitoring; communicate and advocate safely | RPS C-1, RPS C-5, RPS 14.3, SSG-46, RSPP |
-| 2.1.3 | Explain legal compliance | Oral | Explain licences, supervision, approvals, certificates and audits; state current monitoring and dose-limit requirements; identify evidence of compliance | QLD Radiation Safety Act ss 12–18, 28–45, 75–77; QLD Radiation Safety Regulation pts 4, 6–8, s 70, sch 5; RSPP |
-| 2.1.4 | Practise and advise on radiation protection | Written task | Apply principles to patients, research participants, workers and public; evaluate a compliance process; assess and communicate risk; give proportionate recommendations | QLD Radiation Safety Act, QLD Radiation Safety Regulation, RPS C-5, RPS 8, RSPP; scenario-specific primary sources |
 
 * Expected learning goals
 ** LO 2.1.1 — Local legislation, implementation and governance
@@ -157,6 +94,14 @@
 - Explain the complementary roles of the researcher, ROMP/medical physicist, HREC, clinician and Responsible Person.
 - Compare risk information for research participants, carers/comforters and embryo/fetus without transferring one group's constraint to another.
 
+* Curriculum coverage matrix
+| LO | Expected capability | Assessment evidence | What competent performance looks like | Core primary sources |
+|-
+| 2.1.1 | Identify and discuss local radiation-protection legislation | Oral | Explain the authority hierarchy; connect international/national ideas to Queensland law and the RSPP; explain risk communication and RSO/RSC governance | QLD Radiation Safety Act, QLD Radiation Safety Regulation, Standards Notice, RPS F-1, RPS C-5, GSR Part 3, RSPP |
+| 2.1.2 | Understand and practise radiation-protection methods | Oral or practical | Analyse radiation harm; distinguish medical/occupational/public/environmental protection; choose and interpret monitoring; communicate and advocate safely | RPS C-1, RPS C-5, RPS 14.3, SSG-46, RSPP |
+| 2.1.3 | Explain legal compliance | Oral | Explain licences, supervision, approvals, certificates and audits; state current monitoring and dose-limit requirements; identify evidence of compliance | QLD Radiation Safety Act ss 12–18, 28–45, 75–77; QLD Radiation Safety Regulation pts 4, 6–8, s 70, sch 5; RSPP |
+| 2.1.4 | Practise and advise on radiation protection | Written task | Apply principles to patients, research participants, workers and public; evaluate a compliance process; assess and communicate risk; give proportionate recommendations | QLD Radiation Safety Act, QLD Radiation Safety Regulation, RPS C-5, RPS 8, RSPP; scenario-specific primary sources |
+
 * Core concept summaries :AI:
 ** 1. Authority hierarchy and traceability
 The system is a network of authority and influence rather than one strict legislative chain:
@@ -217,7 +162,8 @@ scientific evidence → international recommendations/fundamentals → internati
 - /Stochastic effects/ :: Cancer/heritable risk is managed probabilistically. Protection systems use prudent models at low dose even where epidemiology cannot resolve a small excess risk directly.
 - /Therapeutic context/ :: High target dose is intended; risk analysis focuses on benefit, normal-tissue dose, plan/delivery accuracy and unintended exposure rather than comparing the prescription with a public limit.
 - /Communication structure/ :: State what happened or is proposed; who is exposed; the best dose estimate and uncertainty; the appropriate comparator; plausible health meaning; immediate action; follow-up; and who is accountable.
-- Avoid false precision, unexplained relative risk, comparison with the wrong population or limit, and reassurance that is unsupported by dose reconstruction.
+  
+Avoid false precision, unexplained relative risk, comparison with the wrong population or limit, and reassurance that is unsupported by dose reconstruction.
 
 ** 6. Radiation-protection methods and defence in depth
 - /Design/ :: Shielding, layout, controlled access, source containment, fail-safe design and suitable equipment.
@@ -300,7 +246,7 @@ scientific evidence → international recommendations/fundamentals → internati
 
 * Practice questions
 ** LO 2.1.1 — Oral questions
-*** Q1. Explain the radiation-protection authority hierarchy for THHS radiation therapy.
+*** Q1. Explain the radiation-protection authority hierarchy from your local radiation safety and protection plan up to international guidance.
 #+begin_quote
 Give a two-minute answer that starts internationally and ends with a treatment or QA record. State which layers are binding and which only inform practice.
 
@@ -484,21 +430,7 @@ Answer:
 - /Suggested answer/ :: The default position is that a person using a radiation source requires the appropriate use licence. Use without an ordinary licence is lawful only where the Act or Regulation supplies a specific pathway, such as a defined supervised-training or prescribed-licensee arrangement, and every condition of that pathway is met. Check the source, practice, person's registration or training status, supervisor's authority and availability, and any scope or record requirements. If the exact provision cannot be demonstrated, do not assume profession, employment or supervision makes the use lawful.
 #+end_comment
 
-*** Q14. Why is RPS C-5 enforceable in this setting?
-#+begin_quote
-Give the exact legal bridge and contrast it with RPS F-1 or IAEA SSG-46.
-
-Answer:
-
-
-#+end_quote
-#+begin_comment
-- /Hint/ :: Name both halves of the bridge: the Act creates the licence condition and the Regulation identifies the document.
-- /Review/ :: [[*1. Authority hierarchy and traceability][Core concept 1]]; [[*2. Queensland legal architecture][Core concept 2]]; [[file:summaries/radiation-safety-act-1999.org][QLD Radiation Safety Act summary]]; [[file:summaries/radiation-safety-regulation-2021.org][QLD Radiation Safety Regulation summary]]; [[file:summaries/rps-c-5-2019.org][RPS C-5 summary]].
-- /Suggested answer/ :: QLD Radiation Safety Act s 75(3) makes compliance with a prescribed radiation-safety document a standard condition of relevant possession and use licences. QLD Radiation Safety Regulation s 70(1), item 2 prescribes RPS C-5 for practices involving diagnostic or therapeutic irradiation of people. Contravening that requirement can therefore be a contravention of a licence condition. RPS F-1 and IAEA SSG-46 remain influential sources, but this note does not identify an equivalent direct Queensland adoption mechanism for them.
-#+end_comment
-
-*** Q15. Audit one radiation-therapy apparatus and its premises.
+*** Q14. Audit one radiation-therapy apparatus and its premises.
 #+begin_quote
 List the documents, dates, tests, conditions and records you would check, and explain how you would respond to a gap.
 
@@ -512,7 +444,7 @@ Answer:
 - /Suggested answer/ :: Verify that the possession licence, source inventory, acquisition/relocation approvals and premises/source certificates cover the apparatus, practice and location. Apply the retained Queensland premises standard's general tests and the relevant radiation-therapy or HDR section. Confirm acceptance testing, commissioning, calibration and clinical release, then sample scheduled QA, interlocks, surveys, maintenance, software/configuration changes and post-service return-to-use. Check that trained and authorised staff follow the RSPP and that failures produce documented containment, investigation, risk assessment and closed corrective actions. Report any gap against its actual authority and risk.
 #+end_comment
 
-*** Q16. State the current Queensland occupational and public limits without applying them to a patient.
+*** Q15. State the current Queensland occupational and public limits without applying them to a patient.
 #+begin_quote
 Include adult effective dose, lens, extremity/skin, public effective dose and declared-pregnancy provisions.
 
@@ -527,7 +459,7 @@ Answer:
 #+end_comment
 
 ** LO 2.1.4 — Written-task prompts
-*** Q17. Written advice: pregnant radiotherapy patient
+*** Q16. Written advice: pregnant radiotherapy patient
 #+begin_quote
 A patient may be pregnant shortly before pelvic radiotherapy. Write a structured radiation-protection assessment and advice plan. Do not assume a fetal dose or a universal decision threshold.
 
@@ -541,7 +473,7 @@ Answer:
 - /Suggested answer/ :: Establish pregnancy and gestational information sensitively, define treatment site/technique and clinical urgency, and consider alternatives or timing that preserve benefit. The ROMP should estimate embryo/fetal dose and uncertainty using an appropriate method; the appropriately authorised radiological medical practitioner—normally the RO—then makes and documents the patient-specific justification, taking that assessment and the patient's circumstances into account. Optimise planning and delivery without compromising necessary treatment, provide multidisciplinary counselling on benefits, risks and uncertainty, obtain/document consent, and record the final decision and follow-up. Do not quote ICRP 84 or TG-36 thresholds until those primary sources are obtained and checked.
 #+end_comment
 
-*** Q18. Written advice: research imaging added to a trial
+*** Q17. Written advice: research imaging added to a trial
 #+begin_quote
 A protocol adds imaging that is not part of normal clinical management. Explain the approvals, dose/risk assessment, optimisation, consent information and records required.
 
@@ -555,7 +487,7 @@ Answer:
 - /Suggested answer/ :: Identify which imaging is additional to normal care and specify its frequency, population and cumulative dose. The researcher supplies the protocol; the ROMP independently assesses dose, risk and optimisation; the RMP accepts the medical-exposure responsibility; and the HREC reviews ethics, justification and consent, with any required institutional or regulatory approvals completed before exposure. Consent information should distinguish clinical benefit from research purpose, explain radiation risk and alternatives, and avoid implying a personal benefit where none is expected. Retain approvals, dose assessment, protocol/version, consent and exposure records. A research dose constraint is a planning tool, not a treatment prescription or occupational/public dose limit.
 #+end_comment
 
-*** Q19. Written compliance evaluation: personal monitoring programme
+*** Q18. Written compliance evaluation: personal monitoring programme
 #+begin_quote
 Evaluate whether the department's personal-monitoring programme demonstrates compliance and effective optimisation.
 
@@ -569,7 +501,7 @@ Answer:
 - /Suggested answer/ :: Confirm that inclusion is based on documented exposure risk and that the device, wear position and exchange period suit the radiation fields and tasks. Audit issue, instruction, wear, control/storage, return, provider quality, result receipt and timely RSO review. Check worker notification, local investigation levels, abnormal-result investigation, combined dose across employers, pregnancy arrangements, retention and privacy. Trend results and test whether investigations lead to effective controls and governance review. Compliance requires a closed loop from risk assessment to result, action and record—not merely a badge register.
 #+end_comment
 
-*** Q20. Written risk advice: member of public near a treatment bunker
+*** Q19. Written risk advice: member of public near a treatment bunker
 #+begin_quote
 A renovation changes the occupancy of a room adjacent to a bunker. Explain the assessment, immediate controls, calculations/measurements, legal comparison, certification implications and communication.
 
@@ -583,7 +515,7 @@ Answer:
 - /Suggested answer/ :: Define the room's geometry relative to primary, leakage and scatter paths, its new occupancy and whether occupants are members of the public. Preserve or impose proportionate interim access controls while a qualified person reviews shielding design assumptions, workload, use, occupancy, energy and current survey data. Recalculate and, where appropriate, measure dose at representative occupied positions, accounting for uncertainty and future workload. Compare results with the applicable design goal, the Queensland premises standard's area-specific weekly test and the public dose limit as distinct quantities. Determine whether the premises certificate or regulator approval must be updated, document the decision and communicate the actual risk without equating detectability with harm.
 #+end_comment
 
-*** Q21. Written advice: cardiac implanted electronic device
+*** Q20. Written advice: cardiac implanted electronic device
 #+begin_quote
 A patient with a cardiac implanted electronic device is planned for radiotherapy. Outline the information, roles, risk assessment, controls, monitoring and escalation needed.
 
@@ -615,7 +547,7 @@ Answer:
 - /Suggested answers/ :: (1) QLD Radiation Safety Act ss 12–13. (2) QLD Radiation Safety Act ss 28–34. (3) The RSO; the RSC and RSWG are local governance bodies. (4) QLD Radiation Safety Regulation s 70(1), item 2. (5) No: a limit is an upper bound, while optimisation is required below it. (6) No: intended patient exposure is managed through justification, optimisation, prescription and safe delivery. (7) 1 mSv effective dose in any 12 months. (8) 1 mSv effective dose during the remainder of pregnancy once pregnancy is known or ought reasonably be known. (9) A monitor result is a measurement; an investigation level is a local trigger; a dose limit is a legal upper bound for its defined category. (10) Examples include a monitor report/investigation, prescription/treatment record, calibration or QA result, training/credential record, certificate, closed audit action, incident review or committee minutes.
 #+end_comment
 
-* Assessment-ready answer frameworks
+* Assessment-ready answer frameworks :noexport:
 ** Oral: document or governance question
 1. Name and classify the source/role.
 2. State its scope and core requirement.
@@ -670,7 +602,7 @@ Answer:
 
 /Official source anchors, checked 17 September 2026/ :: [[https://www.health.vic.gov.au/publications/mandatory-radiation-safety-requirements-management-licence-holders-obligations][Victorian management-licence holder requirements]]; [[https://www.health.vic.gov.au/sites/default/files/migrated/files/collections/policies-and-guidelines/m/mandatory-radiation-safety-requirements-use-licence-holders-obligations.pdf][Victorian use-licence holder requirements]]; [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1 summary]]; [[file:sources/queensland/radiation-safety-act-1999.pdf][QLD Radiation Safety Act]] ss 28 and 38–39; [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][THHS RSPP summary]] s 10.
 
-* Suggested study sequence
+* Suggested study sequence :noexport:
 1. Learn the authority hierarchy and the Queensland legal anchors.
 2. Master justification, optimisation and limitation across each exposure category.
 3. Learn the RSPP/RSO/RSC/RSWG roles and evidence records.
@@ -679,6 +611,59 @@ Answer:
 6. Rehearse the personal-monitoring investigation aloud.
 7. Complete the four written scenarios using the answer framework.
 8. Obtain and add the missing premises standard, ICRP 84, TG-36 and TG-203 before learning their technical values.
+
+* References
+** Citation shorthand used in this note :noexport:
+- /QLD Radiation Safety Act/ :: /Radiation Safety Act 1999/ (Queensland).
+- /QLD Radiation Safety Regulation/ :: /Radiation Safety Regulation 2021/ (Queensland).
+- /s/ and /ss/ :: section and sections. These identify numbered legal provisions, not page numbers; for example, “s 70” means section 70 and “ss 75–77” means sections 75 through 77.
+- /pt/ and /sch/ :: part and schedule.
+  
+Therefore, “QLD Radiation Safety Regulation s 70” means section 70 of the /Radiation Safety Regulation 2021/ (Queensland). Section 70 prescribes particular ARPANSA documents as standard conditions of specified Queensland possession, use or transport licences. The enabling rule is QLD Radiation Safety Act s 75.
+
+** Supervisor curriculum documents :noexport:
+- [[file:/Users/gil/Downloads/KA2_Overview.pdf][KA2 – Radiation Safety and Protection – LO Overview]] — curriculum expectations for LO 2.1.1–2.3 and the expected oral, practical, written or MCQ evidence.
+- [[file:/Users/gil/Downloads/Topic 2.1 Principles, Application and risk of radiation.pdf][Topic 2.1 — The principles, application and risks of radiation protection]] — teaching context for LO 2.1.1–2.1.3, including local examples.
+- Personal names, appointments, storage locations, example badge results and departmental details in the slides must be checked against current controlled THHS records before use.
+
+** Binding Queensland and local sources
+- [[file:summaries/radiation-safety-act-1999.org][Radiation Safety Act 1999 summary]] and [[file:sources/queensland/radiation-safety-act-1999.pdf][retained Act PDF]].
+- [[file:summaries/radiation-safety-regulation-2021.org][Radiation Safety Regulation 2021 summary]] and [[file:sources/queensland/radiation-safety-regulation-2021.pdf][retained Regulation PDF]].
+- [[file:summaries/radiation-safety-standards-notice-2021.org][Radiation Safety Standards Notice 2021 summary]].
+- [[file:summaries/standard-for-premises-ionising-radiation-sources-2021.org][Standard for premises—ionising radiation sources (2021) summary]] and [[https://www.health.qld.gov.au/__data/assets/pdf_file/0019/1104661/premises-ionising-radiation-sources.pdf][official Queensland Health PDF]]. This is the current title; “PR100” is the older designation still used in the supplied RSPP.
+- [[file:summaries/thhs-rspp-radiation-therapy-practices-v6.0-r1.org][Approved THHS Radiation Therapy RSPP summary]] and [[file:sources/local/thhs-rspp-radiation-therapy-practices-v6.0-r1.docx][controlled source copy]].
+- [[file:resources.org][RSPP resources]] — authority figures and links to the interactive views.
+
+** Prescribed national codes and supporting sources
+- [[file:summaries/rps-c-5-2019.org][RPS C-5 — Medical Exposure]] — prescribed Queensland possession/use licence condition for relevant human diagnostic and therapeutic practices (QLD Radiation Safety Act s 75(3); QLD Radiation Safety Regulation s 70(1), item 2).
+- [[file:summaries/rps-8-2005.org][RPS 8 — Human Research Exposure]] — prescribed for health-related research on persons (QLD Radiation Safety Regulation s 70(1), item 5).
+- [[file:summaries/rps-11-2019.org][RPS 11 — Security of Radioactive Sources]] — prescribed where the practice involves a security-enhanced source (QLD Radiation Safety Regulation s 70(1), item 7).
+- [[file:summaries/rps-c-2-rev-1-2019.org][RPS C-2 — Safe Transport]] — prescribed for transport licences by QLD Radiation Safety Act s 75(4) and QLD Radiation Safety Regulation s 70(2).
+- [[file:summaries/rps-c-1-rev-1-2020.org][RPS C-1 — Planned Exposure Situations]], [[file:summaries/rps-f-1-2014.org][RPS F-1 — Fundamentals]] and [[file:summaries/rps-14-3-2008.org][RPS 14.3 — Radiotherapy guide]] — important national sources, but not labelled directly binding here without a specific mechanism.
+- [[file:summaries/icrp-publication-103-2007.org][ICRP Publication 103]], [[file:summaries/iaea-gsr-part-3-2014.org][IAEA GSR Part 3]], [[file:summaries/iaea-ssg-46-2018.org][IAEA SSG-46]] and [[file:summaries/iaea-sf-1-2006.org][IAEA SF-1]] — international recommendations, requirements, guidance and fundamentals that influence Australian sources but do not directly regulate THHS.
+
+** Currency and evidence gaps
+- Legal currency was rechecked against the official in-force Queensland pages on 17 September 2026: the QLD Radiation Safety Act page was consolidated as at 10 February 2026 and the QLD Radiation Safety Regulation page as at 14 December 2025. The locally retained PDFs are slightly earlier consolidations, so the official current text prevails.
+- The official /Standard for premises—ionising radiation sources (2021)/ was checked against the retained PDF on 29 September 2026 and summarised. Use the PDF, including its complete test tables and exceptions, for an operational assessment.
+- ICRP 84, AAPM TG-36 and AAPM TG-203 are curriculum references but are not retained in this corpus. Detailed numerical claims from them are therefore study gaps rather than assertions in this note.
+
+** RPS 14 family — current status and Topic 2.1 relevance
+| Document | Topic | Current status | Relevance to this radiation-therapy project |
+|-
+| RPS 14 | /Code of Practice for Radiation Protection in the Medical Applications of Ionizing Radiation/ (2008) | Withdrawn; superseded by RPS C-1 plus RPS C-5 | Historical parent code only. It should not remain listed as a current governing reference. |
+| RPS 14.1 | /Safety Guide for Radiation Protection in Diagnostic and Interventional Radiology/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Its stated scope excludes radiotherapy, including treatment planning with dedicated equipment. It is relevant only if the service separately undertakes genuine diagnostic/interventional radiology, not merely because radiotherapy uses CT simulation or IGRT. |
+| RPS 14.2 | /Safety Guide for Radiation Protection in Nuclear Medicine/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Its scope excludes external-beam and sealed-source radiotherapy. It is nevertheless useful at the interface when a patient administered a radiopharmaceutical attends radiotherapy and may expose RT staff. |
+| RPS 14.3 | /Safety Guide for Radiation Protection in Radiotherapy/ (2008) | Still used as interim best-practice support for RPS C-5; rewrite in progress | Directly relevant and correctly included in the corpus and RSPP. It provides practical guidance; RPS C-5 supplies the prescribed code requirements. |
+
+- ARPANSA describes all three 14.x documents as guides that now support implementation of RPS C-5. Their original parent was RPS 14, but that parent relationship is historical rather than current.
+- Official pages: [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-1][RPS 14.1]], [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-2][RPS 14.2]], [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/guides-and-recommendations/rps14-3][RPS 14.3]] and [[https://www.arpansa.gov.au/regulation-and-licensing/regulatory-publications/radiation-protection-series/codes-and-standards/rpsc-5][RPS C-5]].
+
+** RSPP reference-list review finding
+- The controlled THHS RSPP currently cites RPS 14 and RPS 14.3; it does not cite RPS 14.1 or RPS 14.2.
+- The RPS 14 entry is stale because the code has been withdrawn and superseded. A future controlled RSPP amendment should remove RPS 14 as a current reference and retain RPS C-1, RPS C-5 and RPS 14.3 with their correct titles, years and roles.
+- RPS 14.1 should be considered only if the plan covers a separate diagnostic/interventional radiology practice; its own scope excludes radiotherapy and dedicated treatment-planning equipment. RPS 14.2 should be added only if the plan defines a real nuclear-medicine interface, such as management of a radiopharmaceutical patient attending RT; the supervisor's curriculum mention alone is not enough.
+- The same bibliography pass should correct /APRANSA/ to /ARPANSA/, give RPS C-5 its correct title and year, and update the RPS 11 citation from the superseded 2007 edition to the 2019 edition already prescribed by the current QLD Radiation Safety Regulation.
+- Do not silently edit the controlled RSPP. A reference update should follow the RSPP's document-control, governance and regulatory approval pathway, including QLD Radiation Safety Act ss 30–32 where a change to the approved plan requires recording or approval.
 
 * See Also :noexport:
 - [[file:resources.org][RSPP resources]]
